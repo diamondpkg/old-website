@@ -1,0 +1,24 @@
+@import [bulma]
+@import [bourbon/app/assets/stylesheets/_bourbon.scss]
+
+.center
+  position: absolute
+  top: 50%
+  left: 50%
+  +transform(translate(-50%, -50%))
+  width: 80%
+  display: inline-block
+
+  .logo
+    width: 35vw
+    +transform(translateY(-13%))
+
+  .wrapper
+    position: absolute
+    top: 50%
+    +transform(translateY(-50%))
+    left: 35vw
+    +calc(width, "100% - 35vw")
+
+    .button-margin
+      margin-left: 5px

@@ -62,13 +62,13 @@ Once we have written our sass, we are ready for compiling.
 
 If you try
 ```bash
-node-sass myfile.sass
+node-sass myfile.scss
 ```
 it will give you errors about not being able to find the file `[boostrap]`. 
 This is because you aren't using diamond's custom importer.
 
 To use the importer, you need to use sass's `--importer` flag, like so
 ```bash
-node-sass --importer diamond myfile.sass
+node-sass --importer diamond myfile.scss
 ```
 where `diamond` is the generated `diamond` folder on install.

@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="/"><img src="https://cdn.rawgit.com/diamondpkg/website/master/assets/img/DiamondLogo.svg" width="546" alt="diamond" /></a>
+    <a href="/"><img src="/assets/img/DiamondLogo.svg" width="546" alt="diamond" /></a>
 </div>
 
 ## Installation

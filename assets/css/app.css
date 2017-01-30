@@ -334,99 +334,99 @@ table {
   .is-inline-flex-widescreen {
     display: inline-flex !important; } }
 
-.is-clearfix:after {
+.bulma-is-clearfix:after {
   clear: both;
   content: " ";
   display: table; }
 
-.is-pulled-left {
+.bulma-is-pulled-left {
   float: left; }
 
-.is-pulled-right {
+.bulma-is-pulled-right {
   float: right; }
 
-.is-clipped {
+.bulma-is-clipped {
   overflow: hidden !important; }
 
-.is-overlay {
+.bulma-is-overlay {
   bottom: 0;
   left: 0;
   position: absolute;
   right: 0;
   top: 0; }
 
-.has-text-centered {
+.bulma-has-text-centered {
   text-align: center; }
 
-.has-text-left {
+.bulma-has-text-left {
   text-align: left; }
 
-.has-text-right {
+.bulma-has-text-right {
   text-align: right; }
 
-.is-hidden {
+.bulma-is-hidden {
   display: none !important; }
 
 @media screen and (max-width: 768px) {
-  .is-hidden-mobile {
+  .bulma-is-hidden-mobile {
     display: none !important; } }
 
 @media screen and (min-width: 769px) {
-  .is-hidden-tablet {
+  .bulma-is-hidden-tablet {
     display: none !important; } }
 
 @media screen and (min-width: 769px) and (max-width: 999px) {
-  .is-hidden-tablet-only {
+  .bulma-is-hidden-tablet-only {
     display: none !important; } }
 
 @media screen and (max-width: 999px) {
-  .is-hidden-touch {
+  .bulma-is-hidden-touch {
     display: none !important; } }
 
 @media screen and (min-width: 1000px) {
-  .is-hidden-desktop {
+  .bulma-is-hidden-desktop {
     display: none !important; } }
 
 @media screen and (min-width: 1000px) and (max-width: 1191px) {
-  .is-hidden-desktop-only {
+  .bulma-is-hidden-desktop-only {
     display: none !important; } }
 
 @media screen and (min-width: 1192px) {
-  .is-hidden-widescreen {
+  .bulma-is-hidden-widescreen {
     display: none !important; } }
 
-.is-disabled {
+.bulma-is-disabled {
   pointer-events: none; }
 
-.is-marginless {
+.bulma-is-marginless {
   margin: 0 !important; }
 
-.is-paddingless {
+.bulma-is-paddingless {
   padding: 0 !important; }
 
-.is-unselectable {
+.bulma-is-unselectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
 
-.box {
+.bulma-box {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   display: block;
   padding: 1.25rem; }
-  .box:not(:last-child) {
+  .bulma-box:not(:last-child) {
     margin-bottom: 1.5rem; }
 
-a.box:hover, a.box:focus {
+a.bulma-box:hover, a.bulma-box:focus {
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px #00d1b2; }
 
-a.box:active {
+a.bulma-box:active {
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #00d1b2; }
 
-.button {
+.bulma-button {
   -moz-appearance: none;
   -webkit-appearance: none;
   align-items: center;
@@ -456,518 +456,518 @@ a.box:active {
   padding-right: 0.75em;
   text-align: center;
   white-space: nowrap; }
-  .button:focus, .button.is-focused, .button:active, .button.is-active {
+  .bulma-button:focus, .bulma-button.bulma-is-focused, .bulma-button:active, .bulma-button.bulma-is-active {
     outline: none; }
-  .button[disabled], .button.is-disabled {
+  .bulma-button[disabled], .bulma-button.bulma-is-disabled {
     pointer-events: none; }
-  .button strong {
+  .bulma-button strong {
     color: inherit; }
-  .button .icon:first-child:not(:last-child) {
+  .bulma-button .bulma-icon:first-child:not(:last-child) {
     margin-left: -0.25rem;
     margin-right: 0.5rem; }
-  .button .icon:last-child:not(:first-child) {
+  .bulma-button .bulma-icon:last-child:not(:first-child) {
     margin-left: 0.5rem;
     margin-right: -0.25rem; }
-  .button .icon:first-child:last-child {
+  .bulma-button .bulma-icon:first-child:last-child {
     margin-left: calc(-1px + -0.25rem);
     margin-right: calc(-1px + -0.25rem); }
-  .button .icon.is-small:first-child:not(:last-child) {
+  .bulma-button .bulma-icon.bulma-is-small:first-child:not(:last-child) {
     margin-left: 0rem; }
-  .button .icon.is-small:last-child:not(:first-child) {
+  .bulma-button .bulma-icon.bulma-is-small:last-child:not(:first-child) {
     margin-right: 0rem; }
-  .button .icon.is-small:first-child:last-child {
+  .bulma-button .bulma-icon.bulma-is-small:first-child:last-child {
     margin-left: calc(-1px + 0rem);
     margin-right: calc(-1px + 0rem); }
-  .button .icon.is-medium:first-child:not(:last-child) {
+  .bulma-button .bulma-icon.bulma-is-medium:first-child:not(:last-child) {
     margin-left: -0.5rem; }
-  .button .icon.is-medium:last-child:not(:first-child) {
+  .bulma-button .bulma-icon.bulma-is-medium:last-child:not(:first-child) {
     margin-right: -0.5rem; }
-  .button .icon.is-medium:first-child:last-child {
+  .bulma-button .bulma-icon.bulma-is-medium:first-child:last-child {
     margin-left: calc(-1px + -0.5rem);
     margin-right: calc(-1px + -0.5rem); }
-  .button .icon.is-large:first-child:not(:last-child) {
+  .bulma-button .bulma-icon.bulma-is-large:first-child:not(:last-child) {
     margin-left: -1rem; }
-  .button .icon.is-large:last-child:not(:first-child) {
+  .bulma-button .bulma-icon.bulma-is-large:last-child:not(:first-child) {
     margin-right: -1rem; }
-  .button .icon.is-large:first-child:last-child {
+  .bulma-button .bulma-icon.bulma-is-large:first-child:last-child {
     margin-left: calc(-1px + -1rem);
     margin-right: calc(-1px + -1rem); }
-  .button:hover, .button.is-hovered {
+  .bulma-button:hover, .bulma-button.bulma-is-hovered {
     border-color: #b5b5b5;
     color: #363636; }
-  .button:focus, .button.is-focused {
+  .bulma-button:focus, .bulma-button.bulma-is-focused {
     border-color: #00d1b2;
     box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.25);
     color: #363636; }
-  .button:active, .button.is-active {
+  .bulma-button:active, .bulma-button.bulma-is-active {
     border-color: #4a4a4a;
     box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
     color: #363636; }
-  .button.is-link {
+  .bulma-button.bulma-is-link {
     background-color: transparent;
     border-color: transparent;
     color: #4a4a4a;
     text-decoration: underline; }
-    .button.is-link:hover, .button.is-link.is-hovered, .button.is-link:focus, .button.is-link.is-focused, .button.is-link:active, .button.is-link.is-active {
+    .bulma-button.bulma-is-link:hover, .bulma-button.bulma-is-link.bulma-is-hovered, .bulma-button.bulma-is-link:focus, .bulma-button.bulma-is-link.bulma-is-focused, .bulma-button.bulma-is-link:active, .bulma-button.bulma-is-link.bulma-is-active {
       background-color: whitesmoke;
       color: #363636; }
-  .button.is-white {
+  .bulma-button.is-white {
     background-color: white;
     border-color: transparent;
     color: #0a0a0a; }
-    .button.is-white:hover, .button.is-white.is-hovered {
+    .bulma-button.is-white:hover, .bulma-button.is-white.bulma-is-hovered {
       background-color: #f9f9f9;
       border-color: transparent;
       color: #0a0a0a; }
-    .button.is-white:focus, .button.is-white.is-focused {
+    .bulma-button.is-white:focus, .bulma-button.is-white.bulma-is-focused {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.25);
       color: #0a0a0a; }
-    .button.is-white:active, .button.is-white.is-active {
+    .bulma-button.is-white:active, .bulma-button.is-white.bulma-is-active {
       background-color: #f2f2f2;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
       color: #0a0a0a; }
-    .button.is-white.is-inverted {
+    .bulma-button.is-white.bulma-is-inverted {
       background-color: #0a0a0a;
       color: white; }
-      .button.is-white.is-inverted:hover {
+      .bulma-button.is-white.bulma-is-inverted:hover {
         background-color: black; }
-    .button.is-white.is-loading:after {
+    .bulma-button.is-white.bulma-is-loading:after {
       border-color: transparent transparent #0a0a0a #0a0a0a !important; }
-    .button.is-white.is-outlined {
+    .bulma-button.is-white.bulma-is-outlined {
       background-color: transparent;
       border-color: white;
       color: white; }
-      .button.is-white.is-outlined:hover, .button.is-white.is-outlined:focus {
+      .bulma-button.is-white.bulma-is-outlined:hover, .bulma-button.is-white.bulma-is-outlined:focus {
         background-color: white;
         border-color: white;
         color: #0a0a0a; }
-    .button.is-white.is-inverted.is-outlined {
+    .bulma-button.is-white.is-inverted.bulma-is-outlined {
       background-color: transparent;
       border-color: #0a0a0a;
       color: #0a0a0a; }
-      .button.is-white.is-inverted.is-outlined:hover, .button.is-white.is-inverted.is-outlined:focus {
+      .bulma-button.is-white.is-inverted.bulma-is-outlined:hover, .bulma-button.is-white.is-inverted.bulma-is-outlined:focus {
         background-color: #0a0a0a;
         color: white; }
-  .button.is-black {
+  .bulma-button.is-black {
     background-color: #0a0a0a;
     border-color: transparent;
     color: white; }
-    .button.is-black:hover, .button.is-black.is-hovered {
+    .bulma-button.is-black:hover, .bulma-button.is-black.bulma-is-hovered {
       background-color: #040404;
       border-color: transparent;
       color: white; }
-    .button.is-black:focus, .button.is-black.is-focused {
+    .bulma-button.is-black:focus, .bulma-button.is-black.bulma-is-focused {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(10, 10, 10, 0.25);
       color: white; }
-    .button.is-black:active, .button.is-black.is-active {
+    .bulma-button.is-black:active, .bulma-button.is-black.bulma-is-active {
       background-color: black;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
       color: white; }
-    .button.is-black.is-inverted {
+    .bulma-button.is-black.bulma-is-inverted {
       background-color: white;
       color: #0a0a0a; }
-      .button.is-black.is-inverted:hover {
+      .bulma-button.is-black.bulma-is-inverted:hover {
         background-color: #f2f2f2; }
-    .button.is-black.is-loading:after {
+    .bulma-button.is-black.bulma-is-loading:after {
       border-color: transparent transparent white white !important; }
-    .button.is-black.is-outlined {
+    .bulma-button.is-black.bulma-is-outlined {
       background-color: transparent;
       border-color: #0a0a0a;
       color: #0a0a0a; }
-      .button.is-black.is-outlined:hover, .button.is-black.is-outlined:focus {
+      .bulma-button.is-black.bulma-is-outlined:hover, .bulma-button.is-black.bulma-is-outlined:focus {
         background-color: #0a0a0a;
         border-color: #0a0a0a;
         color: white; }
-    .button.is-black.is-inverted.is-outlined {
+    .bulma-button.is-black.is-inverted.bulma-is-outlined {
       background-color: transparent;
       border-color: white;
       color: white; }
-      .button.is-black.is-inverted.is-outlined:hover, .button.is-black.is-inverted.is-outlined:focus {
+      .bulma-button.is-black.is-inverted.bulma-is-outlined:hover, .bulma-button.is-black.is-inverted.bulma-is-outlined:focus {
         background-color: white;
         color: #0a0a0a; }
-  .button.is-light {
+  .bulma-button.is-light {
     background-color: whitesmoke;
     border-color: transparent;
     color: #363636; }
-    .button.is-light:hover, .button.is-light.is-hovered {
+    .bulma-button.is-light:hover, .bulma-button.is-light.bulma-is-hovered {
       background-color: #eeeeee;
       border-color: transparent;
       color: #363636; }
-    .button.is-light:focus, .button.is-light.is-focused {
+    .bulma-button.is-light:focus, .bulma-button.is-light.bulma-is-focused {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(245, 245, 245, 0.25);
       color: #363636; }
-    .button.is-light:active, .button.is-light.is-active {
+    .bulma-button.is-light:active, .bulma-button.is-light.bulma-is-active {
       background-color: #e8e8e8;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
       color: #363636; }
-    .button.is-light.is-inverted {
+    .bulma-button.is-light.bulma-is-inverted {
       background-color: #363636;
       color: whitesmoke; }
-      .button.is-light.is-inverted:hover {
+      .bulma-button.is-light.bulma-is-inverted:hover {
         background-color: #292929; }
-    .button.is-light.is-loading:after {
+    .bulma-button.is-light.bulma-is-loading:after {
       border-color: transparent transparent #363636 #363636 !important; }
-    .button.is-light.is-outlined {
+    .bulma-button.is-light.bulma-is-outlined {
       background-color: transparent;
       border-color: whitesmoke;
       color: whitesmoke; }
-      .button.is-light.is-outlined:hover, .button.is-light.is-outlined:focus {
+      .bulma-button.is-light.bulma-is-outlined:hover, .bulma-button.is-light.bulma-is-outlined:focus {
         background-color: whitesmoke;
         border-color: whitesmoke;
         color: #363636; }
-    .button.is-light.is-inverted.is-outlined {
+    .bulma-button.is-light.is-inverted.bulma-is-outlined {
       background-color: transparent;
       border-color: #363636;
       color: #363636; }
-      .button.is-light.is-inverted.is-outlined:hover, .button.is-light.is-inverted.is-outlined:focus {
+      .bulma-button.is-light.is-inverted.bulma-is-outlined:hover, .bulma-button.is-light.is-inverted.bulma-is-outlined:focus {
         background-color: #363636;
         color: whitesmoke; }
-  .button.is-dark {
+  .bulma-button.is-dark {
     background-color: #363636;
     border-color: transparent;
     color: whitesmoke; }
-    .button.is-dark:hover, .button.is-dark.is-hovered {
+    .bulma-button.is-dark:hover, .bulma-button.is-dark.bulma-is-hovered {
       background-color: #2f2f2f;
       border-color: transparent;
       color: whitesmoke; }
-    .button.is-dark:focus, .button.is-dark.is-focused {
+    .bulma-button.is-dark:focus, .bulma-button.is-dark.bulma-is-focused {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(54, 54, 54, 0.25);
       color: whitesmoke; }
-    .button.is-dark:active, .button.is-dark.is-active {
+    .bulma-button.is-dark:active, .bulma-button.is-dark.bulma-is-active {
       background-color: #292929;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
       color: whitesmoke; }
-    .button.is-dark.is-inverted {
+    .bulma-button.is-dark.bulma-is-inverted {
       background-color: whitesmoke;
       color: #363636; }
-      .button.is-dark.is-inverted:hover {
+      .bulma-button.is-dark.bulma-is-inverted:hover {
         background-color: #e8e8e8; }
-    .button.is-dark.is-loading:after {
+    .bulma-button.is-dark.bulma-is-loading:after {
       border-color: transparent transparent whitesmoke whitesmoke !important; }
-    .button.is-dark.is-outlined {
+    .bulma-button.is-dark.bulma-is-outlined {
       background-color: transparent;
       border-color: #363636;
       color: #363636; }
-      .button.is-dark.is-outlined:hover, .button.is-dark.is-outlined:focus {
+      .bulma-button.is-dark.bulma-is-outlined:hover, .bulma-button.is-dark.bulma-is-outlined:focus {
         background-color: #363636;
         border-color: #363636;
         color: whitesmoke; }
-    .button.is-dark.is-inverted.is-outlined {
+    .bulma-button.is-dark.is-inverted.bulma-is-outlined {
       background-color: transparent;
       border-color: whitesmoke;
       color: whitesmoke; }
-      .button.is-dark.is-inverted.is-outlined:hover, .button.is-dark.is-inverted.is-outlined:focus {
+      .bulma-button.is-dark.is-inverted.bulma-is-outlined:hover, .bulma-button.is-dark.is-inverted.bulma-is-outlined:focus {
         background-color: whitesmoke;
         color: #363636; }
-  .button.is-primary {
+  .bulma-button.is-primary {
     background-color: #00d1b2;
     border-color: transparent;
     color: #fff; }
-    .button.is-primary:hover, .button.is-primary.is-hovered {
+    .bulma-button.is-primary:hover, .bulma-button.is-primary.bulma-is-hovered {
       background-color: #00c4a7;
       border-color: transparent;
       color: #fff; }
-    .button.is-primary:focus, .button.is-primary.is-focused {
+    .bulma-button.is-primary:focus, .bulma-button.is-primary.bulma-is-focused {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.25);
       color: #fff; }
-    .button.is-primary:active, .button.is-primary.is-active {
+    .bulma-button.is-primary:active, .bulma-button.is-primary.bulma-is-active {
       background-color: #00b89c;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
       color: #fff; }
-    .button.is-primary.is-inverted {
+    .bulma-button.is-primary.bulma-is-inverted {
       background-color: #fff;
       color: #00d1b2; }
-      .button.is-primary.is-inverted:hover {
+      .bulma-button.is-primary.bulma-is-inverted:hover {
         background-color: #f2f2f2; }
-    .button.is-primary.is-loading:after {
+    .bulma-button.is-primary.bulma-is-loading:after {
       border-color: transparent transparent #fff #fff !important; }
-    .button.is-primary.is-outlined {
+    .bulma-button.is-primary.bulma-is-outlined {
       background-color: transparent;
       border-color: #00d1b2;
       color: #00d1b2; }
-      .button.is-primary.is-outlined:hover, .button.is-primary.is-outlined:focus {
+      .bulma-button.is-primary.bulma-is-outlined:hover, .bulma-button.is-primary.bulma-is-outlined:focus {
         background-color: #00d1b2;
         border-color: #00d1b2;
         color: #fff; }
-    .button.is-primary.is-inverted.is-outlined {
+    .bulma-button.is-primary.is-inverted.bulma-is-outlined {
       background-color: transparent;
       border-color: #fff;
       color: #fff; }
-      .button.is-primary.is-inverted.is-outlined:hover, .button.is-primary.is-inverted.is-outlined:focus {
+      .bulma-button.is-primary.is-inverted.bulma-is-outlined:hover, .bulma-button.is-primary.is-inverted.bulma-is-outlined:focus {
         background-color: #fff;
         color: #00d1b2; }
-  .button.is-info {
+  .bulma-button.is-info {
     background-color: #3273dc;
     border-color: transparent;
     color: #fff; }
-    .button.is-info:hover, .button.is-info.is-hovered {
+    .bulma-button.is-info:hover, .bulma-button.is-info.bulma-is-hovered {
       background-color: #276cda;
       border-color: transparent;
       color: #fff; }
-    .button.is-info:focus, .button.is-info.is-focused {
+    .bulma-button.is-info:focus, .bulma-button.is-info.bulma-is-focused {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(50, 115, 220, 0.25);
       color: #fff; }
-    .button.is-info:active, .button.is-info.is-active {
+    .bulma-button.is-info:active, .bulma-button.is-info.bulma-is-active {
       background-color: #2366d1;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
       color: #fff; }
-    .button.is-info.is-inverted {
+    .bulma-button.is-info.bulma-is-inverted {
       background-color: #fff;
       color: #3273dc; }
-      .button.is-info.is-inverted:hover {
+      .bulma-button.is-info.bulma-is-inverted:hover {
         background-color: #f2f2f2; }
-    .button.is-info.is-loading:after {
+    .bulma-button.is-info.bulma-is-loading:after {
       border-color: transparent transparent #fff #fff !important; }
-    .button.is-info.is-outlined {
+    .bulma-button.is-info.bulma-is-outlined {
       background-color: transparent;
       border-color: #3273dc;
       color: #3273dc; }
-      .button.is-info.is-outlined:hover, .button.is-info.is-outlined:focus {
+      .bulma-button.is-info.bulma-is-outlined:hover, .bulma-button.is-info.bulma-is-outlined:focus {
         background-color: #3273dc;
         border-color: #3273dc;
         color: #fff; }
-    .button.is-info.is-inverted.is-outlined {
+    .bulma-button.is-info.is-inverted.bulma-is-outlined {
       background-color: transparent;
       border-color: #fff;
       color: #fff; }
-      .button.is-info.is-inverted.is-outlined:hover, .button.is-info.is-inverted.is-outlined:focus {
+      .bulma-button.is-info.is-inverted.bulma-is-outlined:hover, .bulma-button.is-info.is-inverted.bulma-is-outlined:focus {
         background-color: #fff;
         color: #3273dc; }
-  .button.is-success {
+  .bulma-button.is-success {
     background-color: #23d160;
     border-color: transparent;
     color: #fff; }
-    .button.is-success:hover, .button.is-success.is-hovered {
+    .bulma-button.is-success:hover, .bulma-button.is-success.bulma-is-hovered {
       background-color: #22c65b;
       border-color: transparent;
       color: #fff; }
-    .button.is-success:focus, .button.is-success.is-focused {
+    .bulma-button.is-success:focus, .bulma-button.is-success.bulma-is-focused {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(35, 209, 96, 0.25);
       color: #fff; }
-    .button.is-success:active, .button.is-success.is-active {
+    .bulma-button.is-success:active, .bulma-button.is-success.bulma-is-active {
       background-color: #20bc56;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
       color: #fff; }
-    .button.is-success.is-inverted {
+    .bulma-button.is-success.bulma-is-inverted {
       background-color: #fff;
       color: #23d160; }
-      .button.is-success.is-inverted:hover {
+      .bulma-button.is-success.bulma-is-inverted:hover {
         background-color: #f2f2f2; }
-    .button.is-success.is-loading:after {
+    .bulma-button.is-success.bulma-is-loading:after {
       border-color: transparent transparent #fff #fff !important; }
-    .button.is-success.is-outlined {
+    .bulma-button.is-success.bulma-is-outlined {
       background-color: transparent;
       border-color: #23d160;
       color: #23d160; }
-      .button.is-success.is-outlined:hover, .button.is-success.is-outlined:focus {
+      .bulma-button.is-success.bulma-is-outlined:hover, .bulma-button.is-success.bulma-is-outlined:focus {
         background-color: #23d160;
         border-color: #23d160;
         color: #fff; }
-    .button.is-success.is-inverted.is-outlined {
+    .bulma-button.is-success.is-inverted.bulma-is-outlined {
       background-color: transparent;
       border-color: #fff;
       color: #fff; }
-      .button.is-success.is-inverted.is-outlined:hover, .button.is-success.is-inverted.is-outlined:focus {
+      .bulma-button.is-success.is-inverted.bulma-is-outlined:hover, .bulma-button.is-success.is-inverted.bulma-is-outlined:focus {
         background-color: #fff;
         color: #23d160; }
-  .button.is-warning {
+  .bulma-button.is-warning {
     background-color: #ffdd57;
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning:hover, .button.is-warning.is-hovered {
+    .bulma-button.is-warning:hover, .bulma-button.is-warning.bulma-is-hovered {
       background-color: #ffdb4a;
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning:focus, .button.is-warning.is-focused {
+    .bulma-button.is-warning:focus, .bulma-button.is-warning.bulma-is-focused {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(255, 221, 87, 0.25);
       color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning:active, .button.is-warning.is-active {
+    .bulma-button.is-warning:active, .bulma-button.is-warning.bulma-is-active {
       background-color: #ffd83d;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
       color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning.is-inverted {
+    .bulma-button.is-warning.bulma-is-inverted {
       background-color: rgba(0, 0, 0, 0.7);
       color: #ffdd57; }
-      .button.is-warning.is-inverted:hover {
+      .bulma-button.is-warning.bulma-is-inverted:hover {
         background-color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning.is-loading:after {
+    .bulma-button.is-warning.bulma-is-loading:after {
       border-color: transparent transparent rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) !important; }
-    .button.is-warning.is-outlined {
+    .bulma-button.is-warning.bulma-is-outlined {
       background-color: transparent;
       border-color: #ffdd57;
       color: #ffdd57; }
-      .button.is-warning.is-outlined:hover, .button.is-warning.is-outlined:focus {
+      .bulma-button.is-warning.bulma-is-outlined:hover, .bulma-button.is-warning.bulma-is-outlined:focus {
         background-color: #ffdd57;
         border-color: #ffdd57;
         color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning.is-inverted.is-outlined {
+    .bulma-button.is-warning.is-inverted.bulma-is-outlined {
       background-color: transparent;
       border-color: rgba(0, 0, 0, 0.7);
       color: rgba(0, 0, 0, 0.7); }
-      .button.is-warning.is-inverted.is-outlined:hover, .button.is-warning.is-inverted.is-outlined:focus {
+      .bulma-button.is-warning.is-inverted.bulma-is-outlined:hover, .bulma-button.is-warning.is-inverted.bulma-is-outlined:focus {
         background-color: rgba(0, 0, 0, 0.7);
         color: #ffdd57; }
-  .button.is-danger {
+  .bulma-button.is-danger {
     background-color: #ff3860;
     border-color: transparent;
     color: #fff; }
-    .button.is-danger:hover, .button.is-danger.is-hovered {
+    .bulma-button.is-danger:hover, .bulma-button.is-danger.bulma-is-hovered {
       background-color: #ff2b56;
       border-color: transparent;
       color: #fff; }
-    .button.is-danger:focus, .button.is-danger.is-focused {
+    .bulma-button.is-danger:focus, .bulma-button.is-danger.bulma-is-focused {
       border-color: transparent;
       box-shadow: 0 0 0.5em rgba(255, 56, 96, 0.25);
       color: #fff; }
-    .button.is-danger:active, .button.is-danger.is-active {
+    .bulma-button.is-danger:active, .bulma-button.is-danger.bulma-is-active {
       background-color: #ff1f4b;
       border-color: transparent;
       box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
       color: #fff; }
-    .button.is-danger.is-inverted {
+    .bulma-button.is-danger.bulma-is-inverted {
       background-color: #fff;
       color: #ff3860; }
-      .button.is-danger.is-inverted:hover {
+      .bulma-button.is-danger.bulma-is-inverted:hover {
         background-color: #f2f2f2; }
-    .button.is-danger.is-loading:after {
+    .bulma-button.is-danger.bulma-is-loading:after {
       border-color: transparent transparent #fff #fff !important; }
-    .button.is-danger.is-outlined {
+    .bulma-button.is-danger.bulma-is-outlined {
       background-color: transparent;
       border-color: #ff3860;
       color: #ff3860; }
-      .button.is-danger.is-outlined:hover, .button.is-danger.is-outlined:focus {
+      .bulma-button.is-danger.bulma-is-outlined:hover, .bulma-button.is-danger.bulma-is-outlined:focus {
         background-color: #ff3860;
         border-color: #ff3860;
         color: #fff; }
-    .button.is-danger.is-inverted.is-outlined {
+    .bulma-button.is-danger.is-inverted.bulma-is-outlined {
       background-color: transparent;
       border-color: #fff;
       color: #fff; }
-      .button.is-danger.is-inverted.is-outlined:hover, .button.is-danger.is-inverted.is-outlined:focus {
+      .bulma-button.is-danger.is-inverted.bulma-is-outlined:hover, .bulma-button.is-danger.is-inverted.bulma-is-outlined:focus {
         background-color: #fff;
         color: #ff3860; }
-  .button.is-small {
+  .bulma-button.bulma-is-small {
     border-radius: 2px;
     font-size: 0.75rem; }
-    .button.is-small .icon:first-child:not(:last-child) {
+    .bulma-button.bulma-is-small .bulma-icon:first-child:not(:last-child) {
       margin-left: -0.375rem;
       margin-right: 0.375rem; }
-    .button.is-small .icon:last-child:not(:first-child) {
+    .bulma-button.bulma-is-small .bulma-icon:last-child:not(:first-child) {
       margin-left: 0.375rem;
       margin-right: -0.375rem; }
-    .button.is-small .icon:first-child:last-child {
+    .bulma-button.bulma-is-small .bulma-icon:first-child:last-child {
       margin-left: calc(-1px + -0.375rem);
       margin-right: calc(-1px + -0.375rem); }
-    .button.is-small .icon.is-small:first-child:not(:last-child) {
+    .bulma-button.bulma-is-small .bulma-icon.bulma-is-small:first-child:not(:last-child) {
       margin-left: -0.125rem; }
-    .button.is-small .icon.is-small:last-child:not(:first-child) {
+    .bulma-button.bulma-is-small .bulma-icon.bulma-is-small:last-child:not(:first-child) {
       margin-right: -0.125rem; }
-    .button.is-small .icon.is-small:first-child:last-child {
+    .bulma-button.bulma-is-small .bulma-icon.bulma-is-small:first-child:last-child {
       margin-left: calc(-1px + -0.125rem);
       margin-right: calc(-1px + -0.125rem); }
-    .button.is-small .icon.is-medium:first-child:not(:last-child) {
+    .bulma-button.bulma-is-small .bulma-icon.bulma-is-medium:first-child:not(:last-child) {
       margin-left: -0.625rem; }
-    .button.is-small .icon.is-medium:last-child:not(:first-child) {
+    .bulma-button.bulma-is-small .bulma-icon.bulma-is-medium:last-child:not(:first-child) {
       margin-right: -0.625rem; }
-    .button.is-small .icon.is-medium:first-child:last-child {
+    .bulma-button.bulma-is-small .bulma-icon.bulma-is-medium:first-child:last-child {
       margin-left: calc(-1px + -0.625rem);
       margin-right: calc(-1px + -0.625rem); }
-    .button.is-small .icon.is-large:first-child:not(:last-child) {
+    .bulma-button.bulma-is-small .bulma-icon.bulma-is-large:first-child:not(:last-child) {
       margin-left: -1.125rem; }
-    .button.is-small .icon.is-large:last-child:not(:first-child) {
+    .bulma-button.bulma-is-small .bulma-icon.bulma-is-large:last-child:not(:first-child) {
       margin-right: -1.125rem; }
-    .button.is-small .icon.is-large:first-child:last-child {
+    .bulma-button.bulma-is-small .bulma-icon.bulma-is-large:first-child:last-child {
       margin-left: calc(-1px + -1.125rem);
       margin-right: calc(-1px + -1.125rem); }
-  .button.is-medium {
+  .bulma-button.bulma-is-medium {
     font-size: 1.25rem; }
-    .button.is-medium .icon:first-child:not(:last-child) {
+    .bulma-button.bulma-is-medium .bulma-icon:first-child:not(:last-child) {
       margin-left: -0.125rem;
       margin-right: 0.625rem; }
-    .button.is-medium .icon:last-child:not(:first-child) {
+    .bulma-button.bulma-is-medium .bulma-icon:last-child:not(:first-child) {
       margin-left: 0.625rem;
       margin-right: -0.125rem; }
-    .button.is-medium .icon:first-child:last-child {
+    .bulma-button.bulma-is-medium .bulma-icon:first-child:last-child {
       margin-left: calc(-1px + -0.125rem);
       margin-right: calc(-1px + -0.125rem); }
-    .button.is-medium .icon.is-small:first-child:not(:last-child) {
+    .bulma-button.bulma-is-medium .bulma-icon.bulma-is-small:first-child:not(:last-child) {
       margin-left: 0.125rem; }
-    .button.is-medium .icon.is-small:last-child:not(:first-child) {
+    .bulma-button.bulma-is-medium .bulma-icon.bulma-is-small:last-child:not(:first-child) {
       margin-right: 0.125rem; }
-    .button.is-medium .icon.is-small:first-child:last-child {
+    .bulma-button.bulma-is-medium .bulma-icon.bulma-is-small:first-child:last-child {
       margin-left: calc(-1px + 0.125rem);
       margin-right: calc(-1px + 0.125rem); }
-    .button.is-medium .icon.is-medium:first-child:not(:last-child) {
+    .bulma-button.bulma-is-medium .bulma-icon.bulma-is-medium:first-child:not(:last-child) {
       margin-left: -0.375rem; }
-    .button.is-medium .icon.is-medium:last-child:not(:first-child) {
+    .bulma-button.bulma-is-medium .bulma-icon.bulma-is-medium:last-child:not(:first-child) {
       margin-right: -0.375rem; }
-    .button.is-medium .icon.is-medium:first-child:last-child {
+    .bulma-button.bulma-is-medium .bulma-icon.bulma-is-medium:first-child:last-child {
       margin-left: calc(-1px + -0.375rem);
       margin-right: calc(-1px + -0.375rem); }
-    .button.is-medium .icon.is-large:first-child:not(:last-child) {
+    .bulma-button.bulma-is-medium .bulma-icon.bulma-is-large:first-child:not(:last-child) {
       margin-left: -0.875rem; }
-    .button.is-medium .icon.is-large:last-child:not(:first-child) {
+    .bulma-button.bulma-is-medium .bulma-icon.bulma-is-large:last-child:not(:first-child) {
       margin-right: -0.875rem; }
-    .button.is-medium .icon.is-large:first-child:last-child {
+    .bulma-button.bulma-is-medium .bulma-icon.bulma-is-large:first-child:last-child {
       margin-left: calc(-1px + -0.875rem);
       margin-right: calc(-1px + -0.875rem); }
-  .button.is-large {
+  .bulma-button.bulma-is-large {
     font-size: 1.5rem; }
-    .button.is-large .icon:first-child:not(:last-child) {
+    .bulma-button.bulma-is-large .bulma-icon:first-child:not(:last-child) {
       margin-left: 0rem;
       margin-right: 0.75rem; }
-    .button.is-large .icon:last-child:not(:first-child) {
+    .bulma-button.bulma-is-large .bulma-icon:last-child:not(:first-child) {
       margin-left: 0.75rem;
       margin-right: 0rem; }
-    .button.is-large .icon:first-child:last-child {
+    .bulma-button.bulma-is-large .bulma-icon:first-child:last-child {
       margin-left: calc(-1px + 0rem);
       margin-right: calc(-1px + 0rem); }
-    .button.is-large .icon.is-small:first-child:not(:last-child) {
+    .bulma-button.bulma-is-large .bulma-icon.bulma-is-small:first-child:not(:last-child) {
       margin-left: 0.25rem; }
-    .button.is-large .icon.is-small:last-child:not(:first-child) {
+    .bulma-button.bulma-is-large .bulma-icon.bulma-is-small:last-child:not(:first-child) {
       margin-right: 0.25rem; }
-    .button.is-large .icon.is-small:first-child:last-child {
+    .bulma-button.bulma-is-large .bulma-icon.bulma-is-small:first-child:last-child {
       margin-left: calc(-1px + 0.25rem);
       margin-right: calc(-1px + 0.25rem); }
-    .button.is-large .icon.is-medium:first-child:not(:last-child) {
+    .bulma-button.bulma-is-large .bulma-icon.bulma-is-medium:first-child:not(:last-child) {
       margin-left: -0.25rem; }
-    .button.is-large .icon.is-medium:last-child:not(:first-child) {
+    .bulma-button.bulma-is-large .bulma-icon.bulma-is-medium:last-child:not(:first-child) {
       margin-right: -0.25rem; }
-    .button.is-large .icon.is-medium:first-child:last-child {
+    .bulma-button.bulma-is-large .bulma-icon.bulma-is-medium:first-child:last-child {
       margin-left: calc(-1px + -0.25rem);
       margin-right: calc(-1px + -0.25rem); }
-    .button.is-large .icon.is-large:first-child:not(:last-child) {
+    .bulma-button.bulma-is-large .bulma-icon.bulma-is-large:first-child:not(:last-child) {
       margin-left: -0.75rem; }
-    .button.is-large .icon.is-large:last-child:not(:first-child) {
+    .bulma-button.bulma-is-large .bulma-icon.bulma-is-large:last-child:not(:first-child) {
       margin-right: -0.75rem; }
-    .button.is-large .icon.is-large:first-child:last-child {
+    .bulma-button.bulma-is-large .bulma-icon.bulma-is-large:first-child:last-child {
       margin-left: calc(-1px + -0.75rem);
       margin-right: calc(-1px + -0.75rem); }
-  .button[disabled], .button.is-disabled {
+  .bulma-button[disabled], .bulma-button.bulma-is-disabled {
     opacity: 0.5; }
-  .button.is-fullwidth {
+  .bulma-button.bulma-is-fullwidth {
     display: flex;
     width: 100%; }
-  .button.is-loading {
+  .bulma-button.bulma-is-loading {
     color: transparent !important;
     pointer-events: none; }
-    .button.is-loading:after {
+    .bulma-button.bulma-is-loading:after {
       animation: spinAround 500ms infinite linear;
       border: 2px solid #dbdbdb;
       border-radius: 290486px;
@@ -985,103 +985,103 @@ a.box:active {
       top: 50%;
       position: absolute !important; }
 
-.content {
+.bulma-content {
   color: #4a4a4a; }
-  .content:not(:last-child) {
+  .bulma-content:not(:last-child) {
     margin-bottom: 1.5rem; }
-  .content li + li {
+  .bulma-content li + li {
     margin-top: 0.25em; }
-  .content p:not(:last-child),
-  .content ol:not(:last-child),
-  .content ul:not(:last-child),
-  .content blockquote:not(:last-child),
-  .content table:not(:last-child) {
+  .bulma-content p:not(:last-child),
+  .bulma-content ol:not(:last-child),
+  .bulma-content ul:not(:last-child),
+  .bulma-content blockquote:not(:last-child),
+  .bulma-content table:not(:last-child) {
     margin-bottom: 1em; }
-  .content h1,
-  .content h2,
-  .content h3,
-  .content h4,
-  .content h5,
-  .content h6 {
+  .bulma-content h1,
+  .bulma-content h2,
+  .bulma-content h3,
+  .bulma-content h4,
+  .bulma-content h5,
+  .bulma-content h6 {
     color: #363636;
     font-weight: 400;
     line-height: 1.125; }
-  .content h1 {
+  .bulma-content h1 {
     font-size: 2em;
     margin-bottom: 0.5em; }
-    .content h1:not(:first-child) {
+    .bulma-content h1:not(:first-child) {
       margin-top: 1em; }
-  .content h2 {
+  .bulma-content h2 {
     font-size: 1.75em;
     margin-bottom: 0.5714em; }
-    .content h2:not(:first-child) {
+    .bulma-content h2:not(:first-child) {
       margin-top: 1.1428em; }
-  .content h3 {
+  .bulma-content h3 {
     font-size: 1.5em;
     margin-bottom: 0.6666em; }
-    .content h3:not(:first-child) {
+    .bulma-content h3:not(:first-child) {
       margin-top: 1.3333em; }
-  .content h4 {
+  .bulma-content h4 {
     font-size: 1.25em;
     margin-bottom: 0.8em; }
-  .content h5 {
+  .bulma-content h5 {
     font-size: 1.125em;
     margin-bottom: 0.8888em; }
-  .content h6 {
+  .bulma-content h6 {
     font-size: 1em;
     margin-bottom: 1em; }
-  .content blockquote {
+  .bulma-content blockquote {
     background-color: whitesmoke;
     border-left: 5px solid #dbdbdb;
     padding: 1.25em 1.5em; }
-  .content ol {
+  .bulma-content ol {
     list-style: decimal outside;
     margin-left: 2em;
     margin-right: 2em;
     margin-top: 1em; }
-  .content ul {
+  .bulma-content ul {
     list-style: disc outside;
     margin-left: 2em;
     margin-right: 2em;
     margin-top: 1em; }
-    .content ul ul {
+    .bulma-content ul ul {
       list-style-type: circle;
       margin-top: 0.5em; }
-      .content ul ul ul {
+      .bulma-content ul ul ul {
         list-style-type: square; }
-  .content table {
+  .bulma-content table {
     width: 100%; }
-    .content table td,
-    .content table th {
+    .bulma-content table td,
+    .bulma-content table th {
       border: 1px solid #dbdbdb;
       border-width: 0 0 1px;
       padding: 0.5em 0.75em;
       vertical-align: top; }
-    .content table th {
+    .bulma-content table th {
       color: #363636;
       text-align: left; }
-    .content table tr:hover {
+    .bulma-content table tr:hover {
       background-color: whitesmoke; }
-    .content table thead td,
-    .content table thead th {
+    .bulma-content table thead td,
+    .bulma-content table thead th {
       border-width: 0 0 2px;
       color: #363636; }
-    .content table tfoot td,
-    .content table tfoot th {
+    .bulma-content table tfoot td,
+    .bulma-content table tfoot th {
       border-width: 2px 0 0;
       color: #363636; }
-    .content table tbody tr:last-child td,
-    .content table tbody tr:last-child th {
+    .bulma-content table tbody tr:last-child td,
+    .bulma-content table tbody tr:last-child th {
       border-bottom-width: 0; }
-  .content.is-small {
+  .bulma-content.bulma-is-small {
     font-size: 0.75rem; }
-  .content.is-medium {
+  .bulma-content.bulma-is-medium {
     font-size: 1.25rem; }
-  .content.is-large {
+  .bulma-content.bulma-is-large {
     font-size: 1.5rem; }
 
-.input,
-.textarea {
+.bulma-input,
+.bulma-textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
   align-items: center;
@@ -1103,99 +1103,99 @@ a.box:active {
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   max-width: 100%;
   width: 100%; }
-  .input:focus, .input.is-focused, .input:active, .input.is-active,
-  .textarea:focus,
-  .textarea.is-focused,
-  .textarea:active,
-  .textarea.is-active {
+  .bulma-input:focus, .bulma-input.bulma-is-focused, .bulma-input:active, .bulma-input.bulma-is-active,
+  .bulma-textarea:focus,
+  .bulma-textarea.bulma-is-focused,
+  .bulma-textarea:active,
+  .bulma-textarea.bulma-is-active {
     outline: none; }
-  .input[disabled], .input.is-disabled,
-  .textarea[disabled],
-  .textarea.is-disabled {
+  .bulma-input[disabled], .bulma-input.bulma-is-disabled,
+  .bulma-textarea[disabled],
+  .bulma-textarea.bulma-is-disabled {
     pointer-events: none; }
-  .input:hover, .input.is-hovered,
-  .textarea:hover,
-  .textarea.is-hovered {
+  .bulma-input:hover, .bulma-input.bulma-is-hovered,
+  .bulma-textarea:hover,
+  .bulma-textarea.bulma-is-hovered {
     border-color: #b5b5b5; }
-  .input:focus, .input.is-focused, .input:active, .input.is-active,
-  .textarea:focus,
-  .textarea.is-focused,
-  .textarea:active,
-  .textarea.is-active {
+  .bulma-input:focus, .bulma-input.bulma-is-focused, .bulma-input:active, .bulma-input.bulma-is-active,
+  .bulma-textarea:focus,
+  .bulma-textarea.bulma-is-focused,
+  .bulma-textarea:active,
+  .bulma-textarea.bulma-is-active {
     border-color: #00d1b2; }
-  .input[disabled], .input.is-disabled,
-  .textarea[disabled],
-  .textarea.is-disabled {
+  .bulma-input[disabled], .bulma-input.bulma-is-disabled,
+  .bulma-textarea[disabled],
+  .bulma-textarea.bulma-is-disabled {
     background-color: whitesmoke;
     border-color: whitesmoke;
     box-shadow: none;
     color: #7a7a7a; }
-    .input[disabled]::-moz-placeholder, .input.is-disabled::-moz-placeholder,
-    .textarea[disabled]::-moz-placeholder,
-    .textarea.is-disabled::-moz-placeholder {
+    .bulma-input[disabled]::-moz-placeholder, .bulma-input.bulma-is-disabled::-moz-placeholder,
+    .bulma-textarea[disabled]::-moz-placeholder,
+    .bulma-textarea.bulma-is-disabled::-moz-placeholder {
       color: rgba(54, 54, 54, 0.3); }
-    .input[disabled]::-webkit-input-placeholder, .input.is-disabled::-webkit-input-placeholder,
-    .textarea[disabled]::-webkit-input-placeholder,
-    .textarea.is-disabled::-webkit-input-placeholder {
+    .bulma-input[disabled]::-webkit-input-placeholder, .bulma-input.bulma-is-disabled::-webkit-input-placeholder,
+    .bulma-textarea[disabled]::-webkit-input-placeholder,
+    .bulma-textarea.bulma-is-disabled::-webkit-input-placeholder {
       color: rgba(54, 54, 54, 0.3); }
-    .input[disabled]:-moz-placeholder, .input.is-disabled:-moz-placeholder,
-    .textarea[disabled]:-moz-placeholder,
-    .textarea.is-disabled:-moz-placeholder {
+    .bulma-input[disabled]:-moz-placeholder, .bulma-input.bulma-is-disabled:-moz-placeholder,
+    .bulma-textarea[disabled]:-moz-placeholder,
+    .bulma-textarea.bulma-is-disabled:-moz-placeholder {
       color: rgba(54, 54, 54, 0.3); }
-    .input[disabled]:-ms-input-placeholder, .input.is-disabled:-ms-input-placeholder,
-    .textarea[disabled]:-ms-input-placeholder,
-    .textarea.is-disabled:-ms-input-placeholder {
+    .bulma-input[disabled]:-ms-input-placeholder, .bulma-input.bulma-is-disabled:-ms-input-placeholder,
+    .bulma-textarea[disabled]:-ms-input-placeholder,
+    .bulma-textarea.bulma-is-disabled:-ms-input-placeholder {
       color: rgba(54, 54, 54, 0.3); }
-  .input[type="search"],
-  .textarea[type="search"] {
+  .bulma-input[type="search"],
+  .bulma-textarea[type="search"] {
     border-radius: 290486px; }
-  .input.is-white,
-  .textarea.is-white {
+  .bulma-input.is-white,
+  .bulma-textarea.is-white {
     border-color: white; }
-  .input.is-black,
-  .textarea.is-black {
+  .bulma-input.is-black,
+  .bulma-textarea.is-black {
     border-color: #0a0a0a; }
-  .input.is-light,
-  .textarea.is-light {
+  .bulma-input.is-light,
+  .bulma-textarea.is-light {
     border-color: whitesmoke; }
-  .input.is-dark,
-  .textarea.is-dark {
+  .bulma-input.is-dark,
+  .bulma-textarea.is-dark {
     border-color: #363636; }
-  .input.is-primary,
-  .textarea.is-primary {
+  .bulma-input.is-primary,
+  .bulma-textarea.is-primary {
     border-color: #00d1b2; }
-  .input.is-info,
-  .textarea.is-info {
+  .bulma-input.is-info,
+  .bulma-textarea.is-info {
     border-color: #3273dc; }
-  .input.is-success,
-  .textarea.is-success {
+  .bulma-input.is-success,
+  .bulma-textarea.is-success {
     border-color: #23d160; }
-  .input.is-warning,
-  .textarea.is-warning {
+  .bulma-input.is-warning,
+  .bulma-textarea.is-warning {
     border-color: #ffdd57; }
-  .input.is-danger,
-  .textarea.is-danger {
+  .bulma-input.is-danger,
+  .bulma-textarea.is-danger {
     border-color: #ff3860; }
-  .input.is-small,
-  .textarea.is-small {
+  .bulma-input.bulma-is-small,
+  .bulma-textarea.bulma-is-small {
     border-radius: 2px;
     font-size: 0.75rem; }
-  .input.is-medium,
-  .textarea.is-medium {
+  .bulma-input.bulma-is-medium,
+  .bulma-textarea.bulma-is-medium {
     font-size: 1.25rem; }
-  .input.is-large,
-  .textarea.is-large {
+  .bulma-input.bulma-is-large,
+  .bulma-textarea.bulma-is-large {
     font-size: 1.5rem; }
-  .input.is-fullwidth,
-  .textarea.is-fullwidth {
+  .bulma-input.bulma-is-fullwidth,
+  .bulma-textarea.bulma-is-fullwidth {
     display: block;
     width: 100%; }
-  .input.is-inline,
-  .textarea.is-inline {
+  .bulma-input.bulma-is-inline,
+  .bulma-textarea.bulma-is-inline {
     display: inline;
     width: auto; }
 
-.textarea {
+.bulma-textarea {
   display: block;
   line-height: 1.25;
   max-height: 600px;
@@ -1205,8 +1205,8 @@ a.box:active {
   padding: 10px;
   resize: vertical; }
 
-.checkbox,
-.radio {
+.bulma-checkbox,
+.bulma-radio {
   align-items: center;
   cursor: pointer;
   display: inline-flex;
@@ -1214,30 +1214,30 @@ a.box:active {
   justify-content: flex-start;
   position: relative;
   vertical-align: top; }
-  .checkbox input,
-  .radio input {
+  .bulma-checkbox input,
+  .bulma-radio input {
     cursor: pointer;
     margin-right: 0.5em; }
-  .checkbox:hover,
-  .radio:hover {
+  .bulma-checkbox:hover,
+  .bulma-radio:hover {
     color: #363636; }
-  .checkbox.is-disabled,
-  .radio.is-disabled {
+  .bulma-checkbox.bulma-is-disabled,
+  .bulma-radio.bulma-is-disabled {
     color: #7a7a7a;
     pointer-events: none; }
-    .checkbox.is-disabled input,
-    .radio.is-disabled input {
+    .bulma-checkbox.bulma-is-disabled input,
+    .bulma-radio.bulma-is-disabled input {
       pointer-events: none; }
 
-.radio + .radio {
+.bulma-radio + .bulma-radio {
   margin-left: 0.5em; }
 
-.select {
+.bulma-select {
   display: inline-block;
   height: 2.5em;
   position: relative;
   vertical-align: top; }
-  .select:after {
+  .bulma-select:after {
     border: 1px solid #00d1b2;
     border-right: 0;
     border-top: 0;
@@ -1252,7 +1252,7 @@ a.box:active {
     right: 1.125em;
     top: 50%;
     z-index: 4; }
-  .select select {
+  .bulma-select select {
     -moz-appearance: none;
     -webkit-appearance: none;
     align-items: center;
@@ -1276,81 +1276,81 @@ a.box:active {
     font-size: 1em;
     outline: none;
     padding-right: 2.5em; }
-    .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
+    .bulma-select select:focus, .bulma-select select.bulma-is-focused, .bulma-select select:active, .bulma-select select.bulma-is-active {
       outline: none; }
-    .select select[disabled], .select select.is-disabled {
+    .bulma-select select[disabled], .bulma-select select.bulma-is-disabled {
       pointer-events: none; }
-    .select select:hover, .select select.is-hovered {
+    .bulma-select select:hover, .bulma-select select.bulma-is-hovered {
       border-color: #b5b5b5; }
-    .select select:focus, .select select.is-focused, .select select:active, .select select.is-active {
+    .bulma-select select:focus, .bulma-select select.bulma-is-focused, .bulma-select select:active, .bulma-select select.bulma-is-active {
       border-color: #00d1b2; }
-    .select select[disabled], .select select.is-disabled {
+    .bulma-select select[disabled], .bulma-select select.bulma-is-disabled {
       background-color: whitesmoke;
       border-color: whitesmoke;
       box-shadow: none;
       color: #7a7a7a; }
-      .select select[disabled]::-moz-placeholder, .select select.is-disabled::-moz-placeholder {
+      .bulma-select select[disabled]::-moz-placeholder, .bulma-select select.bulma-is-disabled::-moz-placeholder {
         color: rgba(54, 54, 54, 0.3); }
-      .select select[disabled]::-webkit-input-placeholder, .select select.is-disabled::-webkit-input-placeholder {
+      .bulma-select select[disabled]::-webkit-input-placeholder, .bulma-select select.bulma-is-disabled::-webkit-input-placeholder {
         color: rgba(54, 54, 54, 0.3); }
-      .select select[disabled]:-moz-placeholder, .select select.is-disabled:-moz-placeholder {
+      .bulma-select select[disabled]:-moz-placeholder, .bulma-select select.bulma-is-disabled:-moz-placeholder {
         color: rgba(54, 54, 54, 0.3); }
-      .select select[disabled]:-ms-input-placeholder, .select select.is-disabled:-ms-input-placeholder {
+      .bulma-select select[disabled]:-ms-input-placeholder, .bulma-select select.bulma-is-disabled:-ms-input-placeholder {
         color: rgba(54, 54, 54, 0.3); }
-    .select select:hover {
+    .bulma-select select:hover {
       border-color: #b5b5b5; }
-    .select select::ms-expand {
+    .bulma-select select::ms-expand {
       display: none; }
-  .select:hover:after {
+  .bulma-select:hover:after {
     border-color: #363636; }
-  .select.is-small {
+  .bulma-select.bulma-is-small {
     border-radius: 2px;
     font-size: 0.75rem; }
-  .select.is-medium {
+  .bulma-select.bulma-is-medium {
     font-size: 1.25rem; }
-  .select.is-large {
+  .bulma-select.bulma-is-large {
     font-size: 1.5rem; }
-  .select.is-fullwidth {
+  .bulma-select.bulma-is-fullwidth {
     width: 100%; }
-    .select.is-fullwidth select {
+    .bulma-select.bulma-is-fullwidth select {
       width: 100%; }
 
-.label {
+.bulma-label {
   color: #363636;
   display: block;
   font-weight: bold; }
-  .label:not(:last-child) {
+  .bulma-label:not(:last-child) {
     margin-bottom: 0.5em; }
 
-.help {
+.bulma-help {
   display: block;
   font-size: 0.75rem;
   margin-top: 5px; }
-  .help.is-white {
+  .bulma-help.is-white {
     color: white; }
-  .help.is-black {
+  .bulma-help.is-black {
     color: #0a0a0a; }
-  .help.is-light {
+  .bulma-help.is-light {
     color: whitesmoke; }
-  .help.is-dark {
+  .bulma-help.is-dark {
     color: #363636; }
-  .help.is-primary {
+  .bulma-help.is-primary {
     color: #00d1b2; }
-  .help.is-info {
+  .bulma-help.is-info {
     color: #3273dc; }
-  .help.is-success {
+  .bulma-help.is-success {
     color: #23d160; }
-  .help.is-warning {
+  .bulma-help.is-warning {
     color: #ffdd57; }
-  .help.is-danger {
+  .bulma-help.is-danger {
     color: #ff3860; }
 
 @media screen and (max-width: 768px) {
-  .control-label {
+  .bulma-control-label {
     margin-bottom: 0.5em; } }
 
 @media screen and (min-width: 769px) {
-  .control-label {
+  .bulma-control-label {
     flex-basis: 0;
     flex-grow: 1;
     flex-shrink: 0;
@@ -1358,125 +1358,125 @@ a.box:active {
     padding-top: 0.5em;
     text-align: right; } }
 
-.control {
+.bulma-control {
   position: relative;
   text-align: left; }
-  .control:not(:last-child) {
+  .bulma-control:not(:last-child) {
     margin-bottom: 0.75rem; }
-  .control.has-addons {
+  .bulma-control.bulma-has-addons {
     display: flex;
     justify-content: flex-start; }
-    .control.has-addons .button,
-    .control.has-addons .input,
-    .control.has-addons .select {
+    .bulma-control.bulma-has-addons .bulma-button,
+    .bulma-control.bulma-has-addons .bulma-input,
+    .bulma-control.bulma-has-addons .bulma-select {
       border-radius: 0;
       margin-right: -1px;
       width: auto; }
-      .control.has-addons .button:hover,
-      .control.has-addons .input:hover,
-      .control.has-addons .select:hover {
+      .bulma-control.bulma-has-addons .bulma-button:hover,
+      .bulma-control.bulma-has-addons .bulma-input:hover,
+      .bulma-control.bulma-has-addons .bulma-select:hover {
         z-index: 2; }
-      .control.has-addons .button:focus, .control.has-addons .button:active,
-      .control.has-addons .input:focus,
-      .control.has-addons .input:active,
-      .control.has-addons .select:focus,
-      .control.has-addons .select:active {
+      .bulma-control.bulma-has-addons .bulma-button:focus, .bulma-control.bulma-has-addons .bulma-button:active,
+      .bulma-control.bulma-has-addons .bulma-input:focus,
+      .bulma-control.bulma-has-addons .bulma-input:active,
+      .bulma-control.bulma-has-addons .bulma-select:focus,
+      .bulma-control.bulma-has-addons .bulma-select:active {
         z-index: 3; }
-      .control.has-addons .button:first-child,
-      .control.has-addons .input:first-child,
-      .control.has-addons .select:first-child {
+      .bulma-control.bulma-has-addons .bulma-button:first-child,
+      .bulma-control.bulma-has-addons .bulma-input:first-child,
+      .bulma-control.bulma-has-addons .bulma-select:first-child {
         border-radius: 3px 0 0 3px; }
-        .control.has-addons .button:first-child select,
-        .control.has-addons .input:first-child select,
-        .control.has-addons .select:first-child select {
+        .bulma-control.bulma-has-addons .bulma-button:first-child select,
+        .bulma-control.bulma-has-addons .bulma-input:first-child select,
+        .bulma-control.bulma-has-addons .bulma-select:first-child select {
           border-radius: 3px 0 0 3px; }
-      .control.has-addons .button:last-child,
-      .control.has-addons .input:last-child,
-      .control.has-addons .select:last-child {
+      .bulma-control.bulma-has-addons .bulma-button:last-child,
+      .bulma-control.bulma-has-addons .bulma-input:last-child,
+      .bulma-control.bulma-has-addons .bulma-select:last-child {
         border-radius: 0 3px 3px 0; }
-        .control.has-addons .button:last-child select,
-        .control.has-addons .input:last-child select,
-        .control.has-addons .select:last-child select {
+        .bulma-control.bulma-has-addons .bulma-button:last-child select,
+        .bulma-control.bulma-has-addons .bulma-input:last-child select,
+        .bulma-control.bulma-has-addons .bulma-select:last-child select {
           border-radius: 0 3px 3px 0; }
-      .control.has-addons .button.is-expanded,
-      .control.has-addons .input.is-expanded,
-      .control.has-addons .select.is-expanded {
+      .bulma-control.bulma-has-addons .bulma-button.bulma-is-expanded,
+      .bulma-control.bulma-has-addons .bulma-input.bulma-is-expanded,
+      .bulma-control.bulma-has-addons .bulma-select.bulma-is-expanded {
         flex-grow: 1;
         flex-shrink: 0; }
-    .control.has-addons .select select:hover {
+    .bulma-control.bulma-has-addons .select select:hover {
       z-index: 2; }
-    .control.has-addons .select select:focus, .control.has-addons .select select:active {
+    .bulma-control.bulma-has-addons .select select:focus, .bulma-control.bulma-has-addons .select select:active {
       z-index: 3; }
-    .control.has-addons.has-addons-centered {
+    .bulma-control.bulma-has-addons.bulma-has-addons-centered {
       justify-content: center; }
-    .control.has-addons.has-addons-right {
+    .bulma-control.bulma-has-addons.bulma-has-addons-right {
       justify-content: flex-end; }
-    .control.has-addons.has-addons-fullwidth .button,
-    .control.has-addons.has-addons-fullwidth .input,
-    .control.has-addons.has-addons-fullwidth .select {
+    .bulma-control.bulma-has-addons.bulma-has-addons-fullwidth .bulma-button,
+    .bulma-control.bulma-has-addons.bulma-has-addons-fullwidth .bulma-input,
+    .bulma-control.bulma-has-addons.bulma-has-addons-fullwidth .bulma-select {
       flex-grow: 1;
       flex-shrink: 0; }
-  .control.has-icon .icon {
+  .bulma-control.bulma-has-icon .bulma-icon {
     color: #dbdbdb;
     pointer-events: none;
     position: absolute;
     top: 1.25rem;
     z-index: 4; }
-  .control.has-icon .input:focus + .icon {
+  .bulma-control.bulma-has-icon .bulma-input:focus + .bulma-icon {
     color: #7a7a7a; }
-  .control.has-icon .input.is-small + .icon {
+  .bulma-control.bulma-has-icon .bulma-input.bulma-is-small + .bulma-icon {
     top: 0.9375rem; }
-  .control.has-icon .input.is-medium + .icon {
+  .bulma-control.bulma-has-icon .bulma-input.bulma-is-medium + .bulma-icon {
     top: 1.5625rem; }
-  .control.has-icon .input.is-large + .icon {
+  .bulma-control.bulma-has-icon .bulma-input.bulma-is-large + .bulma-icon {
     top: 1.875rem; }
-  .control.has-icon:not(.has-icon-right) .icon {
+  .bulma-control.bulma-has-icon:not(.bulma-has-icon-right) .bulma-icon {
     left: 1.25rem;
     transform: translateX(-50%) translateY(-50%); }
-  .control.has-icon:not(.has-icon-right) .input {
+  .bulma-control.bulma-has-icon:not(.bulma-has-icon-right) .bulma-input {
     padding-left: 2.5em; }
-    .control.has-icon:not(.has-icon-right) .input.is-small + .icon {
+    .bulma-control.bulma-has-icon:not(.bulma-has-icon-right) .bulma-input.bulma-is-small + .bulma-icon {
       left: 0.9375rem; }
-    .control.has-icon:not(.has-icon-right) .input.is-medium + .icon {
+    .bulma-control.bulma-has-icon:not(.bulma-has-icon-right) .bulma-input.bulma-is-medium + .bulma-icon {
       left: 1.5625rem; }
-    .control.has-icon:not(.has-icon-right) .input.is-large + .icon {
+    .bulma-control.bulma-has-icon:not(.bulma-has-icon-right) .bulma-input.bulma-is-large + .bulma-icon {
       left: 1.875rem; }
-  .control.has-icon.has-icon-right .icon {
+  .bulma-control.bulma-has-icon.bulma-has-icon-right .bulma-icon {
     right: 1.25rem;
     transform: translateX(50%) translateY(-50%); }
-  .control.has-icon.has-icon-right .input {
+  .bulma-control.bulma-has-icon.bulma-has-icon-right .bulma-input {
     padding-right: 2.5em; }
-    .control.has-icon.has-icon-right .input.is-small + .icon {
+    .bulma-control.bulma-has-icon.bulma-has-icon-right .bulma-input.bulma-is-small + .bulma-icon {
       right: 0.9375rem; }
-    .control.has-icon.has-icon-right .input.is-medium + .icon {
+    .bulma-control.bulma-has-icon.bulma-has-icon-right .bulma-input.bulma-is-medium + .bulma-icon {
       right: 1.5625rem; }
-    .control.has-icon.has-icon-right .input.is-large + .icon {
+    .bulma-control.bulma-has-icon.bulma-has-icon-right .bulma-input.bulma-is-large + .bulma-icon {
       right: 1.875rem; }
-  .control.is-grouped {
+  .bulma-control.bulma-is-grouped {
     display: flex;
     justify-content: flex-start; }
-    .control.is-grouped > .control {
+    .bulma-control.bulma-is-grouped > .bulma-control {
       flex-basis: 0;
       flex-shrink: 0; }
-      .control.is-grouped > .control:not(:last-child) {
+      .bulma-control.bulma-is-grouped > .bulma-control:not(:last-child) {
         margin-bottom: 0;
         margin-right: 0.75rem; }
-      .control.is-grouped > .control.is-expanded {
+      .bulma-control.bulma-is-grouped > .bulma-control.bulma-is-expanded {
         flex-grow: 1;
         flex-shrink: 1; }
-    .control.is-grouped.is-grouped-centered {
+    .bulma-control.bulma-is-grouped.bulma-is-grouped-centered {
       justify-content: center; }
-    .control.is-grouped.is-grouped-right {
+    .bulma-control.bulma-is-grouped.bulma-is-grouped-right {
       justify-content: flex-end; }
   @media screen and (min-width: 769px) {
-    .control.is-horizontal {
+    .bulma-control.bulma-is-horizontal {
       display: flex; }
-      .control.is-horizontal > .control {
+      .bulma-control.bulma-is-horizontal > .bulma-control {
         display: flex;
         flex-basis: 0;
         flex-grow: 5;
         flex-shrink: 1; } }
-  .control.is-loading:after {
+  .bulma-control.bulma-is-loading:after {
     animation: spinAround 500ms infinite linear;
     border: 2px solid #dbdbdb;
     border-radius: 290486px;
@@ -1491,7 +1491,7 @@ a.box:active {
     right: 0.75em;
     top: 0.75em; }
 
-.icon {
+.bulma-icon {
   display: inline-block;
   font-size: 21px;
   height: 1.5rem;
@@ -1499,10 +1499,10 @@ a.box:active {
   text-align: center;
   vertical-align: top;
   width: 1.5rem; }
-  .icon .fa {
+  .bulma-icon .bulma-fa {
     font-size: inherit;
     line-height: inherit; }
-  .icon.is-small {
+  .bulma-icon.bulma-is-small {
     display: inline-block;
     font-size: 14px;
     height: 1rem;
@@ -1510,7 +1510,7 @@ a.box:active {
     text-align: center;
     vertical-align: top;
     width: 1rem; }
-  .icon.is-medium {
+  .bulma-icon.bulma-is-medium {
     display: inline-block;
     font-size: 28px;
     height: 2rem;
@@ -1518,7 +1518,7 @@ a.box:active {
     text-align: center;
     vertical-align: top;
     width: 2rem; }
-  .icon.is-large {
+  .bulma-icon.bulma-is-large {
     display: inline-block;
     font-size: 42px;
     height: 3rem;
@@ -1527,14 +1527,14 @@ a.box:active {
     vertical-align: top;
     width: 3rem; }
 
-.image {
+.bulma-image {
   display: block;
   position: relative; }
-  .image img {
+  .bulma-image img {
     display: block;
     height: auto;
     width: 100%; }
-  .image.is-square img, .image.is-1by1 img, .image.is-4by3 img, .image.is-3by2 img, .image.is-16by9 img, .image.is-2by1 img {
+  .bulma-image.bulma-is-square img, .bulma-image.bulma-is-1by1 img, .bulma-image.bulma-is-4by3 img, .bulma-image.bulma-is-3by2 img, .bulma-image.bulma-is-16by9 img, .bulma-image.bulma-is-2by1 img {
     bottom: 0;
     left: 0;
     position: absolute;
@@ -1542,87 +1542,87 @@ a.box:active {
     top: 0;
     height: 100%;
     width: 100%; }
-  .image.is-square, .image.is-1by1 {
+  .bulma-image.bulma-is-square, .bulma-image.bulma-is-1by1 {
     padding-top: 100%; }
-  .image.is-4by3 {
+  .bulma-image.bulma-is-4by3 {
     padding-top: 75%; }
-  .image.is-3by2 {
+  .bulma-image.bulma-is-3by2 {
     padding-top: 66.6666%; }
-  .image.is-16by9 {
+  .bulma-image.bulma-is-16by9 {
     padding-top: 56.25%; }
-  .image.is-2by1 {
+  .bulma-image.bulma-is-2by1 {
     padding-top: 50%; }
-  .image.is-16x16 {
+  .bulma-image.is-16x16 {
     height: 16px;
     width: 16px; }
-  .image.is-24x24 {
+  .bulma-image.is-24x24 {
     height: 24px;
     width: 24px; }
-  .image.is-32x32 {
+  .bulma-image.is-32x32 {
     height: 32px;
     width: 32px; }
-  .image.is-48x48 {
+  .bulma-image.is-48x48 {
     height: 48px;
     width: 48px; }
-  .image.is-64x64 {
+  .bulma-image.is-64x64 {
     height: 64px;
     width: 64px; }
-  .image.is-96x96 {
+  .bulma-image.is-96x96 {
     height: 96px;
     width: 96px; }
-  .image.is-128x128 {
+  .bulma-image.is-128x128 {
     height: 128px;
     width: 128px; }
 
-.notification {
+.bulma-notification {
   background-color: whitesmoke;
   border-radius: 3px;
   padding: 1.25rem 2.5rem 1.25rem 1.5rem;
   position: relative; }
-  .notification:not(:last-child) {
+  .bulma-notification:not(:last-child) {
     margin-bottom: 1.5rem; }
-  .notification code,
-  .notification pre {
+  .bulma-notification code,
+  .bulma-notification pre {
     background: white; }
-  .notification pre code {
+  .bulma-notification pre code {
     background: transparent; }
-  .notification .delete {
+  .bulma-notification .bulma-delete {
     position: absolute;
     right: 0.5em;
     top: 0.5em; }
-  .notification .title,
-  .notification .subtitle,
-  .notification .content {
+  .bulma-notification .bulma-title,
+  .bulma-notification .bulma-subtitle,
+  .bulma-notification .bulma-content {
     color: inherit; }
-  .notification.is-white {
+  .bulma-notification.is-white {
     background-color: white;
     color: #0a0a0a; }
-  .notification.is-black {
+  .bulma-notification.is-black {
     background-color: #0a0a0a;
     color: white; }
-  .notification.is-light {
+  .bulma-notification.is-light {
     background-color: whitesmoke;
     color: #363636; }
-  .notification.is-dark {
+  .bulma-notification.is-dark {
     background-color: #363636;
     color: whitesmoke; }
-  .notification.is-primary {
+  .bulma-notification.is-primary {
     background-color: #00d1b2;
     color: #fff; }
-  .notification.is-info {
+  .bulma-notification.is-info {
     background-color: #3273dc;
     color: #fff; }
-  .notification.is-success {
+  .bulma-notification.is-success {
     background-color: #23d160;
     color: #fff; }
-  .notification.is-warning {
+  .bulma-notification.is-warning {
     background-color: #ffdd57;
     color: rgba(0, 0, 0, 0.7); }
-  .notification.is-danger {
+  .bulma-notification.is-danger {
     background-color: #ff3860;
     color: #fff; }
 
-.progress {
+.bulma-progress {
   -moz-appearance: none;
   -webkit-appearance: none;
   border: none;
@@ -1632,103 +1632,103 @@ a.box:active {
   overflow: hidden;
   padding: 0;
   width: 100%; }
-  .progress:not(:last-child) {
+  .bulma-progress:not(:last-child) {
     margin-bottom: 1.5rem; }
-  .progress::-webkit-progress-bar {
+  .bulma-progress::-webkit-progress-bar {
     background-color: #dbdbdb; }
-  .progress::-webkit-progress-value {
+  .bulma-progress::-webkit-progress-value {
     background-color: #4a4a4a; }
-  .progress::-moz-progress-bar {
+  .bulma-progress::-moz-progress-bar {
     background-color: #4a4a4a; }
-  .progress.is-white::-webkit-progress-value {
+  .bulma-progress.is-white::-webkit-progress-value {
     background-color: white; }
-  .progress.is-white::-moz-progress-bar {
+  .bulma-progress.is-white::-moz-progress-bar {
     background-color: white; }
-  .progress.is-black::-webkit-progress-value {
+  .bulma-progress.is-black::-webkit-progress-value {
     background-color: #0a0a0a; }
-  .progress.is-black::-moz-progress-bar {
+  .bulma-progress.is-black::-moz-progress-bar {
     background-color: #0a0a0a; }
-  .progress.is-light::-webkit-progress-value {
+  .bulma-progress.is-light::-webkit-progress-value {
     background-color: whitesmoke; }
-  .progress.is-light::-moz-progress-bar {
+  .bulma-progress.is-light::-moz-progress-bar {
     background-color: whitesmoke; }
-  .progress.is-dark::-webkit-progress-value {
+  .bulma-progress.is-dark::-webkit-progress-value {
     background-color: #363636; }
-  .progress.is-dark::-moz-progress-bar {
+  .bulma-progress.is-dark::-moz-progress-bar {
     background-color: #363636; }
-  .progress.is-primary::-webkit-progress-value {
+  .bulma-progress.is-primary::-webkit-progress-value {
     background-color: #00d1b2; }
-  .progress.is-primary::-moz-progress-bar {
+  .bulma-progress.is-primary::-moz-progress-bar {
     background-color: #00d1b2; }
-  .progress.is-info::-webkit-progress-value {
+  .bulma-progress.is-info::-webkit-progress-value {
     background-color: #3273dc; }
-  .progress.is-info::-moz-progress-bar {
+  .bulma-progress.is-info::-moz-progress-bar {
     background-color: #3273dc; }
-  .progress.is-success::-webkit-progress-value {
+  .bulma-progress.is-success::-webkit-progress-value {
     background-color: #23d160; }
-  .progress.is-success::-moz-progress-bar {
+  .bulma-progress.is-success::-moz-progress-bar {
     background-color: #23d160; }
-  .progress.is-warning::-webkit-progress-value {
+  .bulma-progress.is-warning::-webkit-progress-value {
     background-color: #ffdd57; }
-  .progress.is-warning::-moz-progress-bar {
+  .bulma-progress.is-warning::-moz-progress-bar {
     background-color: #ffdd57; }
-  .progress.is-danger::-webkit-progress-value {
+  .bulma-progress.is-danger::-webkit-progress-value {
     background-color: #ff3860; }
-  .progress.is-danger::-moz-progress-bar {
+  .bulma-progress.is-danger::-moz-progress-bar {
     background-color: #ff3860; }
-  .progress.is-small {
+  .bulma-progress.bulma-is-small {
     height: 0.75rem; }
-  .progress.is-medium {
+  .bulma-progress.bulma-is-medium {
     height: 1.25rem; }
-  .progress.is-large {
+  .bulma-progress.bulma-is-large {
     height: 1.5rem; }
 
-.table {
+.bulma-table {
   background-color: white;
   color: #363636;
   margin-bottom: 1.5rem;
   width: 100%; }
-  .table td,
-  .table th {
+  .bulma-table td,
+  .bulma-table th {
     border: 1px solid #dbdbdb;
     border-width: 0 0 1px;
     padding: 0.5em 0.75em;
     vertical-align: top; }
-    .table td.is-narrow,
-    .table th.is-narrow {
+    .bulma-table td.bulma-is-narrow,
+    .bulma-table th.bulma-is-narrow {
       white-space: nowrap;
       width: 1%; }
-  .table th {
+  .bulma-table th {
     color: #363636;
     text-align: left; }
-  .table tr:hover {
+  .bulma-table tr:hover {
     background-color: #fafafa; }
-  .table thead td,
-  .table thead th {
+  .bulma-table thead td,
+  .bulma-table thead th {
     border-width: 0 0 2px;
     color: #7a7a7a; }
-  .table tfoot td,
-  .table tfoot th {
+  .bulma-table tfoot td,
+  .bulma-table tfoot th {
     border-width: 2px 0 0;
     color: #7a7a7a; }
-  .table tbody tr:last-child td,
-  .table tbody tr:last-child th {
+  .bulma-table tbody tr:last-child td,
+  .bulma-table tbody tr:last-child th {
     border-bottom-width: 0; }
-  .table.is-bordered td,
-  .table.is-bordered th {
+  .bulma-table.bulma-is-bordered td,
+  .bulma-table.bulma-is-bordered th {
     border-width: 1px; }
-  .table.is-bordered tr:last-child td,
-  .table.is-bordered tr:last-child th {
+  .bulma-table.bulma-is-bordered tr:last-child td,
+  .bulma-table.bulma-is-bordered tr:last-child th {
     border-bottom-width: 1px; }
-  .table.is-narrow td,
-  .table.is-narrow th {
+  .bulma-table.bulma-is-narrow td,
+  .bulma-table.bulma-is-narrow th {
     padding: 0.25em 0.5em; }
-  .table.is-striped tbody tr:nth-child(even) {
+  .bulma-table.bulma-is-striped tbody tr:nth-child(even) {
     background-color: #fafafa; }
-    .table.is-striped tbody tr:nth-child(even):hover {
+    .bulma-table.bulma-is-striped tbody tr:nth-child(even):hover {
       background-color: whitesmoke; }
 
-.tag {
+.bulma-tag {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 290486px;
@@ -1742,122 +1742,122 @@ a.box:active {
   padding-right: 0.875em;
   vertical-align: top;
   white-space: nowrap; }
-  .tag .delete {
+  .bulma-tag .bulma-delete {
     margin-left: 0.25em;
     margin-right: -0.5em; }
-  .tag.is-white {
+  .bulma-tag.is-white {
     background-color: white;
     color: #0a0a0a; }
-  .tag.is-black {
+  .bulma-tag.is-black {
     background-color: #0a0a0a;
     color: white; }
-  .tag.is-light {
+  .bulma-tag.is-light {
     background-color: whitesmoke;
     color: #363636; }
-  .tag.is-dark {
+  .bulma-tag.is-dark {
     background-color: #363636;
     color: whitesmoke; }
-  .tag.is-primary {
+  .bulma-tag.is-primary {
     background-color: #00d1b2;
     color: #fff; }
-  .tag.is-info {
+  .bulma-tag.is-info {
     background-color: #3273dc;
     color: #fff; }
-  .tag.is-success {
+  .bulma-tag.is-success {
     background-color: #23d160;
     color: #fff; }
-  .tag.is-warning {
+  .bulma-tag.is-warning {
     background-color: #ffdd57;
     color: rgba(0, 0, 0, 0.7); }
-  .tag.is-danger {
+  .bulma-tag.is-danger {
     background-color: #ff3860;
     color: #fff; }
-  .tag.is-medium {
+  .bulma-tag.bulma-is-medium {
     font-size: 1rem; }
-  .tag.is-large {
+  .bulma-tag.bulma-is-large {
     font-size: 1.25rem; }
 
-.title,
-.subtitle {
+.bulma-title,
+.bulma-subtitle {
   word-break: break-word; }
-  .title:not(:last-child),
-  .subtitle:not(:last-child) {
+  .bulma-title:not(:last-child),
+  .bulma-subtitle:not(:last-child) {
     margin-bottom: 1.5rem; }
-  .title em,
-  .title span,
-  .subtitle em,
-  .subtitle span {
+  .bulma-title em,
+  .bulma-title span,
+  .bulma-subtitle em,
+  .bulma-subtitle span {
     font-weight: 300; }
-  .title strong,
-  .subtitle strong {
+  .bulma-title strong,
+  .bulma-subtitle strong {
     font-weight: 500; }
-  .title .tag,
-  .subtitle .tag {
+  .bulma-title .bulma-tag,
+  .bulma-subtitle .bulma-tag {
     vertical-align: middle; }
 
-.title {
+.bulma-title {
   color: #363636;
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.125; }
-  .title strong {
+  .bulma-title strong {
     color: inherit; }
-  .title + .highlight {
+  .bulma-title + .bulma-highlight {
     margin-top: -0.75rem; }
-  .title + .subtitle {
+  .bulma-title + .bulma-subtitle {
     margin-top: -1.25rem; }
-  .title.is-1 {
+  .bulma-title.is-1 {
     font-size: 3.5rem; }
-  .title.is-2 {
+  .bulma-title.is-2 {
     font-size: 2.75rem; }
-  .title.is-3 {
+  .bulma-title.is-3 {
     font-size: 2rem; }
-  .title.is-4 {
+  .bulma-title.is-4 {
     font-size: 1.5rem; }
-  .title.is-5 {
+  .bulma-title.is-5 {
     font-size: 1.25rem; }
-  .title.is-6 {
+  .bulma-title.is-6 {
     font-size: 14px; }
 
-.subtitle {
+.bulma-subtitle {
   color: #4a4a4a;
   font-size: 1.25rem;
   font-weight: 300;
   line-height: 1.25; }
-  .subtitle strong {
+  .bulma-subtitle strong {
     color: #363636; }
-  .subtitle + .title {
+  .bulma-subtitle + .bulma-title {
     margin-top: -1.5rem; }
-  .subtitle.is-1 {
+  .bulma-subtitle.is-1 {
     font-size: 3.5rem; }
-  .subtitle.is-2 {
+  .bulma-subtitle.is-2 {
     font-size: 2.75rem; }
-  .subtitle.is-3 {
+  .bulma-subtitle.is-3 {
     font-size: 2rem; }
-  .subtitle.is-4 {
+  .bulma-subtitle.is-4 {
     font-size: 1.5rem; }
-  .subtitle.is-5 {
+  .bulma-subtitle.is-5 {
     font-size: 1.25rem; }
-  .subtitle.is-6 {
+  .bulma-subtitle.is-6 {
     font-size: 14px; }
 
-.block:not(:last-child) {
+.bulma-block:not(:last-child) {
   margin-bottom: 1.5rem; }
 
-.container {
+.bulma-container {
   position: relative; }
   @media screen and (min-width: 1000px) {
-    .container {
+    .bulma-container {
       margin: 0 auto;
       max-width: 960px; }
-      .container.is-fluid {
+      .bulma-container.bulma-is-fluid {
         margin: 0 20px;
         max-width: none; } }
   @media screen and (min-width: 1192px) {
-    .container {
+    .bulma-container {
       max-width: 1152px; } }
 
-.delete {
+.bulma-delete {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1878,7 +1878,7 @@ a.box:active {
   transform-origin: center center;
   vertical-align: top;
   width: 20px; }
-  .delete:before, .delete:after {
+  .bulma-delete:before, .bulma-delete:after {
     background-color: white;
     content: "";
     display: block;
@@ -1886,50 +1886,50 @@ a.box:active {
     position: absolute;
     top: 50%;
     transform: translateX(-50%) translateY(-50%); }
-  .delete:before {
+  .bulma-delete:before {
     height: 2px;
     width: 50%; }
-  .delete:after {
+  .bulma-delete:after {
     height: 50%;
     width: 2px; }
-  .delete:hover, .delete:focus {
+  .bulma-delete:hover, .bulma-delete:focus {
     background-color: rgba(10, 10, 10, 0.3); }
-  .delete:active {
+  .bulma-delete:active {
     background-color: rgba(10, 10, 10, 0.4); }
-  .delete.is-small {
+  .bulma-delete.bulma-is-small {
     height: 14px;
     width: 14px; }
-  .delete.is-medium {
+  .bulma-delete.bulma-is-medium {
     height: 26px;
     width: 26px; }
-  .delete.is-large {
+  .bulma-delete.bulma-is-large {
     height: 30px;
     width: 30px; }
 
-.fa {
+.bulma-fa {
   font-size: 21px;
   text-align: center;
   vertical-align: top; }
 
-.heading {
+.bulma-heading {
   display: block;
   font-size: 11px;
   letter-spacing: 1px;
   margin-bottom: 5px;
   text-transform: uppercase; }
 
-.highlight {
+.bulma-highlight {
   font-weight: 400;
   max-width: 100%;
   overflow: hidden;
   padding: 0; }
-  .highlight:not(:last-child) {
+  .bulma-highlight:not(:last-child) {
     margin-bottom: 1.5rem; }
-  .highlight pre {
+  .bulma-highlight pre {
     overflow: auto;
     max-width: 100%; }
 
-.loader {
+.bulma-loader {
   animation: spinAround 500ms infinite linear;
   border: 2px solid #dbdbdb;
   border-radius: 290486px;
@@ -1941,7 +1941,7 @@ a.box:active {
   position: relative;
   width: 1rem; }
 
-.number {
+.bulma-number {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 290486px;
@@ -1955,12 +1955,12 @@ a.box:active {
   text-align: center;
   vertical-align: top; }
 
-.card-header {
+.bulma-card-header {
   align-items: stretch;
   box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
   display: flex; }
 
-.card-header-title {
+.bulma-card-header-title {
   align-items: center;
   color: #363636;
   display: flex;
@@ -1968,28 +1968,28 @@ a.box:active {
   font-weight: 700;
   padding: 0.75rem; }
 
-.card-header-icon {
+.bulma-card-header-icon {
   align-items: center;
   cursor: pointer;
   display: flex;
   justify-content: center;
   padding: 0.75rem; }
 
-.card-image {
+.bulma-card-image {
   display: block;
   position: relative; }
 
-.card-content {
+.bulma-card-content {
   padding: 1.5rem; }
-  .card-content .title + .subtitle {
+  .bulma-card-content .title + .bulma-subtitle {
     margin-top: -1.5rem; }
 
-.card-footer {
+.bulma-card-footer {
   border-top: 1px solid #dbdbdb;
   align-items: stretch;
   display: flex; }
 
-.card-footer-item {
+.bulma-card-footer-item {
   align-items: center;
   display: flex;
   flex-basis: 0;
@@ -1997,237 +1997,237 @@ a.box:active {
   flex-shrink: 0;
   justify-content: center;
   padding: 0.75rem; }
-  .card-footer-item:not(:last-child) {
+  .bulma-card-footer-item:not(:last-child) {
     border-right: 1px solid #dbdbdb; }
 
-.card {
+.bulma-card {
   background-color: white;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   color: #4a4a4a;
   max-width: 100%;
   position: relative; }
-  .card .media:not(:last-child) {
+  .bulma-card .media:not(:last-child) {
     margin-bottom: 0.75rem; }
 
-.level-item {
+.bulma-level-item {
   align-items: center;
   display: flex;
   flex-basis: auto;
   flex-grow: 0;
   flex-shrink: 0;
   justify-content: center; }
-  .level-item .title,
-  .level-item .subtitle {
+  .bulma-level-item .bulma-title,
+  .bulma-level-item .bulma-subtitle {
     margin-bottom: 0; }
   @media screen and (max-width: 768px) {
-    .level-item:not(:last-child) {
+    .bulma-level-item:not(:last-child) {
       margin-bottom: 0.75rem; } }
 
-.level-left,
-.level-right {
+.bulma-level-left,
+.bulma-level-right {
   flex-basis: auto;
   flex-grow: 0;
   flex-shrink: 0; }
-  .level-left .level-item:not(:last-child),
-  .level-right .level-item:not(:last-child) {
+  .bulma-level-left .bulma-level-item:not(:last-child),
+  .bulma-level-right .bulma-level-item:not(:last-child) {
     margin-right: 0.75rem; }
-  .level-left .level-item.is-flexible,
-  .level-right .level-item.is-flexible {
+  .bulma-level-left .bulma-level-item.bulma-is-flexible,
+  .bulma-level-right .bulma-level-item.bulma-is-flexible {
     flex-grow: 1; }
 
-.level-left {
+.bulma-level-left {
   align-items: center;
   justify-content: flex-start; }
   @media screen and (max-width: 768px) {
-    .level-left + .level-right {
+    .bulma-level-left + .bulma-level-right {
       margin-top: 1.5rem; } }
   @media screen and (min-width: 769px) {
-    .level-left {
+    .bulma-level-left {
       display: flex; } }
 
-.level-right {
+.bulma-level-right {
   align-items: center;
   justify-content: flex-end; }
   @media screen and (min-width: 769px) {
-    .level-right {
+    .bulma-level-right {
       display: flex; } }
 
-.level {
+.bulma-level {
   align-items: center;
   justify-content: space-between; }
-  .level:not(:last-child) {
+  .bulma-level:not(:last-child) {
     margin-bottom: 1.5rem; }
-  .level code {
+  .bulma-level code {
     border-radius: 3px; }
-  .level img {
+  .bulma-level img {
     display: inline-block;
     vertical-align: top; }
-  .level.is-mobile {
+  .bulma-level.bulma-is-mobile {
     display: flex; }
-    .level.is-mobile > .level-item:not(:last-child) {
+    .bulma-level.bulma-is-mobile > .bulma-level-item:not(:last-child) {
       margin-bottom: 0; }
-    .level.is-mobile > .level-item:not(.is-narrow) {
+    .bulma-level.bulma-is-mobile > .bulma-level-item:not(.bulma-is-narrow) {
       flex-grow: 1; }
   @media screen and (min-width: 769px) {
-    .level {
+    .bulma-level {
       display: flex; }
-      .level > .level-item:not(.is-narrow) {
+      .bulma-level > .bulma-level-item:not(.bulma-is-narrow) {
         flex-grow: 1; } }
 
-.media-left,
-.media-right {
+.bulma-media-left,
+.bulma-media-right {
   flex-basis: auto;
   flex-grow: 0;
   flex-shrink: 0; }
 
-.media-left {
+.bulma-media-left {
   margin-right: 1rem; }
 
-.media-right {
+.bulma-media-right {
   margin-left: 1rem; }
 
-.media-content {
+.bulma-media-content {
   flex-basis: auto;
   flex-grow: 1;
   flex-shrink: 1;
   text-align: left; }
 
-.media {
+.bulma-media {
   align-items: flex-start;
   display: flex;
   text-align: left; }
-  .media .content:not(:last-child) {
+  .bulma-media .content:not(:last-child) {
     margin-bottom: 0.75rem; }
-  .media .media {
+  .bulma-media .bulma-media {
     border-top: 1px solid rgba(219, 219, 219, 0.5);
     display: flex;
     padding-top: 0.75rem; }
-    .media .media .content:not(:last-child),
-    .media .media .control:not(:last-child) {
+    .bulma-media .bulma-media .content:not(:last-child),
+    .bulma-media .bulma-media .control:not(:last-child) {
       margin-bottom: 0.5rem; }
-    .media .media .media {
+    .bulma-media .bulma-media .bulma-media {
       padding-top: 0.5rem; }
-      .media .media .media + .media {
+      .bulma-media .bulma-media .bulma-media + .bulma-media {
         margin-top: 0.5rem; }
-  .media + .media {
+  .bulma-media + .bulma-media {
     border-top: 1px solid rgba(219, 219, 219, 0.5);
     margin-top: 1rem;
     padding-top: 1rem; }
-  .media.is-large + .media {
+  .bulma-media.bulma-is-large + .bulma-media {
     margin-top: 1.5rem;
     padding-top: 1.5rem; }
 
-.menu {
+.bulma-menu {
   font-size: 1rem; }
 
-.menu-list {
+.bulma-menu-list {
   line-height: 1.25; }
-  .menu-list a {
+  .bulma-menu-list a {
     border-radius: 2px;
     color: #4a4a4a;
     display: block;
     padding: 0.5em 0.75em; }
-    .menu-list a:hover {
+    .bulma-menu-list a:hover {
       background-color: whitesmoke;
       color: #00d1b2; }
-    .menu-list a.is-active {
+    .bulma-menu-list a.bulma-is-active {
       background-color: #00d1b2;
       color: #fff; }
-  .menu-list li ul {
+  .bulma-menu-list li ul {
     border-left: 1px solid #dbdbdb;
     margin: 0.75em;
     padding-left: 0.75em; }
 
-.menu-label {
+.bulma-menu-label {
   color: #7a7a7a;
   font-size: 0.8em;
   letter-spacing: 0.1em;
   text-transform: uppercase; }
-  .menu-label:not(:first-child) {
+  .bulma-menu-label:not(:first-child) {
     margin-top: 1em; }
-  .menu-label:not(:last-child) {
+  .bulma-menu-label:not(:last-child) {
     margin-bottom: 1em; }
 
-.message {
+.bulma-message {
   background-color: whitesmoke;
   border-radius: 3px;
   font-size: 1rem; }
-  .message:not(:last-child) {
+  .bulma-message:not(:last-child) {
     margin-bottom: 1.5rem; }
-  .message.is-white {
+  .bulma-message.is-white {
     background-color: white; }
-    .message.is-white .message-header {
+    .bulma-message.is-white .bulma-message-header {
       background-color: white;
       color: #0a0a0a; }
-    .message.is-white .message-body {
+    .bulma-message.is-white .bulma-message-body {
       border-color: white;
       color: #4d4d4d; }
-  .message.is-black {
+  .bulma-message.is-black {
     background-color: #fafafa; }
-    .message.is-black .message-header {
+    .bulma-message.is-black .bulma-message-header {
       background-color: #0a0a0a;
       color: white; }
-    .message.is-black .message-body {
+    .bulma-message.is-black .bulma-message-body {
       border-color: #0a0a0a;
       color: #090909; }
-  .message.is-light {
+  .bulma-message.is-light {
     background-color: #fafafa; }
-    .message.is-light .message-header {
+    .bulma-message.is-light .bulma-message-header {
       background-color: whitesmoke;
       color: #363636; }
-    .message.is-light .message-body {
+    .bulma-message.is-light .bulma-message-body {
       border-color: whitesmoke;
       color: #505050; }
-  .message.is-dark {
+  .bulma-message.is-dark {
     background-color: #fafafa; }
-    .message.is-dark .message-header {
+    .bulma-message.is-dark .bulma-message-header {
       background-color: #363636;
       color: whitesmoke; }
-    .message.is-dark .message-body {
+    .bulma-message.is-dark .bulma-message-body {
       border-color: #363636;
       color: #2a2a2a; }
-  .message.is-primary {
+  .bulma-message.is-primary {
     background-color: #f5fffd; }
-    .message.is-primary .message-header {
+    .bulma-message.is-primary .bulma-message-header {
       background-color: #00d1b2;
       color: #fff; }
-    .message.is-primary .message-body {
+    .bulma-message.is-primary .bulma-message-body {
       border-color: #00d1b2;
       color: #021310; }
-  .message.is-info {
+  .bulma-message.is-info {
     background-color: #f6f9fe; }
-    .message.is-info .message-header {
+    .bulma-message.is-info .bulma-message-header {
       background-color: #3273dc;
       color: #fff; }
-    .message.is-info .message-body {
+    .bulma-message.is-info .bulma-message-body {
       border-color: #3273dc;
       color: #22509a; }
-  .message.is-success {
+  .bulma-message.is-success {
     background-color: #f6fef9; }
-    .message.is-success .message-header {
+    .bulma-message.is-success .bulma-message-header {
       background-color: #23d160;
       color: #fff; }
-    .message.is-success .message-body {
+    .bulma-message.is-success .bulma-message-body {
       border-color: #23d160;
       color: #0e301a; }
-  .message.is-warning {
+  .bulma-message.is-warning {
     background-color: #fffdf5; }
-    .message.is-warning .message-header {
+    .bulma-message.is-warning .bulma-message-header {
       background-color: #ffdd57;
       color: rgba(0, 0, 0, 0.7); }
-    .message.is-warning .message-body {
+    .bulma-message.is-warning .bulma-message-body {
       border-color: #ffdd57;
       color: #3b3108; }
-  .message.is-danger {
+  .bulma-message.is-danger {
     background-color: #fff5f7; }
-    .message.is-danger .message-header {
+    .bulma-message.is-danger .bulma-message-header {
       background-color: #ff3860;
       color: #fff; }
-    .message.is-danger .message-body {
+    .bulma-message.is-danger .bulma-message-body {
       border-color: #ff3860;
       color: #cd0930; }
 
-.message-header {
+.bulma-message-header {
   align-items: center;
   background-color: #4a4a4a;
   border-radius: 3px 3px 0 0;
@@ -2237,37 +2237,37 @@ a.box:active {
   line-height: 1.25;
   padding: 0.5em 0.75em;
   position: relative; }
-  .message-header a,
-  .message-header strong {
+  .bulma-message-header a,
+  .bulma-message-header strong {
     color: inherit; }
-  .message-header a {
+  .bulma-message-header a {
     text-decoration: underline; }
-  .message-header .delete {
+  .bulma-message-header .bulma-delete {
     flex-grow: 0;
     flex-shrink: 0;
     margin-left: 0.75em; }
-  .message-header + .message-body {
+  .bulma-message-header + .bulma-message-body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-top: none; }
 
-.message-body {
+.bulma-message-body {
   border: 1px solid #dbdbdb;
   border-radius: 3px;
   color: #4a4a4a;
   padding: 1em 1.25em; }
-  .message-body a,
-  .message-body strong {
+  .bulma-message-body a,
+  .bulma-message-body strong {
     color: inherit; }
-  .message-body a {
+  .bulma-message-body a {
     text-decoration: underline; }
-  .message-body code,
-  .message-body pre {
+  .bulma-message-body code,
+  .bulma-message-body pre {
     background: white; }
-  .message-body pre code {
+  .bulma-message-body pre code {
     background: transparent; }
 
-.modal-background {
+.bulma-modal-background {
   bottom: 0;
   left: 0;
   position: absolute;
@@ -2275,21 +2275,21 @@ a.box:active {
   top: 0;
   background-color: rgba(10, 10, 10, 0.86); }
 
-.modal-content,
-.modal-card {
+.bulma-modal-content,
+.bulma-modal-card {
   margin: 0 20px;
   max-height: calc(100vh - 160px);
   overflow: auto;
   position: relative;
   width: 100%; }
   @media screen and (min-width: 769px) {
-    .modal-content,
-    .modal-card {
+    .bulma-modal-content,
+    .bulma-modal-card {
       margin: 0 auto;
       max-height: calc(100vh - 40px);
       width: 640px; } }
 
-.modal-close {
+.bulma-modal-close {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -2316,7 +2316,7 @@ a.box:active {
   right: 20px;
   top: 20px;
   width: 40px; }
-  .modal-close:before, .modal-close:after {
+  .bulma-modal-close:before, .bulma-modal-close:after {
     background-color: white;
     content: "";
     display: block;
@@ -2324,34 +2324,34 @@ a.box:active {
     position: absolute;
     top: 50%;
     transform: translateX(-50%) translateY(-50%); }
-  .modal-close:before {
+  .bulma-modal-close:before {
     height: 2px;
     width: 50%; }
-  .modal-close:after {
+  .bulma-modal-close:after {
     height: 50%;
     width: 2px; }
-  .modal-close:hover, .modal-close:focus {
+  .bulma-modal-close:hover, .bulma-modal-close:focus {
     background-color: rgba(10, 10, 10, 0.3); }
-  .modal-close:active {
+  .bulma-modal-close:active {
     background-color: rgba(10, 10, 10, 0.4); }
-  .modal-close.is-small {
+  .bulma-modal-close.bulma-is-small {
     height: 14px;
     width: 14px; }
-  .modal-close.is-medium {
+  .bulma-modal-close.bulma-is-medium {
     height: 26px;
     width: 26px; }
-  .modal-close.is-large {
+  .bulma-modal-close.bulma-is-large {
     height: 30px;
     width: 30px; }
 
-.modal-card {
+.bulma-modal-card {
   display: flex;
   flex-direction: column;
   max-height: calc(100vh - 40px);
   overflow: hidden; }
 
-.modal-card-head,
-.modal-card-foot {
+.bulma-modal-card-head,
+.bulma-modal-card-foot {
   align-items: center;
   background-color: whitesmoke;
   display: flex;
@@ -2360,26 +2360,26 @@ a.box:active {
   padding: 20px;
   position: relative; }
 
-.modal-card-head {
+.bulma-modal-card-head {
   border-bottom: 1px solid #dbdbdb;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px; }
 
-.modal-card-title {
+.bulma-modal-card-title {
   color: #363636;
   flex-grow: 1;
   flex-shrink: 0;
   font-size: 1.5rem;
   line-height: 1; }
 
-.modal-card-foot {
+.bulma-modal-card-foot {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   border-top: 1px solid #dbdbdb; }
-  .modal-card-foot .button:not(:last-child) {
+  .bulma-modal-card-foot .bulma-button:not(:last-child) {
     margin-right: 10px; }
 
-.modal-card-body {
+.bulma-modal-card-body {
   -webkit-overflow-scrolling: touch;
   background-color: white;
   flex-grow: 1;
@@ -2387,7 +2387,7 @@ a.box:active {
   overflow: auto;
   padding: 20px; }
 
-.modal {
+.bulma-modal {
   bottom: 0;
   left: 0;
   position: absolute;
@@ -2399,16 +2399,16 @@ a.box:active {
   overflow: hidden;
   position: fixed;
   z-index: 1986; }
-  .modal.is-active {
+  .bulma-modal.bulma-is-active {
     display: flex; }
 
-.nav-toggle {
+.bulma-nav-toggle {
   cursor: pointer;
   display: block;
   height: 3.5rem;
   position: relative;
   width: 3.5rem; }
-  .nav-toggle span {
+  .bulma-nav-toggle span {
     background-color: #4a4a4a;
     display: block;
     height: 1px;
@@ -2419,31 +2419,31 @@ a.box:active {
     transition: none 86ms ease-out;
     transition-property: background, left, opacity, transform;
     width: 15px; }
-    .nav-toggle span:nth-child(1) {
+    .bulma-nav-toggle span:nth-child(1) {
       margin-top: -6px; }
-    .nav-toggle span:nth-child(2) {
+    .bulma-nav-toggle span:nth-child(2) {
       margin-top: -1px; }
-    .nav-toggle span:nth-child(3) {
+    .bulma-nav-toggle span:nth-child(3) {
       margin-top: 4px; }
-  .nav-toggle:hover {
+  .bulma-nav-toggle:hover {
     background-color: whitesmoke; }
-  .nav-toggle.is-active span {
+  .bulma-nav-toggle.bulma-is-active span {
     background-color: #00d1b2; }
-    .nav-toggle.is-active span:nth-child(1) {
+    .bulma-nav-toggle.bulma-is-active span:nth-child(1) {
       margin-left: -5px;
       transform: rotate(45deg);
       transform-origin: left top; }
-    .nav-toggle.is-active span:nth-child(2) {
+    .bulma-nav-toggle.bulma-is-active span:nth-child(2) {
       opacity: 0; }
-    .nav-toggle.is-active span:nth-child(3) {
+    .bulma-nav-toggle.bulma-is-active span:nth-child(3) {
       margin-left: -5px;
       transform: rotate(-45deg);
       transform-origin: left bottom; }
   @media screen and (min-width: 769px) {
-    .nav-toggle {
+    .bulma-nav-toggle {
       display: none; } }
 
-.nav-item {
+.bulma-nav-item {
   align-items: center;
   display: flex;
   flex-grow: 0;
@@ -2451,54 +2451,54 @@ a.box:active {
   font-size: 1rem;
   justify-content: center;
   padding: 0.5rem 0.75rem; }
-  .nav-item a {
+  .bulma-nav-item a {
     flex-grow: 1;
     flex-shrink: 0; }
-  .nav-item img {
+  .bulma-nav-item img {
     max-height: 1.75rem; }
-  .nav-item .button + .button {
+  .bulma-nav-item .button + .bulma-button {
     margin-left: 0.75rem; }
-  .nav-item .tag:first-child:not(:last-child) {
+  .bulma-nav-item .bulma-tag:first-child:not(:last-child) {
     margin-right: 0.5rem; }
-  .nav-item .tag:last-child:not(:first-child) {
+  .bulma-nav-item .bulma-tag:last-child:not(:first-child) {
     margin-left: 0.5rem; }
   @media screen and (max-width: 768px) {
-    .nav-item {
+    .bulma-nav-item {
       justify-content: flex-start; } }
 
 .nav-item a,
-a.nav-item {
+a.bulma-nav-item {
   color: #7a7a7a; }
   .nav-item a:hover,
-  a.nav-item:hover {
+  a.bulma-nav-item:hover {
     color: #363636; }
-  .nav-item a.is-active,
-  a.nav-item.is-active {
+  .nav-item a.bulma-is-active,
+  a.bulma-nav-item.bulma-is-active {
     color: #363636; }
-  .nav-item a.is-tab,
-  a.nav-item.is-tab {
+  .nav-item a.bulma-is-tab,
+  a.bulma-nav-item.bulma-is-tab {
     border-bottom: 1px solid transparent;
     border-top: 1px solid transparent;
     padding-bottom: calc(0.5rem - 1px);
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: calc(0.5rem - 1px); }
-    .nav-item a.is-tab:hover,
-    a.nav-item.is-tab:hover {
+    .nav-item a.bulma-is-tab:hover,
+    a.bulma-nav-item.bulma-is-tab:hover {
       border-bottom-color: #00d1b2;
       border-top-color: transparent; }
-    .nav-item a.is-tab.is-active,
-    a.nav-item.is-tab.is-active {
+    .nav-item a.bulma-is-tab.bulma-is-active,
+    a.bulma-nav-item.bulma-is-tab.bulma-is-active {
       border-bottom: 3px solid #00d1b2;
       color: #00d1b2;
       padding-bottom: calc(0.5rem - 3px); }
   @media screen and (min-width: 1000px) {
-    .nav-item a.is-brand,
-    a.nav-item.is-brand {
+    .nav-item a.bulma-is-brand,
+    a.bulma-nav-item.bulma-is-brand {
       padding-left: 0; } }
 
 @media screen and (max-width: 768px) {
-  .nav-menu {
+  .bulma-nav-menu {
     background-color: white;
     box-shadow: 0 4px 7px rgba(10, 10, 10, 0.1);
     left: 0;
@@ -2506,31 +2506,31 @@ a.nav-item {
     right: 0;
     top: 100%;
     position: absolute; }
-    .nav-menu .nav-item {
+    .bulma-nav-menu .bulma-nav-item {
       border-top: 1px solid rgba(219, 219, 219, 0.5);
       padding: 0.75rem; }
-    .nav-menu.is-active {
+    .bulma-nav-menu.bulma-is-active {
       display: block; } }
 
 @media screen and (min-width: 769px) and (max-width: 999px) {
-  .nav-menu {
+  .bulma-nav-menu {
     padding-right: 1.5rem; } }
 
-.nav-left,
-.nav-right {
+.bulma-nav-left,
+.bulma-nav-right {
   align-items: stretch;
   flex-basis: 0;
   flex-grow: 1;
   flex-shrink: 0; }
 
-.nav-left {
+.bulma-nav-left {
   display: flex;
   justify-content: flex-start;
   overflow: hidden;
   overflow-x: auto;
   white-space: nowrap; }
 
-.nav-center {
+.bulma-nav-center {
   align-items: stretch;
   display: flex;
   flex-grow: 0;
@@ -2539,13 +2539,13 @@ a.nav-item {
   margin-left: auto;
   margin-right: auto; }
 
-.nav-right {
+.bulma-nav-right {
   justify-content: flex-end; }
   @media screen and (min-width: 769px) {
-    .nav-right {
+    .bulma-nav-right {
       display: flex; } }
 
-.nav {
+.bulma-nav {
   align-items: stretch;
   background-color: white;
   display: flex;
@@ -2553,25 +2553,25 @@ a.nav-item {
   position: relative;
   text-align: center;
   z-index: 2; }
-  .nav > .container {
+  .bulma-nav > .bulma-container {
     align-items: stretch;
     display: flex;
     min-height: 3.5rem;
     width: 100%; }
-  .nav.has-shadow {
+  .bulma-nav.bulma-has-shadow {
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1); }
 
-.pagination,
-.pagination-list {
+.bulma-pagination,
+.bulma-pagination-list {
   align-items: center;
   display: flex;
   justify-content: center;
   text-align: center; }
 
-.pagination-previous,
-.pagination-next,
-.pagination-link,
-.pagination-ellipsis {
+.bulma-pagination-previous,
+.bulma-pagination-next,
+.bulma-pagination-link,
+.bulma-pagination-ellipsis {
   -moz-appearance: none;
   -webkit-appearance: none;
   align-items: center;
@@ -2597,140 +2597,140 @@ a.nav-item {
   padding-right: 0.5em;
   justify-content: center;
   text-align: center; }
-  .pagination-previous:focus, .pagination-previous.is-focused, .pagination-previous:active, .pagination-previous.is-active,
-  .pagination-next:focus,
-  .pagination-next.is-focused,
-  .pagination-next:active,
-  .pagination-next.is-active,
-  .pagination-link:focus,
-  .pagination-link.is-focused,
-  .pagination-link:active,
-  .pagination-link.is-active,
-  .pagination-ellipsis:focus,
-  .pagination-ellipsis.is-focused,
-  .pagination-ellipsis:active,
-  .pagination-ellipsis.is-active {
+  .bulma-pagination-previous:focus, .bulma-pagination-previous.bulma-is-focused, .bulma-pagination-previous:active, .bulma-pagination-previous.bulma-is-active,
+  .bulma-pagination-next:focus,
+  .bulma-pagination-next.bulma-is-focused,
+  .bulma-pagination-next:active,
+  .bulma-pagination-next.bulma-is-active,
+  .bulma-pagination-link:focus,
+  .bulma-pagination-link.bulma-is-focused,
+  .bulma-pagination-link:active,
+  .bulma-pagination-link.bulma-is-active,
+  .bulma-pagination-ellipsis:focus,
+  .bulma-pagination-ellipsis.bulma-is-focused,
+  .bulma-pagination-ellipsis:active,
+  .bulma-pagination-ellipsis.bulma-is-active {
     outline: none; }
-  .pagination-previous[disabled], .pagination-previous.is-disabled,
-  .pagination-next[disabled],
-  .pagination-next.is-disabled,
-  .pagination-link[disabled],
-  .pagination-link.is-disabled,
-  .pagination-ellipsis[disabled],
-  .pagination-ellipsis.is-disabled {
+  .bulma-pagination-previous[disabled], .bulma-pagination-previous.bulma-is-disabled,
+  .bulma-pagination-next[disabled],
+  .bulma-pagination-next.bulma-is-disabled,
+  .bulma-pagination-link[disabled],
+  .bulma-pagination-link.bulma-is-disabled,
+  .bulma-pagination-ellipsis[disabled],
+  .bulma-pagination-ellipsis.bulma-is-disabled {
     pointer-events: none; }
 
-.pagination-previous,
-.pagination-next,
-.pagination-link {
+.bulma-pagination-previous,
+.bulma-pagination-next,
+.bulma-pagination-link {
   border: 1px solid #dbdbdb;
   min-width: 2.5em; }
-  .pagination-previous:hover,
-  .pagination-next:hover,
-  .pagination-link:hover {
+  .bulma-pagination-previous:hover,
+  .bulma-pagination-next:hover,
+  .bulma-pagination-link:hover {
     border-color: #b5b5b5;
     color: #363636; }
-  .pagination-previous:focus,
-  .pagination-next:focus,
-  .pagination-link:focus {
+  .bulma-pagination-previous:focus,
+  .bulma-pagination-next:focus,
+  .bulma-pagination-link:focus {
     border-color: #00d1b2; }
-  .pagination-previous:active,
-  .pagination-next:active,
-  .pagination-link:active {
+  .bulma-pagination-previous:active,
+  .bulma-pagination-next:active,
+  .bulma-pagination-link:active {
     box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2); }
-  .pagination-previous[disabled], .pagination-previous.is-disabled,
-  .pagination-next[disabled],
-  .pagination-next.is-disabled,
-  .pagination-link[disabled],
-  .pagination-link.is-disabled {
+  .bulma-pagination-previous[disabled], .bulma-pagination-previous.bulma-is-disabled,
+  .bulma-pagination-next[disabled],
+  .bulma-pagination-next.bulma-is-disabled,
+  .bulma-pagination-link[disabled],
+  .bulma-pagination-link.bulma-is-disabled {
     background: #dbdbdb;
     color: #7a7a7a;
     opacity: 0.5;
     pointer-events: none; }
 
-.pagination-previous,
-.pagination-next {
+.bulma-pagination-previous,
+.bulma-pagination-next {
   padding-left: 0.75em;
   padding-right: 0.75em; }
 
-.pagination-link.is-current {
+.bulma-pagination-link.bulma-is-current {
   background-color: #00d1b2;
   border-color: #00d1b2;
   color: #fff; }
 
-.pagination-ellipsis {
+.bulma-pagination-ellipsis {
   color: #b5b5b5;
   pointer-events: none; }
 
-.pagination-list li:not(:first-child) {
+.bulma-pagination-list li:not(:first-child) {
   margin-left: 0.375rem; }
 
 @media screen and (max-width: 768px) {
-  .pagination {
+  .bulma-pagination {
     flex-wrap: wrap; }
-  .pagination-previous,
-  .pagination-next {
+  .bulma-pagination-previous,
+  .bulma-pagination-next {
     flex-grow: 1;
     flex-shrink: 1;
     width: calc(50% - 0.375rem); }
-  .pagination-next {
+  .bulma-pagination-next {
     margin-left: 0.75rem; }
-  .pagination-list {
+  .bulma-pagination-list {
     margin-top: 0.75rem; }
-    .pagination-list li {
+    .bulma-pagination-list li {
       flex-grow: 1;
       flex-shrink: 1; } }
 
 @media screen and (min-width: 769px) {
-  .pagination-list {
+  .bulma-pagination-list {
     flex-grow: 1;
     flex-shrink: 1;
     justify-content: flex-start;
     order: 1; }
-  .pagination-previous,
-  .pagination-next {
+  .bulma-pagination-previous,
+  .bulma-pagination-next {
     margin-left: 0.75rem; }
-  .pagination-previous {
+  .bulma-pagination-previous {
     order: 2; }
-  .pagination-next {
+  .bulma-pagination-next {
     order: 3; }
-  .pagination {
+  .bulma-pagination {
     justify-content: space-between; }
-    .pagination.is-centered .pagination-previous {
+    .bulma-pagination.bulma-is-centered .bulma-pagination-previous {
       margin-left: 0;
       order: 1; }
-    .pagination.is-centered .pagination-list {
+    .bulma-pagination.bulma-is-centered .bulma-pagination-list {
       justify-content: center;
       order: 2; }
-    .pagination.is-centered .pagination-next {
+    .bulma-pagination.bulma-is-centered .bulma-pagination-next {
       order: 3; }
-    .pagination.is-right .pagination-previous {
+    .bulma-pagination.bulma-is-right .bulma-pagination-previous {
       margin-left: 0;
       order: 1; }
-    .pagination.is-right .pagination-next {
+    .bulma-pagination.bulma-is-right .bulma-pagination-next {
       order: 2;
       margin-right: 0.75rem; }
-    .pagination.is-right .pagination-list {
+    .bulma-pagination.bulma-is-right .bulma-pagination-list {
       justify-content: flex-end;
       order: 3; } }
 
-.panel {
+.bulma-panel {
   font-size: 1rem; }
-  .panel:not(:last-child) {
+  .bulma-panel:not(:last-child) {
     margin-bottom: 1.5rem; }
 
-.panel-heading,
-.panel-tabs,
-.panel-block {
+.bulma-panel-heading,
+.bulma-panel-tabs,
+.bulma-panel-block {
   border-bottom: 1px solid #dbdbdb;
   border-left: 1px solid #dbdbdb;
   border-right: 1px solid #dbdbdb; }
-  .panel-heading:first-child,
-  .panel-tabs:first-child,
-  .panel-block:first-child {
+  .bulma-panel-heading:first-child,
+  .bulma-panel-tabs:first-child,
+  .bulma-panel-block:first-child {
     border-top: 1px solid #dbdbdb; }
 
-.panel-heading {
+.bulma-panel-heading {
   background-color: whitesmoke;
   border-radius: 3px 3px 0 0;
   color: #363636;
@@ -2739,50 +2739,50 @@ a.nav-item {
   line-height: 1.25;
   padding: 0.5em 0.75em; }
 
-.panel-tabs {
+.bulma-panel-tabs {
   align-items: flex-end;
   display: flex;
   font-size: 0.875em;
   justify-content: center; }
-  .panel-tabs a {
+  .bulma-panel-tabs a {
     border-bottom: 1px solid #dbdbdb;
     margin-bottom: -1px;
     padding: 0.5em; }
-    .panel-tabs a.is-active {
+    .bulma-panel-tabs a.bulma-is-active {
       border-bottom-color: #4a4a4a;
       color: #363636; }
 
-.panel-list a {
+.bulma-panel-list a {
   color: #4a4a4a; }
-  .panel-list a:hover {
+  .bulma-panel-list a:hover {
     color: #00d1b2; }
 
-.panel-block {
+.bulma-panel-block {
   align-items: center;
   color: #363636;
   display: flex;
   justify-content: flex-start;
   padding: 0.5em 0.75em; }
-  .panel-block input[type="checkbox"] {
+  .bulma-panel-block input[type="checkbox"] {
     margin-right: 0.75em; }
-  .panel-block > .control {
+  .bulma-panel-block > .bulma-control {
     flex-grow: 1;
     flex-shrink: 1;
     width: 100%; }
-  .panel-block.is-active {
+  .bulma-panel-block.bulma-is-active {
     border-left-color: #00d1b2;
     color: #363636; }
-    .panel-block.is-active .panel-icon {
+    .bulma-panel-block.bulma-is-active .bulma-panel-icon {
       color: #00d1b2; }
 
-a.panel-block,
-label.panel-block {
+a.bulma-panel-block,
+label.bulma-panel-block {
   cursor: pointer; }
-  a.panel-block:hover,
-  label.panel-block:hover {
+  a.bulma-panel-block:hover,
+  label.bulma-panel-block:hover {
     background-color: whitesmoke; }
 
-.panel-icon {
+.bulma-panel-icon {
   display: inline-block;
   font-size: 14px;
   height: 1em;
@@ -2792,11 +2792,11 @@ label.panel-block {
   width: 1em;
   color: #7a7a7a;
   margin-right: 0.75em; }
-  .panel-icon .fa {
+  .bulma-panel-icon .bulma-fa {
     font-size: inherit;
     line-height: inherit; }
 
-.tabs {
+.bulma-tabs {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -2809,9 +2809,9 @@ label.panel-block {
   overflow: hidden;
   overflow-x: auto;
   white-space: nowrap; }
-  .tabs:not(:last-child) {
+  .bulma-tabs:not(:last-child) {
     margin-bottom: 1.5rem; }
-  .tabs a {
+  .bulma-tabs a {
     align-items: center;
     border-bottom: 1px solid #dbdbdb;
     color: #4a4a4a;
@@ -2820,1192 +2820,1192 @@ label.panel-block {
     margin-bottom: -1px;
     padding: 0.5em 1em;
     vertical-align: top; }
-    .tabs a:hover {
+    .bulma-tabs a:hover {
       border-bottom-color: #363636;
       color: #363636; }
-  .tabs li {
+  .bulma-tabs li {
     display: block; }
-    .tabs li.is-active a {
+    .bulma-tabs li.bulma-is-active a {
       border-bottom-color: #00d1b2;
       color: #00d1b2; }
-  .tabs ul {
+  .bulma-tabs ul {
     align-items: center;
     border-bottom: 1px solid #dbdbdb;
     display: flex;
     flex-grow: 1;
     flex-shrink: 0;
     justify-content: flex-start; }
-    .tabs ul.is-left {
+    .bulma-tabs ul.bulma-is-left {
       padding-right: 0.75em; }
-    .tabs ul.is-center {
+    .bulma-tabs ul.bulma-is-center {
       flex: none;
       justify-content: center;
       padding-left: 0.75em;
       padding-right: 0.75em; }
-    .tabs ul.is-right {
+    .bulma-tabs ul.bulma-is-right {
       justify-content: flex-end;
       padding-left: 0.75em; }
-  .tabs .icon:first-child {
+  .bulma-tabs .bulma-icon:first-child {
     margin-right: 0.5em; }
-  .tabs .icon:last-child {
+  .bulma-tabs .bulma-icon:last-child {
     margin-left: 0.5em; }
-  .tabs.is-centered ul {
+  .bulma-tabs.bulma-is-centered ul {
     justify-content: center; }
-  .tabs.is-right ul {
+  .bulma-tabs.bulma-is-right ul {
     justify-content: flex-end; }
-  .tabs.is-boxed a {
+  .bulma-tabs.bulma-is-boxed a {
     border: 1px solid transparent;
     border-radius: 3px 3px 0 0; }
-    .tabs.is-boxed a:hover {
+    .bulma-tabs.bulma-is-boxed a:hover {
       background-color: whitesmoke;
       border-bottom-color: #dbdbdb; }
-  .tabs.is-boxed li.is-active a {
+  .bulma-tabs.bulma-is-boxed li.bulma-is-active a {
     background-color: white;
     border-color: #dbdbdb;
     border-bottom-color: transparent !important; }
-  .tabs.is-fullwidth li {
+  .bulma-tabs.bulma-is-fullwidth li {
     flex-grow: 1;
     flex-shrink: 0; }
-  .tabs.is-toggle a {
+  .bulma-tabs.bulma-is-toggle a {
     border: 1px solid #dbdbdb;
     margin-bottom: 0;
     position: relative; }
-    .tabs.is-toggle a:hover {
+    .bulma-tabs.bulma-is-toggle a:hover {
       background-color: whitesmoke;
       border-color: #b5b5b5;
       z-index: 2; }
-  .tabs.is-toggle li + li {
+  .bulma-tabs.bulma-is-toggle li + li {
     margin-left: -1px; }
-  .tabs.is-toggle li:first-child a {
+  .bulma-tabs.bulma-is-toggle li:first-child a {
     border-radius: 3px 0 0 3px; }
-  .tabs.is-toggle li:last-child a {
+  .bulma-tabs.bulma-is-toggle li:last-child a {
     border-radius: 0 3px 3px 0; }
-  .tabs.is-toggle li.is-active a {
+  .bulma-tabs.bulma-is-toggle li.bulma-is-active a {
     background-color: #00d1b2;
     border-color: #00d1b2;
     color: #fff;
     z-index: 1; }
-  .tabs.is-toggle ul {
+  .bulma-tabs.bulma-is-toggle ul {
     border-bottom: none; }
-  .tabs.is-small {
+  .bulma-tabs.bulma-is-small {
     font-size: 0.75rem; }
-  .tabs.is-medium {
+  .bulma-tabs.bulma-is-medium {
     font-size: 1.25rem; }
-  .tabs.is-large {
+  .bulma-tabs.bulma-is-large {
     font-size: 1.5rem; }
 
-.column {
+.bulma-column {
   display: block;
   flex-basis: 0;
   flex-grow: 1;
   flex-shrink: 1;
   padding: 0.75rem; }
-  .columns.is-mobile > .column.is-narrow {
+  .columns.is-mobile > .bulma-column.bulma-is-narrow {
     flex: none; }
-  .columns.is-mobile > .column.is-full {
+  .columns.is-mobile > .bulma-column.bulma-is-full {
     flex: none;
     width: 100%; }
-  .columns.is-mobile > .column.is-three-quarters {
+  .columns.is-mobile > .bulma-column.bulma-is-three-quarters {
     flex: none;
     width: 75%; }
-  .columns.is-mobile > .column.is-two-thirds {
+  .columns.is-mobile > .bulma-column.bulma-is-two-thirds {
     flex: none;
     width: 66.6666%; }
-  .columns.is-mobile > .column.is-half {
+  .columns.is-mobile > .bulma-column.bulma-is-half {
     flex: none;
     width: 50%; }
-  .columns.is-mobile > .column.is-one-third {
+  .columns.is-mobile > .bulma-column.bulma-is-one-third {
     flex: none;
     width: 33.3333%; }
-  .columns.is-mobile > .column.is-one-quarter {
+  .columns.is-mobile > .bulma-column.bulma-is-one-quarter {
     flex: none;
     width: 25%; }
-  .columns.is-mobile > .column.is-offset-three-quarters {
+  .columns.is-mobile > .bulma-column.bulma-is-offset-three-quarters {
     margin-left: 75%; }
-  .columns.is-mobile > .column.is-offset-two-thirds {
+  .columns.is-mobile > .bulma-column.bulma-is-offset-two-thirds {
     margin-left: 66.6666%; }
-  .columns.is-mobile > .column.is-offset-half {
+  .columns.is-mobile > .bulma-column.bulma-is-offset-half {
     margin-left: 50%; }
-  .columns.is-mobile > .column.is-offset-one-third {
+  .columns.is-mobile > .bulma-column.bulma-is-offset-one-third {
     margin-left: 33.3333%; }
-  .columns.is-mobile > .column.is-offset-one-quarter {
+  .columns.is-mobile > .bulma-column.bulma-is-offset-one-quarter {
     margin-left: 25%; }
-  .columns.is-mobile > .column.is-1 {
+  .columns.is-mobile > .bulma-column.is-1 {
     flex: none;
     width: 8.33333%; }
-  .columns.is-mobile > .column.is-offset-1 {
+  .columns.is-mobile > .bulma-column.is-offset-1 {
     margin-left: 8.33333%; }
-  .columns.is-mobile > .column.is-2 {
+  .columns.is-mobile > .bulma-column.is-2 {
     flex: none;
     width: 16.66667%; }
-  .columns.is-mobile > .column.is-offset-2 {
+  .columns.is-mobile > .bulma-column.is-offset-2 {
     margin-left: 16.66667%; }
-  .columns.is-mobile > .column.is-3 {
+  .columns.is-mobile > .bulma-column.is-3 {
     flex: none;
     width: 25%; }
-  .columns.is-mobile > .column.is-offset-3 {
+  .columns.is-mobile > .bulma-column.is-offset-3 {
     margin-left: 25%; }
-  .columns.is-mobile > .column.is-4 {
+  .columns.is-mobile > .bulma-column.is-4 {
     flex: none;
     width: 33.33333%; }
-  .columns.is-mobile > .column.is-offset-4 {
+  .columns.is-mobile > .bulma-column.is-offset-4 {
     margin-left: 33.33333%; }
-  .columns.is-mobile > .column.is-5 {
+  .columns.is-mobile > .bulma-column.is-5 {
     flex: none;
     width: 41.66667%; }
-  .columns.is-mobile > .column.is-offset-5 {
+  .columns.is-mobile > .bulma-column.is-offset-5 {
     margin-left: 41.66667%; }
-  .columns.is-mobile > .column.is-6 {
+  .columns.is-mobile > .bulma-column.is-6 {
     flex: none;
     width: 50%; }
-  .columns.is-mobile > .column.is-offset-6 {
+  .columns.is-mobile > .bulma-column.is-offset-6 {
     margin-left: 50%; }
-  .columns.is-mobile > .column.is-7 {
+  .columns.is-mobile > .bulma-column.is-7 {
     flex: none;
     width: 58.33333%; }
-  .columns.is-mobile > .column.is-offset-7 {
+  .columns.is-mobile > .bulma-column.is-offset-7 {
     margin-left: 58.33333%; }
-  .columns.is-mobile > .column.is-8 {
+  .columns.is-mobile > .bulma-column.is-8 {
     flex: none;
     width: 66.66667%; }
-  .columns.is-mobile > .column.is-offset-8 {
+  .columns.is-mobile > .bulma-column.is-offset-8 {
     margin-left: 66.66667%; }
-  .columns.is-mobile > .column.is-9 {
+  .columns.is-mobile > .bulma-column.is-9 {
     flex: none;
     width: 75%; }
-  .columns.is-mobile > .column.is-offset-9 {
+  .columns.is-mobile > .bulma-column.is-offset-9 {
     margin-left: 75%; }
-  .columns.is-mobile > .column.is-10 {
+  .columns.is-mobile > .bulma-column.is-10 {
     flex: none;
     width: 83.33333%; }
-  .columns.is-mobile > .column.is-offset-10 {
+  .columns.is-mobile > .bulma-column.is-offset-10 {
     margin-left: 83.33333%; }
-  .columns.is-mobile > .column.is-11 {
+  .columns.is-mobile > .bulma-column.is-11 {
     flex: none;
     width: 91.66667%; }
-  .columns.is-mobile > .column.is-offset-11 {
+  .columns.is-mobile > .bulma-column.is-offset-11 {
     margin-left: 91.66667%; }
-  .columns.is-mobile > .column.is-12 {
+  .columns.is-mobile > .bulma-column.is-12 {
     flex: none;
     width: 100%; }
-  .columns.is-mobile > .column.is-offset-12 {
+  .columns.is-mobile > .bulma-column.is-offset-12 {
     margin-left: 100%; }
   @media screen and (max-width: 768px) {
-    .column.is-narrow-mobile {
+    .bulma-column.bulma-is-narrow-mobile {
       flex: none; }
-    .column.is-full-mobile {
+    .bulma-column.bulma-is-full-mobile {
       flex: none;
       width: 100%; }
-    .column.is-three-quarters-mobile {
+    .bulma-column.bulma-is-three-quarters-mobile {
       flex: none;
       width: 75%; }
-    .column.is-two-thirds-mobile {
+    .bulma-column.bulma-is-two-thirds-mobile {
       flex: none;
       width: 66.6666%; }
-    .column.is-half-mobile {
+    .bulma-column.bulma-is-half-mobile {
       flex: none;
       width: 50%; }
-    .column.is-one-third-mobile {
+    .bulma-column.bulma-is-one-third-mobile {
       flex: none;
       width: 33.3333%; }
-    .column.is-one-quarter-mobile {
+    .bulma-column.bulma-is-one-quarter-mobile {
       flex: none;
       width: 25%; }
-    .column.is-offset-three-quarters-mobile {
+    .bulma-column.bulma-is-offset-three-quarters-mobile {
       margin-left: 75%; }
-    .column.is-offset-two-thirds-mobile {
+    .bulma-column.bulma-is-offset-two-thirds-mobile {
       margin-left: 66.6666%; }
-    .column.is-offset-half-mobile {
+    .bulma-column.bulma-is-offset-half-mobile {
       margin-left: 50%; }
-    .column.is-offset-one-third-mobile {
+    .bulma-column.bulma-is-offset-one-third-mobile {
       margin-left: 33.3333%; }
-    .column.is-offset-one-quarter-mobile {
+    .bulma-column.bulma-is-offset-one-quarter-mobile {
       margin-left: 25%; }
-    .column.is-1-mobile {
+    .bulma-column.is-1-mobile {
       flex: none;
       width: 8.33333%; }
-    .column.is-offset-1-mobile {
+    .bulma-column.is-offset-1-mobile {
       margin-left: 8.33333%; }
-    .column.is-2-mobile {
+    .bulma-column.is-2-mobile {
       flex: none;
       width: 16.66667%; }
-    .column.is-offset-2-mobile {
+    .bulma-column.is-offset-2-mobile {
       margin-left: 16.66667%; }
-    .column.is-3-mobile {
+    .bulma-column.is-3-mobile {
       flex: none;
       width: 25%; }
-    .column.is-offset-3-mobile {
+    .bulma-column.is-offset-3-mobile {
       margin-left: 25%; }
-    .column.is-4-mobile {
+    .bulma-column.is-4-mobile {
       flex: none;
       width: 33.33333%; }
-    .column.is-offset-4-mobile {
+    .bulma-column.is-offset-4-mobile {
       margin-left: 33.33333%; }
-    .column.is-5-mobile {
+    .bulma-column.is-5-mobile {
       flex: none;
       width: 41.66667%; }
-    .column.is-offset-5-mobile {
+    .bulma-column.is-offset-5-mobile {
       margin-left: 41.66667%; }
-    .column.is-6-mobile {
+    .bulma-column.is-6-mobile {
       flex: none;
       width: 50%; }
-    .column.is-offset-6-mobile {
+    .bulma-column.is-offset-6-mobile {
       margin-left: 50%; }
-    .column.is-7-mobile {
+    .bulma-column.is-7-mobile {
       flex: none;
       width: 58.33333%; }
-    .column.is-offset-7-mobile {
+    .bulma-column.is-offset-7-mobile {
       margin-left: 58.33333%; }
-    .column.is-8-mobile {
+    .bulma-column.is-8-mobile {
       flex: none;
       width: 66.66667%; }
-    .column.is-offset-8-mobile {
+    .bulma-column.is-offset-8-mobile {
       margin-left: 66.66667%; }
-    .column.is-9-mobile {
+    .bulma-column.is-9-mobile {
       flex: none;
       width: 75%; }
-    .column.is-offset-9-mobile {
+    .bulma-column.is-offset-9-mobile {
       margin-left: 75%; }
-    .column.is-10-mobile {
+    .bulma-column.is-10-mobile {
       flex: none;
       width: 83.33333%; }
-    .column.is-offset-10-mobile {
+    .bulma-column.is-offset-10-mobile {
       margin-left: 83.33333%; }
-    .column.is-11-mobile {
+    .bulma-column.is-11-mobile {
       flex: none;
       width: 91.66667%; }
-    .column.is-offset-11-mobile {
+    .bulma-column.is-offset-11-mobile {
       margin-left: 91.66667%; }
-    .column.is-12-mobile {
+    .bulma-column.is-12-mobile {
       flex: none;
       width: 100%; }
-    .column.is-offset-12-mobile {
+    .bulma-column.is-offset-12-mobile {
       margin-left: 100%; } }
   @media screen and (min-width: 769px) {
-    .column.is-narrow, .column.is-narrow-tablet {
+    .bulma-column.bulma-is-narrow, .bulma-column.bulma-is-narrow-tablet {
       flex: none; }
-    .column.is-full, .column.is-full-tablet {
+    .bulma-column.bulma-is-full, .bulma-column.bulma-is-full-tablet {
       flex: none;
       width: 100%; }
-    .column.is-three-quarters, .column.is-three-quarters-tablet {
+    .bulma-column.bulma-is-three-quarters, .bulma-column.bulma-is-three-quarters-tablet {
       flex: none;
       width: 75%; }
-    .column.is-two-thirds, .column.is-two-thirds-tablet {
+    .bulma-column.bulma-is-two-thirds, .bulma-column.bulma-is-two-thirds-tablet {
       flex: none;
       width: 66.6666%; }
-    .column.is-half, .column.is-half-tablet {
+    .bulma-column.bulma-is-half, .bulma-column.bulma-is-half-tablet {
       flex: none;
       width: 50%; }
-    .column.is-one-third, .column.is-one-third-tablet {
+    .bulma-column.bulma-is-one-third, .bulma-column.bulma-is-one-third-tablet {
       flex: none;
       width: 33.3333%; }
-    .column.is-one-quarter, .column.is-one-quarter-tablet {
+    .bulma-column.bulma-is-one-quarter, .bulma-column.bulma-is-one-quarter-tablet {
       flex: none;
       width: 25%; }
-    .column.is-offset-three-quarters, .column.is-offset-three-quarters-tablet {
+    .bulma-column.bulma-is-offset-three-quarters, .bulma-column.bulma-is-offset-three-quarters-tablet {
       margin-left: 75%; }
-    .column.is-offset-two-thirds, .column.is-offset-two-thirds-tablet {
+    .bulma-column.bulma-is-offset-two-thirds, .bulma-column.bulma-is-offset-two-thirds-tablet {
       margin-left: 66.6666%; }
-    .column.is-offset-half, .column.is-offset-half-tablet {
+    .bulma-column.bulma-is-offset-half, .bulma-column.bulma-is-offset-half-tablet {
       margin-left: 50%; }
-    .column.is-offset-one-third, .column.is-offset-one-third-tablet {
+    .bulma-column.bulma-is-offset-one-third, .bulma-column.bulma-is-offset-one-third-tablet {
       margin-left: 33.3333%; }
-    .column.is-offset-one-quarter, .column.is-offset-one-quarter-tablet {
+    .bulma-column.bulma-is-offset-one-quarter, .bulma-column.bulma-is-offset-one-quarter-tablet {
       margin-left: 25%; }
-    .column.is-1, .column.is-1-tablet {
+    .bulma-column.is-1, .bulma-column.is-1-tablet {
       flex: none;
       width: 8.33333%; }
-    .column.is-offset-1, .column.is-offset-1-tablet {
+    .bulma-column.is-offset-1, .bulma-column.is-offset-1-tablet {
       margin-left: 8.33333%; }
-    .column.is-2, .column.is-2-tablet {
+    .bulma-column.is-2, .bulma-column.is-2-tablet {
       flex: none;
       width: 16.66667%; }
-    .column.is-offset-2, .column.is-offset-2-tablet {
+    .bulma-column.is-offset-2, .bulma-column.is-offset-2-tablet {
       margin-left: 16.66667%; }
-    .column.is-3, .column.is-3-tablet {
+    .bulma-column.is-3, .bulma-column.is-3-tablet {
       flex: none;
       width: 25%; }
-    .column.is-offset-3, .column.is-offset-3-tablet {
+    .bulma-column.is-offset-3, .bulma-column.is-offset-3-tablet {
       margin-left: 25%; }
-    .column.is-4, .column.is-4-tablet {
+    .bulma-column.is-4, .bulma-column.is-4-tablet {
       flex: none;
       width: 33.33333%; }
-    .column.is-offset-4, .column.is-offset-4-tablet {
+    .bulma-column.is-offset-4, .bulma-column.is-offset-4-tablet {
       margin-left: 33.33333%; }
-    .column.is-5, .column.is-5-tablet {
+    .bulma-column.is-5, .bulma-column.is-5-tablet {
       flex: none;
       width: 41.66667%; }
-    .column.is-offset-5, .column.is-offset-5-tablet {
+    .bulma-column.is-offset-5, .bulma-column.is-offset-5-tablet {
       margin-left: 41.66667%; }
-    .column.is-6, .column.is-6-tablet {
+    .bulma-column.is-6, .bulma-column.is-6-tablet {
       flex: none;
       width: 50%; }
-    .column.is-offset-6, .column.is-offset-6-tablet {
+    .bulma-column.is-offset-6, .bulma-column.is-offset-6-tablet {
       margin-left: 50%; }
-    .column.is-7, .column.is-7-tablet {
+    .bulma-column.is-7, .bulma-column.is-7-tablet {
       flex: none;
       width: 58.33333%; }
-    .column.is-offset-7, .column.is-offset-7-tablet {
+    .bulma-column.is-offset-7, .bulma-column.is-offset-7-tablet {
       margin-left: 58.33333%; }
-    .column.is-8, .column.is-8-tablet {
+    .bulma-column.is-8, .bulma-column.is-8-tablet {
       flex: none;
       width: 66.66667%; }
-    .column.is-offset-8, .column.is-offset-8-tablet {
+    .bulma-column.is-offset-8, .bulma-column.is-offset-8-tablet {
       margin-left: 66.66667%; }
-    .column.is-9, .column.is-9-tablet {
+    .bulma-column.is-9, .bulma-column.is-9-tablet {
       flex: none;
       width: 75%; }
-    .column.is-offset-9, .column.is-offset-9-tablet {
+    .bulma-column.is-offset-9, .bulma-column.is-offset-9-tablet {
       margin-left: 75%; }
-    .column.is-10, .column.is-10-tablet {
+    .bulma-column.is-10, .bulma-column.is-10-tablet {
       flex: none;
       width: 83.33333%; }
-    .column.is-offset-10, .column.is-offset-10-tablet {
+    .bulma-column.is-offset-10, .bulma-column.is-offset-10-tablet {
       margin-left: 83.33333%; }
-    .column.is-11, .column.is-11-tablet {
+    .bulma-column.is-11, .bulma-column.is-11-tablet {
       flex: none;
       width: 91.66667%; }
-    .column.is-offset-11, .column.is-offset-11-tablet {
+    .bulma-column.is-offset-11, .bulma-column.is-offset-11-tablet {
       margin-left: 91.66667%; }
-    .column.is-12, .column.is-12-tablet {
+    .bulma-column.is-12, .bulma-column.is-12-tablet {
       flex: none;
       width: 100%; }
-    .column.is-offset-12, .column.is-offset-12-tablet {
+    .bulma-column.is-offset-12, .bulma-column.is-offset-12-tablet {
       margin-left: 100%; } }
   @media screen and (min-width: 1000px) {
-    .column.is-narrow-desktop {
+    .bulma-column.bulma-is-narrow-desktop {
       flex: none; }
-    .column.is-full-desktop {
+    .bulma-column.bulma-is-full-desktop {
       flex: none;
       width: 100%; }
-    .column.is-three-quarters-desktop {
+    .bulma-column.bulma-is-three-quarters-desktop {
       flex: none;
       width: 75%; }
-    .column.is-two-thirds-desktop {
+    .bulma-column.bulma-is-two-thirds-desktop {
       flex: none;
       width: 66.6666%; }
-    .column.is-half-desktop {
+    .bulma-column.bulma-is-half-desktop {
       flex: none;
       width: 50%; }
-    .column.is-one-third-desktop {
+    .bulma-column.bulma-is-one-third-desktop {
       flex: none;
       width: 33.3333%; }
-    .column.is-one-quarter-desktop {
+    .bulma-column.bulma-is-one-quarter-desktop {
       flex: none;
       width: 25%; }
-    .column.is-offset-three-quarters-desktop {
+    .bulma-column.bulma-is-offset-three-quarters-desktop {
       margin-left: 75%; }
-    .column.is-offset-two-thirds-desktop {
+    .bulma-column.bulma-is-offset-two-thirds-desktop {
       margin-left: 66.6666%; }
-    .column.is-offset-half-desktop {
+    .bulma-column.bulma-is-offset-half-desktop {
       margin-left: 50%; }
-    .column.is-offset-one-third-desktop {
+    .bulma-column.bulma-is-offset-one-third-desktop {
       margin-left: 33.3333%; }
-    .column.is-offset-one-quarter-desktop {
+    .bulma-column.bulma-is-offset-one-quarter-desktop {
       margin-left: 25%; }
-    .column.is-1-desktop {
+    .bulma-column.is-1-desktop {
       flex: none;
       width: 8.33333%; }
-    .column.is-offset-1-desktop {
+    .bulma-column.is-offset-1-desktop {
       margin-left: 8.33333%; }
-    .column.is-2-desktop {
+    .bulma-column.is-2-desktop {
       flex: none;
       width: 16.66667%; }
-    .column.is-offset-2-desktop {
+    .bulma-column.is-offset-2-desktop {
       margin-left: 16.66667%; }
-    .column.is-3-desktop {
+    .bulma-column.is-3-desktop {
       flex: none;
       width: 25%; }
-    .column.is-offset-3-desktop {
+    .bulma-column.is-offset-3-desktop {
       margin-left: 25%; }
-    .column.is-4-desktop {
+    .bulma-column.is-4-desktop {
       flex: none;
       width: 33.33333%; }
-    .column.is-offset-4-desktop {
+    .bulma-column.is-offset-4-desktop {
       margin-left: 33.33333%; }
-    .column.is-5-desktop {
+    .bulma-column.is-5-desktop {
       flex: none;
       width: 41.66667%; }
-    .column.is-offset-5-desktop {
+    .bulma-column.is-offset-5-desktop {
       margin-left: 41.66667%; }
-    .column.is-6-desktop {
+    .bulma-column.is-6-desktop {
       flex: none;
       width: 50%; }
-    .column.is-offset-6-desktop {
+    .bulma-column.is-offset-6-desktop {
       margin-left: 50%; }
-    .column.is-7-desktop {
+    .bulma-column.is-7-desktop {
       flex: none;
       width: 58.33333%; }
-    .column.is-offset-7-desktop {
+    .bulma-column.is-offset-7-desktop {
       margin-left: 58.33333%; }
-    .column.is-8-desktop {
+    .bulma-column.is-8-desktop {
       flex: none;
       width: 66.66667%; }
-    .column.is-offset-8-desktop {
+    .bulma-column.is-offset-8-desktop {
       margin-left: 66.66667%; }
-    .column.is-9-desktop {
+    .bulma-column.is-9-desktop {
       flex: none;
       width: 75%; }
-    .column.is-offset-9-desktop {
+    .bulma-column.is-offset-9-desktop {
       margin-left: 75%; }
-    .column.is-10-desktop {
+    .bulma-column.is-10-desktop {
       flex: none;
       width: 83.33333%; }
-    .column.is-offset-10-desktop {
+    .bulma-column.is-offset-10-desktop {
       margin-left: 83.33333%; }
-    .column.is-11-desktop {
+    .bulma-column.is-11-desktop {
       flex: none;
       width: 91.66667%; }
-    .column.is-offset-11-desktop {
+    .bulma-column.is-offset-11-desktop {
       margin-left: 91.66667%; }
-    .column.is-12-desktop {
+    .bulma-column.is-12-desktop {
       flex: none;
       width: 100%; }
-    .column.is-offset-12-desktop {
+    .bulma-column.is-offset-12-desktop {
       margin-left: 100%; } }
   @media screen and (min-width: 1192px) {
-    .column.is-narrow-widescreen {
+    .bulma-column.bulma-is-narrow-widescreen {
       flex: none; }
-    .column.is-full-widescreen {
+    .bulma-column.bulma-is-full-widescreen {
       flex: none;
       width: 100%; }
-    .column.is-three-quarters-widescreen {
+    .bulma-column.bulma-is-three-quarters-widescreen {
       flex: none;
       width: 75%; }
-    .column.is-two-thirds-widescreen {
+    .bulma-column.bulma-is-two-thirds-widescreen {
       flex: none;
       width: 66.6666%; }
-    .column.is-half-widescreen {
+    .bulma-column.bulma-is-half-widescreen {
       flex: none;
       width: 50%; }
-    .column.is-one-third-widescreen {
+    .bulma-column.bulma-is-one-third-widescreen {
       flex: none;
       width: 33.3333%; }
-    .column.is-one-quarter-widescreen {
+    .bulma-column.bulma-is-one-quarter-widescreen {
       flex: none;
       width: 25%; }
-    .column.is-offset-three-quarters-widescreen {
+    .bulma-column.bulma-is-offset-three-quarters-widescreen {
       margin-left: 75%; }
-    .column.is-offset-two-thirds-widescreen {
+    .bulma-column.bulma-is-offset-two-thirds-widescreen {
       margin-left: 66.6666%; }
-    .column.is-offset-half-widescreen {
+    .bulma-column.bulma-is-offset-half-widescreen {
       margin-left: 50%; }
-    .column.is-offset-one-third-widescreen {
+    .bulma-column.bulma-is-offset-one-third-widescreen {
       margin-left: 33.3333%; }
-    .column.is-offset-one-quarter-widescreen {
+    .bulma-column.bulma-is-offset-one-quarter-widescreen {
       margin-left: 25%; }
-    .column.is-1-widescreen {
+    .bulma-column.is-1-widescreen {
       flex: none;
       width: 8.33333%; }
-    .column.is-offset-1-widescreen {
+    .bulma-column.is-offset-1-widescreen {
       margin-left: 8.33333%; }
-    .column.is-2-widescreen {
+    .bulma-column.is-2-widescreen {
       flex: none;
       width: 16.66667%; }
-    .column.is-offset-2-widescreen {
+    .bulma-column.is-offset-2-widescreen {
       margin-left: 16.66667%; }
-    .column.is-3-widescreen {
+    .bulma-column.is-3-widescreen {
       flex: none;
       width: 25%; }
-    .column.is-offset-3-widescreen {
+    .bulma-column.is-offset-3-widescreen {
       margin-left: 25%; }
-    .column.is-4-widescreen {
+    .bulma-column.is-4-widescreen {
       flex: none;
       width: 33.33333%; }
-    .column.is-offset-4-widescreen {
+    .bulma-column.is-offset-4-widescreen {
       margin-left: 33.33333%; }
-    .column.is-5-widescreen {
+    .bulma-column.is-5-widescreen {
       flex: none;
       width: 41.66667%; }
-    .column.is-offset-5-widescreen {
+    .bulma-column.is-offset-5-widescreen {
       margin-left: 41.66667%; }
-    .column.is-6-widescreen {
+    .bulma-column.is-6-widescreen {
       flex: none;
       width: 50%; }
-    .column.is-offset-6-widescreen {
+    .bulma-column.is-offset-6-widescreen {
       margin-left: 50%; }
-    .column.is-7-widescreen {
+    .bulma-column.is-7-widescreen {
       flex: none;
       width: 58.33333%; }
-    .column.is-offset-7-widescreen {
+    .bulma-column.is-offset-7-widescreen {
       margin-left: 58.33333%; }
-    .column.is-8-widescreen {
+    .bulma-column.is-8-widescreen {
       flex: none;
       width: 66.66667%; }
-    .column.is-offset-8-widescreen {
+    .bulma-column.is-offset-8-widescreen {
       margin-left: 66.66667%; }
-    .column.is-9-widescreen {
+    .bulma-column.is-9-widescreen {
       flex: none;
       width: 75%; }
-    .column.is-offset-9-widescreen {
+    .bulma-column.is-offset-9-widescreen {
       margin-left: 75%; }
-    .column.is-10-widescreen {
+    .bulma-column.is-10-widescreen {
       flex: none;
       width: 83.33333%; }
-    .column.is-offset-10-widescreen {
+    .bulma-column.is-offset-10-widescreen {
       margin-left: 83.33333%; }
-    .column.is-11-widescreen {
+    .bulma-column.is-11-widescreen {
       flex: none;
       width: 91.66667%; }
-    .column.is-offset-11-widescreen {
+    .bulma-column.is-offset-11-widescreen {
       margin-left: 91.66667%; }
-    .column.is-12-widescreen {
+    .bulma-column.is-12-widescreen {
       flex: none;
       width: 100%; }
-    .column.is-offset-12-widescreen {
+    .bulma-column.is-offset-12-widescreen {
       margin-left: 100%; } }
 
-.columns {
+.bulma-columns {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
   margin-top: -0.75rem; }
-  .columns:last-child {
+  .bulma-columns:last-child {
     margin-bottom: -0.75rem; }
-  .columns:not(:last-child) {
+  .bulma-columns:not(:last-child) {
     margin-bottom: 0.75rem; }
-  .columns.is-centered {
+  .bulma-columns.bulma-is-centered {
     justify-content: center; }
-  .columns.is-gapless {
+  .bulma-columns.bulma-is-gapless {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0; }
-    .columns.is-gapless:last-child {
+    .bulma-columns.bulma-is-gapless:last-child {
       margin-bottom: 0; }
-    .columns.is-gapless:not(:last-child) {
+    .bulma-columns.bulma-is-gapless:not(:last-child) {
       margin-bottom: 1.5rem; }
-    .columns.is-gapless > .column {
+    .bulma-columns.bulma-is-gapless > .bulma-column {
       margin: 0;
       padding: 0; }
   @media screen and (min-width: 769px) {
-    .columns.is-grid {
+    .bulma-columns.bulma-is-grid {
       flex-wrap: wrap; }
-      .columns.is-grid > .column {
+      .bulma-columns.bulma-is-grid > .bulma-column {
         max-width: 33.3333%;
         padding: 0.75rem;
         width: 33.3333%; }
-        .columns.is-grid > .column + .column {
+        .bulma-columns.bulma-is-grid > .bulma-column + .bulma-column {
           margin-left: 0; } }
-  .columns.is-mobile {
+  .bulma-columns.bulma-is-mobile {
     display: flex; }
-  .columns.is-multiline {
+  .bulma-columns.bulma-is-multiline {
     flex-wrap: wrap; }
-  .columns.is-vcentered {
+  .bulma-columns.bulma-is-vcentered {
     align-items: center; }
   @media screen and (min-width: 769px) {
-    .columns:not(.is-desktop) {
+    .bulma-columns:not(.bulma-is-desktop) {
       display: flex; } }
   @media screen and (min-width: 1000px) {
-    .columns.is-desktop {
+    .bulma-columns.bulma-is-desktop {
       display: flex; } }
 
-.tile {
+.bulma-tile {
   align-items: stretch;
   display: block;
   flex-basis: 0;
   flex-grow: 1;
   flex-shrink: 1;
   min-height: min-content; }
-  .tile.is-ancestor {
+  .bulma-tile.bulma-is-ancestor {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
     margin-top: -0.75rem; }
-    .tile.is-ancestor:last-child {
+    .bulma-tile.bulma-is-ancestor:last-child {
       margin-bottom: -0.75rem; }
-    .tile.is-ancestor:not(:last-child) {
+    .bulma-tile.bulma-is-ancestor:not(:last-child) {
       margin-bottom: 0.75rem; }
-  .tile.is-child {
+  .bulma-tile.bulma-is-child {
     margin: 0 !important; }
-  .tile.is-parent {
+  .bulma-tile.bulma-is-parent {
     padding: 0.75rem; }
-  .tile.is-vertical {
+  .bulma-tile.bulma-is-vertical {
     flex-direction: column; }
-    .tile.is-vertical > .tile.is-child:not(:last-child) {
+    .bulma-tile.bulma-is-vertical > .tile.is-child:not(:last-child) {
       margin-bottom: 1.5rem !important; }
   @media screen and (min-width: 769px) {
-    .tile:not(.is-child) {
+    .bulma-tile:not(.bulma-is-child) {
       display: flex; }
-    .tile.is-1 {
+    .bulma-tile.is-1 {
       flex: none;
       width: 8.33333%; }
-    .tile.is-2 {
+    .bulma-tile.is-2 {
       flex: none;
       width: 16.66667%; }
-    .tile.is-3 {
+    .bulma-tile.is-3 {
       flex: none;
       width: 25%; }
-    .tile.is-4 {
+    .bulma-tile.is-4 {
       flex: none;
       width: 33.33333%; }
-    .tile.is-5 {
+    .bulma-tile.is-5 {
       flex: none;
       width: 41.66667%; }
-    .tile.is-6 {
+    .bulma-tile.is-6 {
       flex: none;
       width: 50%; }
-    .tile.is-7 {
+    .bulma-tile.is-7 {
       flex: none;
       width: 58.33333%; }
-    .tile.is-8 {
+    .bulma-tile.is-8 {
       flex: none;
       width: 66.66667%; }
-    .tile.is-9 {
+    .bulma-tile.is-9 {
       flex: none;
       width: 75%; }
-    .tile.is-10 {
+    .bulma-tile.is-10 {
       flex: none;
       width: 83.33333%; }
-    .tile.is-11 {
+    .bulma-tile.is-11 {
       flex: none;
       width: 91.66667%; }
-    .tile.is-12 {
+    .bulma-tile.is-12 {
       flex: none;
       width: 100%; } }
 
-.hero-video {
+.bulma-hero-video {
   bottom: 0;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
   overflow: hidden; }
-  .hero-video video {
+  .bulma-hero-video video {
     left: 50%;
     min-height: 100%;
     min-width: 100%;
     position: absolute;
     top: 50%;
     transform: translate3d(-50%, -50%, 0); }
-  .hero-video.is-transparent {
+  .bulma-hero-video.bulma-is-transparent {
     opacity: 0.3; }
   @media screen and (max-width: 768px) {
-    .hero-video {
+    .bulma-hero-video {
       display: none; } }
 
-.hero-buttons {
+.bulma-hero-buttons {
   margin-top: 1.5rem; }
   @media screen and (max-width: 768px) {
-    .hero-buttons .button {
+    .bulma-hero-buttons .bulma-button {
       display: flex; }
-      .hero-buttons .button:not(:last-child) {
+      .bulma-hero-buttons .bulma-button:not(:last-child) {
         margin-bottom: 0.75rem; } }
   @media screen and (min-width: 769px) {
-    .hero-buttons {
+    .bulma-hero-buttons {
       display: flex;
       justify-content: center; }
-      .hero-buttons .button:not(:last-child) {
+      .bulma-hero-buttons .button:not(:last-child) {
         margin-right: 1.5rem; } }
 
-.hero-head,
-.hero-foot {
+.bulma-hero-head,
+.bulma-hero-foot {
   flex-grow: 0;
   flex-shrink: 0; }
 
-.hero-body {
+.bulma-hero-body {
   flex-grow: 1;
   flex-shrink: 0;
   padding: 3rem 1.5rem; }
   @media screen and (min-width: 1192px) {
-    .hero-body {
+    .bulma-hero-body {
       padding-left: 0;
       padding-right: 0; } }
 
-.hero {
+.bulma-hero {
   align-items: stretch;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
-  .hero .nav {
+  .bulma-hero .bulma-nav {
     background: none;
     box-shadow: 0 1px 0 rgba(219, 219, 219, 0.3); }
-  .hero .tabs ul {
+  .bulma-hero .bulma-tabs ul {
     border-bottom: none; }
-  .hero.is-white {
+  .bulma-hero.is-white {
     background-color: white;
     color: #0a0a0a; }
-    .hero.is-white a,
-    .hero.is-white strong {
+    .bulma-hero.is-white a,
+    .bulma-hero.is-white strong {
       color: inherit; }
-    .hero.is-white .title {
+    .bulma-hero.is-white .bulma-title {
       color: #0a0a0a; }
-    .hero.is-white .subtitle {
+    .bulma-hero.is-white .bulma-subtitle {
       color: rgba(10, 10, 10, 0.9); }
-      .hero.is-white .subtitle a,
-      .hero.is-white .subtitle strong {
+      .bulma-hero.is-white .bulma-subtitle a,
+      .bulma-hero.is-white .bulma-subtitle strong {
         color: #0a0a0a; }
-    .hero.is-white .nav {
+    .bulma-hero.is-white .bulma-nav {
       box-shadow: 0 1px 0 rgba(10, 10, 10, 0.2); }
     @media screen and (max-width: 768px) {
-      .hero.is-white .nav-menu {
+      .bulma-hero.is-white .bulma-nav-menu {
         background-color: white; } }
-    .hero.is-white a.nav-item,
-    .hero.is-white .nav-item a:not(.button) {
+    .bulma-hero.is-white a.bulma-nav-item,
+    .bulma-hero.is-white .nav-item a:not(.bulma-button) {
       color: rgba(10, 10, 10, 0.7); }
-      .hero.is-white a.nav-item:hover, .hero.is-white a.nav-item.is-active,
-      .hero.is-white .nav-item a:not(.button):hover,
-      .hero.is-white .nav-item a:not(.button).is-active {
+      .bulma-hero.is-white a.bulma-nav-item:hover, .bulma-hero.is-white a.bulma-nav-item.bulma-is-active,
+      .bulma-hero.is-white .nav-item a:not(.bulma-button):hover,
+      .bulma-hero.is-white .nav-item a:not(.bulma-button).bulma-is-active {
         color: #0a0a0a; }
-    .hero.is-white .tabs a {
+    .bulma-hero.is-white .bulma-tabs a {
       color: #0a0a0a;
       opacity: 0.9; }
-      .hero.is-white .tabs a:hover {
+      .bulma-hero.is-white .bulma-tabs a:hover {
         opacity: 1; }
-    .hero.is-white .tabs li.is-active a {
+    .bulma-hero.is-white .bulma-tabs li.bulma-is-active a {
       opacity: 1; }
-    .hero.is-white .tabs.is-boxed a, .hero.is-white .tabs.is-toggle a {
+    .bulma-hero.is-white .bulma-tabs.bulma-is-boxed a, .bulma-hero.is-white .bulma-tabs.bulma-is-toggle a {
       color: #0a0a0a; }
-      .hero.is-white .tabs.is-boxed a:hover, .hero.is-white .tabs.is-toggle a:hover {
+      .bulma-hero.is-white .bulma-tabs.bulma-is-boxed a:hover, .bulma-hero.is-white .bulma-tabs.bulma-is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-white .tabs.is-boxed li.is-active a, .hero.is-white .tabs.is-boxed li.is-active a:hover, .hero.is-white .tabs.is-toggle li.is-active a, .hero.is-white .tabs.is-toggle li.is-active a:hover {
+    .bulma-hero.is-white .bulma-tabs.bulma-is-boxed li.bulma-is-active a, .bulma-hero.is-white .bulma-tabs.bulma-is-boxed li.bulma-is-active a:hover, .bulma-hero.is-white .bulma-tabs.bulma-is-toggle li.bulma-is-active a, .bulma-hero.is-white .bulma-tabs.bulma-is-toggle li.bulma-is-active a:hover {
       background-color: #0a0a0a;
       border-color: #0a0a0a;
       color: white; }
-    .hero.is-white.is-bold {
+    .bulma-hero.is-white.bulma-is-bold {
       background-image: linear-gradient(141deg, #e6e6e6 0%, white 71%, white 100%); }
     @media screen and (max-width: 768px) {
-      .hero.is-white .nav-toggle span {
+      .bulma-hero.is-white .bulma-nav-toggle span {
         background-color: #0a0a0a; }
-      .hero.is-white .nav-toggle:hover {
+      .bulma-hero.is-white .bulma-nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-white .nav-toggle.is-active span {
+      .bulma-hero.is-white .bulma-nav-toggle.bulma-is-active span {
         background-color: #0a0a0a; }
-      .hero.is-white .nav-menu .nav-item {
+      .bulma-hero.is-white .bulma-nav-menu .bulma-nav-item {
         border-top-color: rgba(10, 10, 10, 0.2); } }
-  .hero.is-black {
+  .bulma-hero.is-black {
     background-color: #0a0a0a;
     color: white; }
-    .hero.is-black a,
-    .hero.is-black strong {
+    .bulma-hero.is-black a,
+    .bulma-hero.is-black strong {
       color: inherit; }
-    .hero.is-black .title {
+    .bulma-hero.is-black .bulma-title {
       color: white; }
-    .hero.is-black .subtitle {
+    .bulma-hero.is-black .bulma-subtitle {
       color: rgba(255, 255, 255, 0.9); }
-      .hero.is-black .subtitle a,
-      .hero.is-black .subtitle strong {
+      .bulma-hero.is-black .bulma-subtitle a,
+      .bulma-hero.is-black .bulma-subtitle strong {
         color: white; }
-    .hero.is-black .nav {
+    .bulma-hero.is-black .bulma-nav {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
     @media screen and (max-width: 768px) {
-      .hero.is-black .nav-menu {
+      .bulma-hero.is-black .bulma-nav-menu {
         background-color: #0a0a0a; } }
-    .hero.is-black a.nav-item,
-    .hero.is-black .nav-item a:not(.button) {
+    .bulma-hero.is-black a.bulma-nav-item,
+    .bulma-hero.is-black .nav-item a:not(.bulma-button) {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-black a.nav-item:hover, .hero.is-black a.nav-item.is-active,
-      .hero.is-black .nav-item a:not(.button):hover,
-      .hero.is-black .nav-item a:not(.button).is-active {
+      .bulma-hero.is-black a.bulma-nav-item:hover, .bulma-hero.is-black a.bulma-nav-item.bulma-is-active,
+      .bulma-hero.is-black .nav-item a:not(.bulma-button):hover,
+      .bulma-hero.is-black .nav-item a:not(.bulma-button).bulma-is-active {
         color: white; }
-    .hero.is-black .tabs a {
+    .bulma-hero.is-black .bulma-tabs a {
       color: white;
       opacity: 0.9; }
-      .hero.is-black .tabs a:hover {
+      .bulma-hero.is-black .bulma-tabs a:hover {
         opacity: 1; }
-    .hero.is-black .tabs li.is-active a {
+    .bulma-hero.is-black .bulma-tabs li.bulma-is-active a {
       opacity: 1; }
-    .hero.is-black .tabs.is-boxed a, .hero.is-black .tabs.is-toggle a {
+    .bulma-hero.is-black .bulma-tabs.bulma-is-boxed a, .bulma-hero.is-black .bulma-tabs.bulma-is-toggle a {
       color: white; }
-      .hero.is-black .tabs.is-boxed a:hover, .hero.is-black .tabs.is-toggle a:hover {
+      .bulma-hero.is-black .bulma-tabs.bulma-is-boxed a:hover, .bulma-hero.is-black .bulma-tabs.bulma-is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-black .tabs.is-boxed li.is-active a, .hero.is-black .tabs.is-boxed li.is-active a:hover, .hero.is-black .tabs.is-toggle li.is-active a, .hero.is-black .tabs.is-toggle li.is-active a:hover {
+    .bulma-hero.is-black .bulma-tabs.bulma-is-boxed li.bulma-is-active a, .bulma-hero.is-black .bulma-tabs.bulma-is-boxed li.bulma-is-active a:hover, .bulma-hero.is-black .bulma-tabs.bulma-is-toggle li.bulma-is-active a, .bulma-hero.is-black .bulma-tabs.bulma-is-toggle li.bulma-is-active a:hover {
       background-color: white;
       border-color: white;
       color: #0a0a0a; }
-    .hero.is-black.is-bold {
+    .bulma-hero.is-black.bulma-is-bold {
       background-image: linear-gradient(141deg, black 0%, #0a0a0a 71%, #181616 100%); }
     @media screen and (max-width: 768px) {
-      .hero.is-black .nav-toggle span {
+      .bulma-hero.is-black .bulma-nav-toggle span {
         background-color: white; }
-      .hero.is-black .nav-toggle:hover {
+      .bulma-hero.is-black .bulma-nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-black .nav-toggle.is-active span {
+      .bulma-hero.is-black .bulma-nav-toggle.bulma-is-active span {
         background-color: white; }
-      .hero.is-black .nav-menu .nav-item {
+      .bulma-hero.is-black .bulma-nav-menu .bulma-nav-item {
         border-top-color: rgba(255, 255, 255, 0.2); } }
-  .hero.is-light {
+  .bulma-hero.is-light {
     background-color: whitesmoke;
     color: #363636; }
-    .hero.is-light a,
-    .hero.is-light strong {
+    .bulma-hero.is-light a,
+    .bulma-hero.is-light strong {
       color: inherit; }
-    .hero.is-light .title {
+    .bulma-hero.is-light .bulma-title {
       color: #363636; }
-    .hero.is-light .subtitle {
+    .bulma-hero.is-light .bulma-subtitle {
       color: rgba(54, 54, 54, 0.9); }
-      .hero.is-light .subtitle a,
-      .hero.is-light .subtitle strong {
+      .bulma-hero.is-light .bulma-subtitle a,
+      .bulma-hero.is-light .bulma-subtitle strong {
         color: #363636; }
-    .hero.is-light .nav {
+    .bulma-hero.is-light .bulma-nav {
       box-shadow: 0 1px 0 rgba(54, 54, 54, 0.2); }
     @media screen and (max-width: 768px) {
-      .hero.is-light .nav-menu {
+      .bulma-hero.is-light .bulma-nav-menu {
         background-color: whitesmoke; } }
-    .hero.is-light a.nav-item,
-    .hero.is-light .nav-item a:not(.button) {
+    .bulma-hero.is-light a.bulma-nav-item,
+    .bulma-hero.is-light .nav-item a:not(.bulma-button) {
       color: rgba(54, 54, 54, 0.7); }
-      .hero.is-light a.nav-item:hover, .hero.is-light a.nav-item.is-active,
-      .hero.is-light .nav-item a:not(.button):hover,
-      .hero.is-light .nav-item a:not(.button).is-active {
+      .bulma-hero.is-light a.bulma-nav-item:hover, .bulma-hero.is-light a.bulma-nav-item.bulma-is-active,
+      .bulma-hero.is-light .nav-item a:not(.bulma-button):hover,
+      .bulma-hero.is-light .nav-item a:not(.bulma-button).bulma-is-active {
         color: #363636; }
-    .hero.is-light .tabs a {
+    .bulma-hero.is-light .bulma-tabs a {
       color: #363636;
       opacity: 0.9; }
-      .hero.is-light .tabs a:hover {
+      .bulma-hero.is-light .bulma-tabs a:hover {
         opacity: 1; }
-    .hero.is-light .tabs li.is-active a {
+    .bulma-hero.is-light .bulma-tabs li.bulma-is-active a {
       opacity: 1; }
-    .hero.is-light .tabs.is-boxed a, .hero.is-light .tabs.is-toggle a {
+    .bulma-hero.is-light .bulma-tabs.bulma-is-boxed a, .bulma-hero.is-light .bulma-tabs.bulma-is-toggle a {
       color: #363636; }
-      .hero.is-light .tabs.is-boxed a:hover, .hero.is-light .tabs.is-toggle a:hover {
+      .bulma-hero.is-light .bulma-tabs.bulma-is-boxed a:hover, .bulma-hero.is-light .bulma-tabs.bulma-is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-light .tabs.is-boxed li.is-active a, .hero.is-light .tabs.is-boxed li.is-active a:hover, .hero.is-light .tabs.is-toggle li.is-active a, .hero.is-light .tabs.is-toggle li.is-active a:hover {
+    .bulma-hero.is-light .bulma-tabs.bulma-is-boxed li.bulma-is-active a, .bulma-hero.is-light .bulma-tabs.bulma-is-boxed li.bulma-is-active a:hover, .bulma-hero.is-light .bulma-tabs.bulma-is-toggle li.bulma-is-active a, .bulma-hero.is-light .bulma-tabs.bulma-is-toggle li.bulma-is-active a:hover {
       background-color: #363636;
       border-color: #363636;
       color: whitesmoke; }
-    .hero.is-light.is-bold {
+    .bulma-hero.is-light.bulma-is-bold {
       background-image: linear-gradient(141deg, #dfd8d9 0%, whitesmoke 71%, white 100%); }
     @media screen and (max-width: 768px) {
-      .hero.is-light .nav-toggle span {
+      .bulma-hero.is-light .bulma-nav-toggle span {
         background-color: #363636; }
-      .hero.is-light .nav-toggle:hover {
+      .bulma-hero.is-light .bulma-nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-light .nav-toggle.is-active span {
+      .bulma-hero.is-light .bulma-nav-toggle.bulma-is-active span {
         background-color: #363636; }
-      .hero.is-light .nav-menu .nav-item {
+      .bulma-hero.is-light .bulma-nav-menu .bulma-nav-item {
         border-top-color: rgba(54, 54, 54, 0.2); } }
-  .hero.is-dark {
+  .bulma-hero.is-dark {
     background-color: #363636;
     color: whitesmoke; }
-    .hero.is-dark a,
-    .hero.is-dark strong {
+    .bulma-hero.is-dark a,
+    .bulma-hero.is-dark strong {
       color: inherit; }
-    .hero.is-dark .title {
+    .bulma-hero.is-dark .bulma-title {
       color: whitesmoke; }
-    .hero.is-dark .subtitle {
+    .bulma-hero.is-dark .bulma-subtitle {
       color: rgba(245, 245, 245, 0.9); }
-      .hero.is-dark .subtitle a,
-      .hero.is-dark .subtitle strong {
+      .bulma-hero.is-dark .bulma-subtitle a,
+      .bulma-hero.is-dark .bulma-subtitle strong {
         color: whitesmoke; }
-    .hero.is-dark .nav {
+    .bulma-hero.is-dark .bulma-nav {
       box-shadow: 0 1px 0 rgba(245, 245, 245, 0.2); }
     @media screen and (max-width: 768px) {
-      .hero.is-dark .nav-menu {
+      .bulma-hero.is-dark .bulma-nav-menu {
         background-color: #363636; } }
-    .hero.is-dark a.nav-item,
-    .hero.is-dark .nav-item a:not(.button) {
+    .bulma-hero.is-dark a.bulma-nav-item,
+    .bulma-hero.is-dark .nav-item a:not(.bulma-button) {
       color: rgba(245, 245, 245, 0.7); }
-      .hero.is-dark a.nav-item:hover, .hero.is-dark a.nav-item.is-active,
-      .hero.is-dark .nav-item a:not(.button):hover,
-      .hero.is-dark .nav-item a:not(.button).is-active {
+      .bulma-hero.is-dark a.bulma-nav-item:hover, .bulma-hero.is-dark a.bulma-nav-item.bulma-is-active,
+      .bulma-hero.is-dark .nav-item a:not(.bulma-button):hover,
+      .bulma-hero.is-dark .nav-item a:not(.bulma-button).bulma-is-active {
         color: whitesmoke; }
-    .hero.is-dark .tabs a {
+    .bulma-hero.is-dark .bulma-tabs a {
       color: whitesmoke;
       opacity: 0.9; }
-      .hero.is-dark .tabs a:hover {
+      .bulma-hero.is-dark .bulma-tabs a:hover {
         opacity: 1; }
-    .hero.is-dark .tabs li.is-active a {
+    .bulma-hero.is-dark .bulma-tabs li.bulma-is-active a {
       opacity: 1; }
-    .hero.is-dark .tabs.is-boxed a, .hero.is-dark .tabs.is-toggle a {
+    .bulma-hero.is-dark .bulma-tabs.bulma-is-boxed a, .bulma-hero.is-dark .bulma-tabs.bulma-is-toggle a {
       color: whitesmoke; }
-      .hero.is-dark .tabs.is-boxed a:hover, .hero.is-dark .tabs.is-toggle a:hover {
+      .bulma-hero.is-dark .bulma-tabs.bulma-is-boxed a:hover, .bulma-hero.is-dark .bulma-tabs.bulma-is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-dark .tabs.is-boxed li.is-active a, .hero.is-dark .tabs.is-boxed li.is-active a:hover, .hero.is-dark .tabs.is-toggle li.is-active a, .hero.is-dark .tabs.is-toggle li.is-active a:hover {
+    .bulma-hero.is-dark .bulma-tabs.bulma-is-boxed li.bulma-is-active a, .bulma-hero.is-dark .bulma-tabs.bulma-is-boxed li.bulma-is-active a:hover, .bulma-hero.is-dark .bulma-tabs.bulma-is-toggle li.bulma-is-active a, .bulma-hero.is-dark .bulma-tabs.bulma-is-toggle li.bulma-is-active a:hover {
       background-color: whitesmoke;
       border-color: whitesmoke;
       color: #363636; }
-    .hero.is-dark.is-bold {
+    .bulma-hero.is-dark.bulma-is-bold {
       background-image: linear-gradient(141deg, #1f191a 0%, #363636 71%, #46403f 100%); }
     @media screen and (max-width: 768px) {
-      .hero.is-dark .nav-toggle span {
+      .bulma-hero.is-dark .bulma-nav-toggle span {
         background-color: whitesmoke; }
-      .hero.is-dark .nav-toggle:hover {
+      .bulma-hero.is-dark .bulma-nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-dark .nav-toggle.is-active span {
+      .bulma-hero.is-dark .bulma-nav-toggle.bulma-is-active span {
         background-color: whitesmoke; }
-      .hero.is-dark .nav-menu .nav-item {
+      .bulma-hero.is-dark .bulma-nav-menu .bulma-nav-item {
         border-top-color: rgba(245, 245, 245, 0.2); } }
-  .hero.is-primary {
+  .bulma-hero.is-primary {
     background-color: #00d1b2;
     color: #fff; }
-    .hero.is-primary a,
-    .hero.is-primary strong {
+    .bulma-hero.is-primary a,
+    .bulma-hero.is-primary strong {
       color: inherit; }
-    .hero.is-primary .title {
+    .bulma-hero.is-primary .bulma-title {
       color: #fff; }
-    .hero.is-primary .subtitle {
+    .bulma-hero.is-primary .bulma-subtitle {
       color: rgba(255, 255, 255, 0.9); }
-      .hero.is-primary .subtitle a,
-      .hero.is-primary .subtitle strong {
+      .bulma-hero.is-primary .bulma-subtitle a,
+      .bulma-hero.is-primary .bulma-subtitle strong {
         color: #fff; }
-    .hero.is-primary .nav {
+    .bulma-hero.is-primary .bulma-nav {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
     @media screen and (max-width: 768px) {
-      .hero.is-primary .nav-menu {
+      .bulma-hero.is-primary .bulma-nav-menu {
         background-color: #00d1b2; } }
-    .hero.is-primary a.nav-item,
-    .hero.is-primary .nav-item a:not(.button) {
+    .bulma-hero.is-primary a.bulma-nav-item,
+    .bulma-hero.is-primary .nav-item a:not(.bulma-button) {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-primary a.nav-item:hover, .hero.is-primary a.nav-item.is-active,
-      .hero.is-primary .nav-item a:not(.button):hover,
-      .hero.is-primary .nav-item a:not(.button).is-active {
+      .bulma-hero.is-primary a.bulma-nav-item:hover, .bulma-hero.is-primary a.bulma-nav-item.bulma-is-active,
+      .bulma-hero.is-primary .nav-item a:not(.bulma-button):hover,
+      .bulma-hero.is-primary .nav-item a:not(.bulma-button).bulma-is-active {
         color: #fff; }
-    .hero.is-primary .tabs a {
+    .bulma-hero.is-primary .bulma-tabs a {
       color: #fff;
       opacity: 0.9; }
-      .hero.is-primary .tabs a:hover {
+      .bulma-hero.is-primary .bulma-tabs a:hover {
         opacity: 1; }
-    .hero.is-primary .tabs li.is-active a {
+    .bulma-hero.is-primary .bulma-tabs li.bulma-is-active a {
       opacity: 1; }
-    .hero.is-primary .tabs.is-boxed a, .hero.is-primary .tabs.is-toggle a {
+    .bulma-hero.is-primary .bulma-tabs.bulma-is-boxed a, .bulma-hero.is-primary .bulma-tabs.bulma-is-toggle a {
       color: #fff; }
-      .hero.is-primary .tabs.is-boxed a:hover, .hero.is-primary .tabs.is-toggle a:hover {
+      .bulma-hero.is-primary .bulma-tabs.bulma-is-boxed a:hover, .bulma-hero.is-primary .bulma-tabs.bulma-is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-primary .tabs.is-boxed li.is-active a, .hero.is-primary .tabs.is-boxed li.is-active a:hover, .hero.is-primary .tabs.is-toggle li.is-active a, .hero.is-primary .tabs.is-toggle li.is-active a:hover {
+    .bulma-hero.is-primary .bulma-tabs.bulma-is-boxed li.bulma-is-active a, .bulma-hero.is-primary .bulma-tabs.bulma-is-boxed li.bulma-is-active a:hover, .bulma-hero.is-primary .bulma-tabs.bulma-is-toggle li.bulma-is-active a, .bulma-hero.is-primary .bulma-tabs.bulma-is-toggle li.bulma-is-active a:hover {
       background-color: #fff;
       border-color: #fff;
       color: #00d1b2; }
-    .hero.is-primary.is-bold {
+    .bulma-hero.is-primary.bulma-is-bold {
       background-image: linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e7eb 100%); }
     @media screen and (max-width: 768px) {
-      .hero.is-primary .nav-toggle span {
+      .bulma-hero.is-primary .bulma-nav-toggle span {
         background-color: #fff; }
-      .hero.is-primary .nav-toggle:hover {
+      .bulma-hero.is-primary .bulma-nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-primary .nav-toggle.is-active span {
+      .bulma-hero.is-primary .bulma-nav-toggle.bulma-is-active span {
         background-color: #fff; }
-      .hero.is-primary .nav-menu .nav-item {
+      .bulma-hero.is-primary .bulma-nav-menu .bulma-nav-item {
         border-top-color: rgba(255, 255, 255, 0.2); } }
-  .hero.is-info {
+  .bulma-hero.is-info {
     background-color: #3273dc;
     color: #fff; }
-    .hero.is-info a,
-    .hero.is-info strong {
+    .bulma-hero.is-info a,
+    .bulma-hero.is-info strong {
       color: inherit; }
-    .hero.is-info .title {
+    .bulma-hero.is-info .bulma-title {
       color: #fff; }
-    .hero.is-info .subtitle {
+    .bulma-hero.is-info .bulma-subtitle {
       color: rgba(255, 255, 255, 0.9); }
-      .hero.is-info .subtitle a,
-      .hero.is-info .subtitle strong {
+      .bulma-hero.is-info .bulma-subtitle a,
+      .bulma-hero.is-info .bulma-subtitle strong {
         color: #fff; }
-    .hero.is-info .nav {
+    .bulma-hero.is-info .bulma-nav {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
     @media screen and (max-width: 768px) {
-      .hero.is-info .nav-menu {
+      .bulma-hero.is-info .bulma-nav-menu {
         background-color: #3273dc; } }
-    .hero.is-info a.nav-item,
-    .hero.is-info .nav-item a:not(.button) {
+    .bulma-hero.is-info a.bulma-nav-item,
+    .bulma-hero.is-info .nav-item a:not(.bulma-button) {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-info a.nav-item:hover, .hero.is-info a.nav-item.is-active,
-      .hero.is-info .nav-item a:not(.button):hover,
-      .hero.is-info .nav-item a:not(.button).is-active {
+      .bulma-hero.is-info a.bulma-nav-item:hover, .bulma-hero.is-info a.bulma-nav-item.bulma-is-active,
+      .bulma-hero.is-info .nav-item a:not(.bulma-button):hover,
+      .bulma-hero.is-info .nav-item a:not(.bulma-button).bulma-is-active {
         color: #fff; }
-    .hero.is-info .tabs a {
+    .bulma-hero.is-info .bulma-tabs a {
       color: #fff;
       opacity: 0.9; }
-      .hero.is-info .tabs a:hover {
+      .bulma-hero.is-info .bulma-tabs a:hover {
         opacity: 1; }
-    .hero.is-info .tabs li.is-active a {
+    .bulma-hero.is-info .bulma-tabs li.bulma-is-active a {
       opacity: 1; }
-    .hero.is-info .tabs.is-boxed a, .hero.is-info .tabs.is-toggle a {
+    .bulma-hero.is-info .bulma-tabs.bulma-is-boxed a, .bulma-hero.is-info .bulma-tabs.bulma-is-toggle a {
       color: #fff; }
-      .hero.is-info .tabs.is-boxed a:hover, .hero.is-info .tabs.is-toggle a:hover {
+      .bulma-hero.is-info .bulma-tabs.bulma-is-boxed a:hover, .bulma-hero.is-info .bulma-tabs.bulma-is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-info .tabs.is-boxed li.is-active a, .hero.is-info .tabs.is-boxed li.is-active a:hover, .hero.is-info .tabs.is-toggle li.is-active a, .hero.is-info .tabs.is-toggle li.is-active a:hover {
+    .bulma-hero.is-info .bulma-tabs.bulma-is-boxed li.bulma-is-active a, .bulma-hero.is-info .bulma-tabs.bulma-is-boxed li.bulma-is-active a:hover, .bulma-hero.is-info .bulma-tabs.bulma-is-toggle li.bulma-is-active a, .bulma-hero.is-info .bulma-tabs.bulma-is-toggle li.bulma-is-active a:hover {
       background-color: #fff;
       border-color: #fff;
       color: #3273dc; }
-    .hero.is-info.is-bold {
+    .bulma-hero.is-info.bulma-is-bold {
       background-image: linear-gradient(141deg, #1577c6 0%, #3273dc 71%, #4366e5 100%); }
     @media screen and (max-width: 768px) {
-      .hero.is-info .nav-toggle span {
+      .bulma-hero.is-info .bulma-nav-toggle span {
         background-color: #fff; }
-      .hero.is-info .nav-toggle:hover {
+      .bulma-hero.is-info .bulma-nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-info .nav-toggle.is-active span {
+      .bulma-hero.is-info .bulma-nav-toggle.bulma-is-active span {
         background-color: #fff; }
-      .hero.is-info .nav-menu .nav-item {
+      .bulma-hero.is-info .bulma-nav-menu .bulma-nav-item {
         border-top-color: rgba(255, 255, 255, 0.2); } }
-  .hero.is-success {
+  .bulma-hero.is-success {
     background-color: #23d160;
     color: #fff; }
-    .hero.is-success a,
-    .hero.is-success strong {
+    .bulma-hero.is-success a,
+    .bulma-hero.is-success strong {
       color: inherit; }
-    .hero.is-success .title {
+    .bulma-hero.is-success .bulma-title {
       color: #fff; }
-    .hero.is-success .subtitle {
+    .bulma-hero.is-success .bulma-subtitle {
       color: rgba(255, 255, 255, 0.9); }
-      .hero.is-success .subtitle a,
-      .hero.is-success .subtitle strong {
+      .bulma-hero.is-success .bulma-subtitle a,
+      .bulma-hero.is-success .bulma-subtitle strong {
         color: #fff; }
-    .hero.is-success .nav {
+    .bulma-hero.is-success .bulma-nav {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
     @media screen and (max-width: 768px) {
-      .hero.is-success .nav-menu {
+      .bulma-hero.is-success .bulma-nav-menu {
         background-color: #23d160; } }
-    .hero.is-success a.nav-item,
-    .hero.is-success .nav-item a:not(.button) {
+    .bulma-hero.is-success a.bulma-nav-item,
+    .bulma-hero.is-success .nav-item a:not(.bulma-button) {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-success a.nav-item:hover, .hero.is-success a.nav-item.is-active,
-      .hero.is-success .nav-item a:not(.button):hover,
-      .hero.is-success .nav-item a:not(.button).is-active {
+      .bulma-hero.is-success a.bulma-nav-item:hover, .bulma-hero.is-success a.bulma-nav-item.bulma-is-active,
+      .bulma-hero.is-success .nav-item a:not(.bulma-button):hover,
+      .bulma-hero.is-success .nav-item a:not(.bulma-button).bulma-is-active {
         color: #fff; }
-    .hero.is-success .tabs a {
+    .bulma-hero.is-success .bulma-tabs a {
       color: #fff;
       opacity: 0.9; }
-      .hero.is-success .tabs a:hover {
+      .bulma-hero.is-success .bulma-tabs a:hover {
         opacity: 1; }
-    .hero.is-success .tabs li.is-active a {
+    .bulma-hero.is-success .bulma-tabs li.bulma-is-active a {
       opacity: 1; }
-    .hero.is-success .tabs.is-boxed a, .hero.is-success .tabs.is-toggle a {
+    .bulma-hero.is-success .bulma-tabs.bulma-is-boxed a, .bulma-hero.is-success .bulma-tabs.bulma-is-toggle a {
       color: #fff; }
-      .hero.is-success .tabs.is-boxed a:hover, .hero.is-success .tabs.is-toggle a:hover {
+      .bulma-hero.is-success .bulma-tabs.bulma-is-boxed a:hover, .bulma-hero.is-success .bulma-tabs.bulma-is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-success .tabs.is-boxed li.is-active a, .hero.is-success .tabs.is-boxed li.is-active a:hover, .hero.is-success .tabs.is-toggle li.is-active a, .hero.is-success .tabs.is-toggle li.is-active a:hover {
+    .bulma-hero.is-success .bulma-tabs.bulma-is-boxed li.bulma-is-active a, .bulma-hero.is-success .bulma-tabs.bulma-is-boxed li.bulma-is-active a:hover, .bulma-hero.is-success .bulma-tabs.bulma-is-toggle li.bulma-is-active a, .bulma-hero.is-success .bulma-tabs.bulma-is-toggle li.bulma-is-active a:hover {
       background-color: #fff;
       border-color: #fff;
       color: #23d160; }
-    .hero.is-success.is-bold {
+    .bulma-hero.is-success.bulma-is-bold {
       background-image: linear-gradient(141deg, #12af2f 0%, #23d160 71%, #2ce28a 100%); }
     @media screen and (max-width: 768px) {
-      .hero.is-success .nav-toggle span {
+      .bulma-hero.is-success .bulma-nav-toggle span {
         background-color: #fff; }
-      .hero.is-success .nav-toggle:hover {
+      .bulma-hero.is-success .bulma-nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-success .nav-toggle.is-active span {
+      .bulma-hero.is-success .bulma-nav-toggle.bulma-is-active span {
         background-color: #fff; }
-      .hero.is-success .nav-menu .nav-item {
+      .bulma-hero.is-success .bulma-nav-menu .bulma-nav-item {
         border-top-color: rgba(255, 255, 255, 0.2); } }
-  .hero.is-warning {
+  .bulma-hero.is-warning {
     background-color: #ffdd57;
     color: rgba(0, 0, 0, 0.7); }
-    .hero.is-warning a,
-    .hero.is-warning strong {
+    .bulma-hero.is-warning a,
+    .bulma-hero.is-warning strong {
       color: inherit; }
-    .hero.is-warning .title {
+    .bulma-hero.is-warning .bulma-title {
       color: rgba(0, 0, 0, 0.7); }
-    .hero.is-warning .subtitle {
+    .bulma-hero.is-warning .bulma-subtitle {
       color: rgba(0, 0, 0, 0.9); }
-      .hero.is-warning .subtitle a,
-      .hero.is-warning .subtitle strong {
+      .bulma-hero.is-warning .bulma-subtitle a,
+      .bulma-hero.is-warning .bulma-subtitle strong {
         color: rgba(0, 0, 0, 0.7); }
-    .hero.is-warning .nav {
+    .bulma-hero.is-warning .bulma-nav {
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2); }
     @media screen and (max-width: 768px) {
-      .hero.is-warning .nav-menu {
+      .bulma-hero.is-warning .bulma-nav-menu {
         background-color: #ffdd57; } }
-    .hero.is-warning a.nav-item,
-    .hero.is-warning .nav-item a:not(.button) {
+    .bulma-hero.is-warning a.bulma-nav-item,
+    .bulma-hero.is-warning .nav-item a:not(.bulma-button) {
       color: rgba(0, 0, 0, 0.7); }
-      .hero.is-warning a.nav-item:hover, .hero.is-warning a.nav-item.is-active,
-      .hero.is-warning .nav-item a:not(.button):hover,
-      .hero.is-warning .nav-item a:not(.button).is-active {
+      .bulma-hero.is-warning a.bulma-nav-item:hover, .bulma-hero.is-warning a.bulma-nav-item.bulma-is-active,
+      .bulma-hero.is-warning .nav-item a:not(.bulma-button):hover,
+      .bulma-hero.is-warning .nav-item a:not(.bulma-button).bulma-is-active {
         color: rgba(0, 0, 0, 0.7); }
-    .hero.is-warning .tabs a {
+    .bulma-hero.is-warning .bulma-tabs a {
       color: rgba(0, 0, 0, 0.7);
       opacity: 0.9; }
-      .hero.is-warning .tabs a:hover {
+      .bulma-hero.is-warning .bulma-tabs a:hover {
         opacity: 1; }
-    .hero.is-warning .tabs li.is-active a {
+    .bulma-hero.is-warning .bulma-tabs li.bulma-is-active a {
       opacity: 1; }
-    .hero.is-warning .tabs.is-boxed a, .hero.is-warning .tabs.is-toggle a {
+    .bulma-hero.is-warning .bulma-tabs.bulma-is-boxed a, .bulma-hero.is-warning .bulma-tabs.bulma-is-toggle a {
       color: rgba(0, 0, 0, 0.7); }
-      .hero.is-warning .tabs.is-boxed a:hover, .hero.is-warning .tabs.is-toggle a:hover {
+      .bulma-hero.is-warning .bulma-tabs.bulma-is-boxed a:hover, .bulma-hero.is-warning .bulma-tabs.bulma-is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-warning .tabs.is-boxed li.is-active a, .hero.is-warning .tabs.is-boxed li.is-active a:hover, .hero.is-warning .tabs.is-toggle li.is-active a, .hero.is-warning .tabs.is-toggle li.is-active a:hover {
+    .bulma-hero.is-warning .bulma-tabs.bulma-is-boxed li.bulma-is-active a, .bulma-hero.is-warning .bulma-tabs.bulma-is-boxed li.bulma-is-active a:hover, .bulma-hero.is-warning .bulma-tabs.bulma-is-toggle li.bulma-is-active a, .bulma-hero.is-warning .bulma-tabs.bulma-is-toggle li.bulma-is-active a:hover {
       background-color: rgba(0, 0, 0, 0.7);
       border-color: rgba(0, 0, 0, 0.7);
       color: #ffdd57; }
-    .hero.is-warning.is-bold {
+    .bulma-hero.is-warning.bulma-is-bold {
       background-image: linear-gradient(141deg, #ffaf24 0%, #ffdd57 71%, #fffa70 100%); }
     @media screen and (max-width: 768px) {
-      .hero.is-warning .nav-toggle span {
+      .bulma-hero.is-warning .bulma-nav-toggle span {
         background-color: rgba(0, 0, 0, 0.7); }
-      .hero.is-warning .nav-toggle:hover {
+      .bulma-hero.is-warning .bulma-nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-warning .nav-toggle.is-active span {
+      .bulma-hero.is-warning .bulma-nav-toggle.bulma-is-active span {
         background-color: rgba(0, 0, 0, 0.7); }
-      .hero.is-warning .nav-menu .nav-item {
+      .bulma-hero.is-warning .bulma-nav-menu .bulma-nav-item {
         border-top-color: rgba(0, 0, 0, 0.2); } }
-  .hero.is-danger {
+  .bulma-hero.is-danger {
     background-color: #ff3860;
     color: #fff; }
-    .hero.is-danger a,
-    .hero.is-danger strong {
+    .bulma-hero.is-danger a,
+    .bulma-hero.is-danger strong {
       color: inherit; }
-    .hero.is-danger .title {
+    .bulma-hero.is-danger .bulma-title {
       color: #fff; }
-    .hero.is-danger .subtitle {
+    .bulma-hero.is-danger .bulma-subtitle {
       color: rgba(255, 255, 255, 0.9); }
-      .hero.is-danger .subtitle a,
-      .hero.is-danger .subtitle strong {
+      .bulma-hero.is-danger .bulma-subtitle a,
+      .bulma-hero.is-danger .bulma-subtitle strong {
         color: #fff; }
-    .hero.is-danger .nav {
+    .bulma-hero.is-danger .bulma-nav {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
     @media screen and (max-width: 768px) {
-      .hero.is-danger .nav-menu {
+      .bulma-hero.is-danger .bulma-nav-menu {
         background-color: #ff3860; } }
-    .hero.is-danger a.nav-item,
-    .hero.is-danger .nav-item a:not(.button) {
+    .bulma-hero.is-danger a.bulma-nav-item,
+    .bulma-hero.is-danger .nav-item a:not(.bulma-button) {
       color: rgba(255, 255, 255, 0.7); }
-      .hero.is-danger a.nav-item:hover, .hero.is-danger a.nav-item.is-active,
-      .hero.is-danger .nav-item a:not(.button):hover,
-      .hero.is-danger .nav-item a:not(.button).is-active {
+      .bulma-hero.is-danger a.bulma-nav-item:hover, .bulma-hero.is-danger a.bulma-nav-item.bulma-is-active,
+      .bulma-hero.is-danger .nav-item a:not(.bulma-button):hover,
+      .bulma-hero.is-danger .nav-item a:not(.bulma-button).bulma-is-active {
         color: #fff; }
-    .hero.is-danger .tabs a {
+    .bulma-hero.is-danger .bulma-tabs a {
       color: #fff;
       opacity: 0.9; }
-      .hero.is-danger .tabs a:hover {
+      .bulma-hero.is-danger .bulma-tabs a:hover {
         opacity: 1; }
-    .hero.is-danger .tabs li.is-active a {
+    .bulma-hero.is-danger .bulma-tabs li.bulma-is-active a {
       opacity: 1; }
-    .hero.is-danger .tabs.is-boxed a, .hero.is-danger .tabs.is-toggle a {
+    .bulma-hero.is-danger .bulma-tabs.bulma-is-boxed a, .bulma-hero.is-danger .bulma-tabs.bulma-is-toggle a {
       color: #fff; }
-      .hero.is-danger .tabs.is-boxed a:hover, .hero.is-danger .tabs.is-toggle a:hover {
+      .bulma-hero.is-danger .bulma-tabs.bulma-is-boxed a:hover, .bulma-hero.is-danger .bulma-tabs.bulma-is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-danger .tabs.is-boxed li.is-active a, .hero.is-danger .tabs.is-boxed li.is-active a:hover, .hero.is-danger .tabs.is-toggle li.is-active a, .hero.is-danger .tabs.is-toggle li.is-active a:hover {
+    .bulma-hero.is-danger .bulma-tabs.bulma-is-boxed li.bulma-is-active a, .bulma-hero.is-danger .bulma-tabs.bulma-is-boxed li.bulma-is-active a:hover, .bulma-hero.is-danger .bulma-tabs.bulma-is-toggle li.bulma-is-active a, .bulma-hero.is-danger .bulma-tabs.bulma-is-toggle li.bulma-is-active a:hover {
       background-color: #fff;
       border-color: #fff;
       color: #ff3860; }
-    .hero.is-danger.is-bold {
+    .bulma-hero.is-danger.bulma-is-bold {
       background-image: linear-gradient(141deg, #ff0561 0%, #ff3860 71%, #ff5257 100%); }
     @media screen and (max-width: 768px) {
-      .hero.is-danger .nav-toggle span {
+      .bulma-hero.is-danger .bulma-nav-toggle span {
         background-color: #fff; }
-      .hero.is-danger .nav-toggle:hover {
+      .bulma-hero.is-danger .bulma-nav-toggle:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-      .hero.is-danger .nav-toggle.is-active span {
+      .bulma-hero.is-danger .bulma-nav-toggle.bulma-is-active span {
         background-color: #fff; }
-      .hero.is-danger .nav-menu .nav-item {
+      .bulma-hero.is-danger .bulma-nav-menu .bulma-nav-item {
         border-top-color: rgba(255, 255, 255, 0.2); } }
   @media screen and (min-width: 769px) {
-    .hero.is-medium .hero-body {
+    .bulma-hero.bulma-is-medium .bulma-hero-body {
       padding-bottom: 9rem;
       padding-top: 9rem; } }
   @media screen and (min-width: 769px) {
-    .hero.is-large .hero-body {
+    .bulma-hero.bulma-is-large .bulma-hero-body {
       padding-bottom: 18rem;
       padding-top: 18rem; } }
-  .hero.is-fullheight {
+  .bulma-hero.bulma-is-fullheight {
     min-height: 100vh; }
-    .hero.is-fullheight .hero-body {
+    .bulma-hero.bulma-is-fullheight .bulma-hero-body {
       align-items: center;
       display: flex; }
-      .hero.is-fullheight .hero-body > .container {
+      .bulma-hero.bulma-is-fullheight .bulma-hero-body > .bulma-container {
         flex-grow: 1;
         flex-shrink: 1; }
 
-.section {
+.bulma-section {
   background-color: white;
   padding: 3rem 1.5rem; }
   @media screen and (min-width: 1000px) {
-    .section.is-medium {
+    .bulma-section.bulma-is-medium {
       padding: 9rem 1.5rem; }
-    .section.is-large {
+    .bulma-section.bulma-is-large {
       padding: 18rem 1.5rem; } }
 
-.footer {
+.bulma-footer {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
@@ -4027,7 +4027,7 @@ label.panel-block {
     -ms-transform: translateY(-13%);
     -o-transform: translateY(-13%);
     transform: translateY(-13%); }
-  .center .wrapper {
+  .center .container {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -4038,5 +4038,5 @@ label.panel-block {
     left: 35vw;
     width: -webkit-calc(100% - 35vw);
     width: calc(100% - 35vw); }
-    .center .wrapper .button-margin {
+    .center .container .button-margin {
       margin-left: 5px; }

@@ -46,7 +46,7 @@ diamond uses a custom import format when importing packages.
 
 Examples:
 * `@import "[bootstrap]";` will import the main file from Bootstrap, or throw an error if the package does not have a main file.
-* `@import "[bootstrap/file.scss]` will import `file.scss` from the package Bootstrap.
+* `@import "[bootstrap/file.scss]"` will import `file.scss` from the package Bootstrap.
 
 We want to import Bootstrap's main file, so we will use `[bootstrap]`
 ```scss

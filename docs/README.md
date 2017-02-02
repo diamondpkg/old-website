@@ -67,8 +67,16 @@ node-sass myfile.scss
 it will give you errors about not being able to find the file `[boostrap]`. 
 This is because you aren't using diamond's custom importer.
 
-To use the importer, you need to use sass's `--importer` flag, like so
+It is recommended to use the compile command to compile your Sass instead of node-sass.
+While this is not required, some packages like `concise.css` use functionality only found
+in the compile command.
+
 ```bash
-node-sass --importer diamond myfile.scss
+diamond compile -o output.css input.scss
+```
+
+To compile with node-sass, use the `--importer` flag
+```bash
+node-sass --importer diamond -o output.css input.scss
 ```
 where `diamond` is the generated `diamond` folder on install.

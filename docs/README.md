@@ -37,7 +37,7 @@ diamond
 ```
 <p class="danger">Do not edit any files in this folder.</p>
 The `diamond/.internal` folder is for files used by diamond.  
-The `diamond/.staging` folder is a teporary location for files durning install.  
+The `diamond/.staging` folder is a temporary location for files durning install.  
 The `diamond/packages` folder is where all of your packages go.  
 The `diamond/index.js` file is the JS file that handles all of your importing (See [compiling](#compiling))
 

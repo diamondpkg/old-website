@@ -4026,35 +4026,3 @@ label.panel-block {
 .footer {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
-
-.cs-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: 80%;
-  display: inline-block; }
-  .cs-center .cs-logo {
-    width: 35vw;
-    -webkit-transform: translateY(-13%);
-    -moz-transform: translateY(-13%);
-    -ms-transform: translateY(-13%);
-    -o-transform: translateY(-13%);
-    transform: translateY(-13%); }
-  .cs-center .cs-container {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 35vw;
-    width: -webkit-calc(100% - 35vw);
-    width: calc(100% - 35vw); }
-    .cs-center .cs-container .cs-button-margin {
-      margin-left: 5px; }

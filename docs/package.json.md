@@ -17,17 +17,18 @@ See [semver](https://docs.npmjs.com/misc/semver) for more details about specifyi
 
 For example, these are all valid:
 ```json
-{ "dependencies" :
-  { "foo" : "1.0.0 - 2.9999.9999"
-  , "bar" : ">=1.0.2 <2.1.2"
-  , "baz" : ">1.0.2 <=2.3.4"
-  , "boo" : "2.0.1"
-  , "qux" : "<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0"
-  , "til" : "~1.2"
-  , "elf" : "~1.2.3"
-  , "two" : "2.x"
-  , "thr" : "3.3.x"
-  , "lat" : "latest"
+{
+  "dependencies" : {
+    "foo": "1.0.0 - 2.9999.9999",
+    "bar": ">=1.0.2 <2.1.2",
+    "baz": ">1.0.2 <=2.3.4",
+    "boo": "2.0.1",
+    "qux": "<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0",
+    "til": "~1.2",
+    "elf": "~1.2.3",
+    "two": "2.x",
+    "thr": "3.3.x",
+    "lat": "latest"
   }
 }
 ```
@@ -55,5 +56,5 @@ All fields related to Sass only.
 #### importer
 A path to a file relative to the root of your package folder. The **`module.exports`** of this file should be a valid importer function (see [importer](https://github.com/sass/node-sass#importer--v200---experimental))
 
-#### Functions
+#### functions
 Either an Object with function names for keys and paths to files as values (see [functions](https://github.com/sass/node-sass#functions--v300---experimental)) or a path to a file containing the above.

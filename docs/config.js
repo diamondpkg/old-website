@@ -3,6 +3,7 @@ self.$config = {
   repo: 'diamondpkg/diamond',
   nav: [
     {title: 'Home', path: '/'},
-    {title: 'Install', path: '/install'}
+    {title: 'Install', path: '/install'},
+    {title: 'Package.JSON', path: '/package.json'},
   ]
 }

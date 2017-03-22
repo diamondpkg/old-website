@@ -6,7 +6,7 @@
 Where almost all diamond-related fields are under.
 
 ### main
-The main field is a module ID that is the primary entry point to your program. That is, if your package is named foo, and a user installs it, and then does `@import "~foo"`, then your main module's exports object will be imported.
+The main field is a module ID that is the primary entry point to your program. That is, if your package is named foo, and a user installs it, and then does `@import "~foo"`, then your main file will be imported.
 
 This should be a module ID relative to the root of your package folder.
 

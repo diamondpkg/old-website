@@ -5,12 +5,12 @@
 ## diamond
 Where almost all diamond-related fields are under.
 
-### main
+### diamond.main
 The main field is a module ID that is the primary entry point to your program. That is, if your package is named foo, and a user installs it, and then does `@import "~foo"`, then your main file will be imported.
 
 This should be a module ID relative to the root of your package folder.
 
-### dependencies
+### diamond.dependencies
 Dependencies are specified in a simple object that maps a package name to a version range. The version range is a string which has one or more space-separated descriptors.
 
 See [semver](https://docs.npmjs.com/misc/semver) for more details about specifying version ranges.
@@ -47,14 +47,14 @@ You can refer to GitHub urls as just `"foo": "user/foo-project"`. A commit-ish s
 }
 ```
 
-### postProcessor
+### diamond.postProcessor
 A path to a file relative to the root of your package folder. The **`module.exports`** of this file should be a single function that takes in one argument, the compiled CSS and either returns a Promise or a String containing the processed CSS.
 
-### sass
+### diamond.sass
 All fields related to Sass only.
 
-#### importer
+#### diamond.sass.importer
 A path to a file relative to the root of your package folder. The **`module.exports`** of this file should be a valid importer function (see [importer](https://github.com/sass/node-sass#importer--v200---experimental))
 
-#### functions
+#### diamond.sass.functions
 Either an Object with function names for keys and paths to files as values (see [functions](https://github.com/sass/node-sass#functions--v300---experimental)) or a path to a file containing the above.

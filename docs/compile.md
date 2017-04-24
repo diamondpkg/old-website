@@ -43,5 +43,5 @@ This command compiles a file with full diamond support (importers, functions, et
 
 * **`--output-style`**
 
-  **Sass only.**  
+  <p class="warning">Sass only.</p>
   The output style for the file, can be one of: `nested, expanded, compact, compressed`.

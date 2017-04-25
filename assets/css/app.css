@@ -4027,30 +4027,50 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
-.main-text {
+html.home .main-text {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   text-shadow: #184690 5px 5px 0px;
   font-size: 4em; }
-  .main-text.bottom-text {
+  html.home .main-text.bottom-text {
     display: inline;
     float: left; }
 
-a.get-started {
+html.home a.get-started {
   border-color: #184690 !important;
   font-size: 2em;
   color: white !important; }
-  a.get-started.bottom-text {
+  html.home a.get-started.bottom-text {
     float: right; }
 
-.bottom {
+html.home .bottom {
   margin-top: 50px !important; }
-  .bottom .sub-text {
+  html.home .bottom .sub-text {
     margin-left: 20px;
     display: inline;
     font-size: 2em;
     line-height: 2.285em; }
-    .bottom .sub-text code {
+    html.home .bottom .sub-text code {
       background: #184690;
       color: white;
       border-radius: 3px; }
+
+html.docs .content {
+  margin-top: 25px; }
+
+html.docs .toc-outer .toc {
+  padding-top: 10px;
+  position: absolute;
+  left: 10px; }
+
+html.error {
+  overflow-y: hidden; }
+  html.error .center {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    html.error .center img {
+      width: 50%;
+      height: 50%; }

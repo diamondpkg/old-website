@@ -4032,13 +4032,19 @@ label.panel-block {
   text-transform: uppercase;
   text-shadow: #184690 5px 5px 0px;
   font-size: 4em; }
+  .main-text.bottom-text {
+    display: inline;
+    float: left; }
+
+a.get-started {
+  border-color: #184690 !important;
+  font-size: 2em;
+  color: white !important; }
+  a.get-started.bottom-text {
+    float: right; }
 
 .bottom {
   margin-top: 50px !important; }
-  .bottom a.get-started {
-    border-color: #184690 !important;
-    font-size: 2em;
-    color: white !important; }
   .bottom .sub-text {
     margin-left: 20px;
     display: inline;

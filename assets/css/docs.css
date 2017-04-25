@@ -4027,24 +4027,10 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
-.main-text {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  text-shadow: #184690 5px 5px 0px;
-  font-size: 4em; }
+.content {
+  margin-top: 25px; }
 
-.bottom {
-  margin-top: 50px !important; }
-  .bottom a.get-started {
-    border-color: #184690 !important;
-    font-size: 2em;
-    color: white !important; }
-  .bottom .sub-text {
-    margin-left: 20px;
-    display: inline;
-    font-size: 2em;
-    line-height: 2.285em; }
-    .bottom .sub-text code {
-      background: #184690;
-      color: white;
-      border-radius: 3px; }
+.toc-outer .toc {
+  padding-top: 10px;
+  position: absolute;
+  left: 10px; }

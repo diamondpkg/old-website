@@ -1,4 +1,4 @@
-# diamond-install
+# diamond-compile
 
 ## Synopsis
 ```

@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
   <title>diamond</title>
   <link rel="shortcut icon" href="/assets/img/Diamond.ico">
-  <link rel="stylesheet" href="https://unpkg.com/docute@2/dist/docute.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/2.3.2/tocbot.css" integrity="sha256-bS0b4hjTsTTFMR/fHMtGqlzqEnaLHnfXvDZfal3mnig=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/assets/css/docs.css">
+
   <meta property="og:site_name" content="diamond">
   <meta property="og:title" content="A sassy package manager">
   <meta property="og:type" content="website">
@@ -15,12 +18,73 @@
   <meta property="og:description" content="diamond is the one and only package manager for Sass and Less.">
 </head>
 <body>
-  <!-- don't remove this part start -->
-  <div id="app"></div>
-  <script src="./config.js"></script>
-  <script src="https://unpkg.com/docute@2/dist/docute.js"></script>
-  <!-- don't remove this part end -->
-  <script src="https://unpkg.com/prismjs/components/prism-scss.js"></script>
+  <nav class="nav has-shadow">
+    <div class="container">
+      <div class="nav-left">
+        <a class="nav-item" href="/">
+          <img src="/assets/img/Diamond.png" alt="Bulma logo">
+          <h4 class="title is-4">&nbsp;diamond</h4>
+        </a>
+        <a class="nav-item is-tab is-hidden-mobile" href="/">Home</a>
+        <a class="nav-item is-tab is-hidden-mobile is-active" href="docs">Docs</a>
+      </div>
+
+      <div class="nav-center">
+        <a class="nav-item is-tab" id="default" href="/docs">Getting Started</a>
+        <a class="nav-item is-tab" id="install" href="/docs/?install">Install</a>
+        <a class="nav-item is-tab" id="compile" href="/docs/?compile">Compile</a>
+        <a class="nav-item is-tab" id="package.json" href="/docs/?package.json">Package.JSON</a>
+      </div>
+
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      
+      <div class="nav-right nav-menu">
+        <a class="nav-item is-tab is-hidden-tablet" href="/">Home</a>
+        <a class="nav-item is-tab is-hidden-tablet is-active" href="docs">Docs</a>
+        <a class="nav-item is-tab" href="https://npmjs.com/diamondpkg" target="_blank">npm</a>
+        <a class="nav-item" href="https://github.com/diamondpkg/diamond" target="_blank">
+          <span class="icon">
+            <i class="fa fa-github"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="columns">
+    <div class="column is-3 toc-outer">
+        <div class="toc"></div>
+    </div>
+    <div class="column is-9">
+      <div class="content markdown"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <strong>diamond</strong> by <a href="https://github.com/Hackzzila">Hackzzila</a>.
+          The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
+          Website modeled after <a href="https://yarnpkg.com/" target="_blank">yarnpkg.com</a>.
+        </p>
+        <p>
+          <a class="icon" href="https://github.com/diamondpkg/diamond">
+            <i class="fa fa-github"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.6.4/showdown.min.js" integrity="sha256-zA+ZIy6Tri6PReZFQ8DksaeqShqWgMi4EU4ZH0hDfys=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/2.3.2/tocbot.min.js" integrity="sha256-FOFNU7xeUonTVZNa5fX4eK0NkWLcakdFG2i+J+RfdSI=" crossorigin="anonymous"></script>
+  <script src="docs.js"></script>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -1,24 +1,27 @@
-@import [bulma]
-@import [bourbon/app/assets/stylesheets/_bourbon.scss]
+@import "~bulma"
+@import "~bourbon/app/assets/stylesheets/_bourbon.scss"
 
-.cs-center
-  position: absolute
-  top: 50%
-  left: 50%
-  +transform(translate(-50%, -50%))
-  width: 80%
-  display: inline-block
+.main-text
+  font-family: 'Montserrat', sans-serif
+  text-transform: uppercase
+  text-shadow: darken($blue, 20%) 5px 5px 0px
+  font-size: 4em
 
-  .cs-logo
-    width: 35vw
-    +transform(translateY(-13%))
+.bottom
+  margin-top: 50px !important
 
-  .cs-container
-    position: absolute
-    top: 50%
-    +transform(translateY(-50%))
-    left: 35vw
-    +calc(width, "100% - 35vw")
+  a.get-started
+    border-color: darken($blue, 20%) !important
+    font-size: 2em
+    color: white !important
 
-    .cs-button-margin
-      margin-left: 5px
+  .sub-text
+    margin-left: 20px
+    display: inline
+    font-size: 2em
+    line-height: 2.285em
+
+    code
+      background: darken($blue, 20%)
+      color: white
+      border-radius: 3px

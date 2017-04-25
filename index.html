@@ -4,56 +4,133 @@
   <meta charset="UTF-8">
   <title>diamond</title>
   <link rel="shortcut icon" href="assets/img/Diamond.ico">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:900">
   <link rel="stylesheet" href="assets/css/app.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+ 
   <meta property="og:site_name" content="diamond">
-  <meta property="og:title" content="A sassy package manager">
+  <meta property="og:title" content="diamond">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://diamond.js.org/">
   <meta property="og:image" content="https://diamond.js.org/assets/img/Diamond.png">
-  <meta property="og:description" content="diamond is the one and only package manager for Sass and Less.">
+  <meta property="og:description" content="Dependency management built for Sass, Less, and CSS.">
 </head>
 <body>
-  <div class="cs-center">
-    <img class="cs-logo" src="assets/img/DiamondLogo.svg" alt="diamond">
-    <div class="cs-container">
-      <section class="hero">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="title">a sassy package manager</h1>
-            <h2 class="subtitle">get some sass in your life</h2>
-          </div>
-        </div>
-
-        <div class="hero-foot">
-          <a class="button is-large" href="docs">
-            <span class="icon is-medium">
-              <i class="fa fa-book"></i>
-            </span>
-            <span>Docs</span>
-          </a>
-          <a class="button is-large cs-button-margin" href="https://github.com/diamondpkg/diamond" target="_blank">
-            <span class="icon is-medium">
-              <i class="fa fa-github"></i>
-            </span>
-            <span>GitHub</span>
-          </a>
-          <a class="button is-large cs-button-margin" href="https://www.npmjs.com/package/diamondpkg" target="_blank">
-            <span class="icon is-medium">
-              <i class="fa fa-cubes"></i>
-            </span>
-            <span>npm</span>
-          </a>
-          <a class="button is-large cs-button-margin" href="team">
-            <span class="icon is-medium">
-              <i class="fa fa-users"></i>
-            </span>
-            <span>Team</span>
-          </a>
-        </div>
-      </section>
+  <nav class="nav has-shadow">
+    <div class="container">
+      <div class="nav-left">
+        <a class="nav-item" href="/">
+          <img src="/assets/img/Diamond.png" alt="Bulma logo">
+          <h4 class="title is-4">&nbsp;diamond</h4>
+        </a>
+        <a class="nav-item is-tab is-hidden-mobile is-active" href="/">Home</a>
+        <a class="nav-item is-tab is-hidden-mobile" href="docs">Docs</a>
+      </div>
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <div class="nav-right nav-menu">
+        <a class="nav-item is-tab is-hidden-tablet is-active">Home</a>
+        <a class="nav-item is-tab is-hidden-tablet" href="docs">Docs</a>
+        <a class="nav-item is-tab" href="https://npmjs.com/diamondpkg" target="_blank">npm</a>
+        <a class="nav-item" href="https://github.com/diamondpkg/diamond" target="_blank">
+          <span class="icon">
+            <i class="fa fa-github"></i>
+          </span>
+        </a>
+      </div>
     </div>
-  </div>
+  </nav>
+
+  <section class="hero is-medium is-info">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title main-text">
+          Dependency management built for Sass, Less, and CSS.
+        </h1>
+        <div class="bottom">
+          <a class="button is-info is-outlined get-started" href="docs">Get Started</a>
+          <h2 class="subtitle sub-text">
+            <b>Install: </b>
+            <code>npm i -g diamondpkg</code>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Cross-preprocessor
+        </h1>
+        <h2 class="subtitle">
+          Sass packages work with Less, Less packages work with Sass, and so on.
+          You can mix and match packages of any preprocessor.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Secure
+        </h1>
+        <h2 class="subtitle">
+          diamond uses checksums to verify every package on install.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Fast
+        </h1>
+        <h2 class="subtitle">
+          diamond caches every npm package you install so you dont have to redownload it ever again.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Flatpack
+        </h1>
+        <h2 class="subtitle">
+          Packages are flatpacked, so you don't need several seperate installs of the same package.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <strong>diamond</strong> by <a href="https://github.com/Hackzzila">Hackzzila</a>.
+          The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
+          Website modeled after <a href="https://yarnpkg.com/" target="_blank">yarnpkg.com</a>.
+        </p>
+        <p>
+          <a class="icon" href="https://github.com/diamondpkg/diamond">
+            <i class="fa fa-github"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

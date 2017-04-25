@@ -2,7 +2,7 @@
   "diamond": {
     "dependencies": {
       "bulma": "^0.3.2",
-      "bourbon": "^4.3.3"
+      "bourbon": "^4.3.4"
     }
   }
 }

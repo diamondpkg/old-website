@@ -1,12 +1,33 @@
 function display(markdown) {
   $('.markdown').html(new showdown.Converter().makeHtml(markdown));
   
+  $('progress').attr('value', 90)
+  $('progress').text(90 + '%');
+
   tocbot.init({
     tocSelector: '.toc',
     contentSelector: '.markdown',
     headingSelector: 'h1, h2, h3, h4, h5',
     positionFixedSelector: '.toc',
   });
+
+  $('progress').attr('value', 100)
+  $('progress').text(100 + '%');
+
+  setTimeout(function () {
+    $('progress').addClass('hidden');
+  }, 500)
+
+  $('.footer').toggleClass('hidden');
+}
+
+function xhr() {
+  var xhr = new window.XMLHttpRequest();
+  xhr.addEventListener("progress", function (evt) {
+    $('progress').attr('value', (evt.loaded / evt.total) * 80)
+    $('progress').text((evt.loaded / evt.total) * 80 + '%');
+  }, false);
+  return xhr;
 }
 
 $(function () {
@@ -22,6 +43,7 @@ $(function () {
       error: function () {
         window.location.replace('/error.html')
       },
+      xhr: xhr,
       success: display,
     });
   } else {
@@ -31,6 +53,7 @@ $(function () {
       error: function () {
         window.location.replace('/error.html')
       },
+      xhr: xhr,
       success: display,
     });
   }

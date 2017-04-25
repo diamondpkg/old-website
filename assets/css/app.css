@@ -4063,6 +4063,31 @@ html.docs .toc-outer .toc {
   position: absolute;
   left: 10px; }
 
+html.docs progress {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  display: block;
+  height: 2px;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+  transition: width .5s ease, opacity 0.25s ease; }
+  html.docs progress:not(:last-child) {
+    margin-bottom: 1.5rem; }
+  html.docs progress::-webkit-progress-bar {
+    background-color: #dbdbdb; }
+  html.docs progress::-webkit-progress-value {
+    background-color: #3273dc; }
+  html.docs progress::-moz-progress-bar {
+    background-color: #3273dc; }
+
+html.docs .hidden {
+  opacity: 0; }
+
+html.docs .footer {
+  transition: opacity 0.25s linear; }
+
 html.error {
   overflow-y: hidden; }
   html.error .center {

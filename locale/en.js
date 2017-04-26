@@ -20,5 +20,8 @@ window.locale.en = {
   "fast-content": "diamond caches every npm package you install so you dont have to redownload it ever again.",
   "flatpacked-title": "Flatpacked",
   "flatpacked-content": "Packages are flatpacked, so you don't need several seperate installs of the same package.",
-  "waiting-for": "What are you waiting for?"
+  "waiting-for": "What are you waiting for?",
+  "error": "Uh oh! The diamond broke!",
+  "404": "No diamonds here!",
+  "go-home": "Go back home.",
 };

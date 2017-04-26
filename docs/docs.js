@@ -31,10 +31,12 @@ function xhr() {
 }
 
 $(function () {
+  $('.footer').addClass('hidden');
+
   if (window.location.search) {
     $('#' + window.location.search.substr(1).replace('.', '\\.')).addClass('is-active');
     $.get({
-      url: window.location.origin + '/docs/' + window.location.search.substr(1) + '.md',
+      url: 'https://raw.githubusercontent.com/diamondpkg/diamond/master/docs/' + window.location.search.substr(1) + '.' + localStorage.locale + '.md',
       statusCode: {
         404: function () {
           window.location.replace('/404.html')

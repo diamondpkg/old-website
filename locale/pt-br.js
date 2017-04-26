@@ -1,12 +1,13 @@
 if (!window.locale) window.locale = {};
 
 window.locale['pt-br'] = {
-  "home": "Página Principal",
+  "home": "Página Inicial",
   "docs": "Documentação",
   "main": "Gerenciador de dependências para Sass, Less, e CSS.",
   "get-started": "Começar",
   "getting-started": "Começando",
   "install": "Instalar",
+  "install-with": "Instalar com",
   "compile": "Compilar",
   "packages-title": "Milhares de Pacotes",
   "packages-content": "diamond funciona com qualquer pacote no npm, GitHub, ou GitLab.",

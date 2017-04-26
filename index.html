@@ -24,8 +24,6 @@
   <script src="locale/index.js"></script>
   <script src="templates.js"></script>
   <script>
-    Handlebars.registerPartial('footer', Handlebars.templates.footer)
-
     document.body.innerHTML = Handlebars.templates.index(locale[localStorage.locale]);
   </script>
 

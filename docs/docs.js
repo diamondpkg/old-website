@@ -31,8 +31,6 @@ function xhr() {
 }
 
 $(function () {
-  $('.footer').addClass('hidden');
-
   if (window.location.search) {
     $('#' + window.location.search.substr(1).replace('.', '\\.')).addClass('is-active');
     $.get({

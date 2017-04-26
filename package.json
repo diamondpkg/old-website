@@ -1,4 +1,12 @@
 {
+  "scripts": {
+    "build": "diamond c assets/sass/app.sass -o assets/css/app.css && handlebars templates/ -f templates.js"
+  },
+  "devDependencies": {
+    "express": "^4.15.2",
+    "express-dev-autoreload": "^1.0.3",
+    "handlebars": "^4.0.6"
+  },
   "diamond": {
     "dependencies": {
       "bulma": "^0.3.2",

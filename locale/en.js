@@ -1,0 +1,27 @@
+if (!window.locale) window.locale = {};
+
+window.locale.en = {
+  "home": "Home",
+  "docs": "Docs",
+  "main": "Dependency management built for Sass, Less, and CSS.",
+  "get-started": "Get Started",
+  "getting-started": "Getting Started",
+  "install": "Install",
+  "compile": "Compile",
+  "packages-title": "Thousands of Packages",
+  "packages-content": "diamond works with any package on npm, GitHub, or GitLab.",
+  "cross-preprocessor-title": "Cross-preprocessor",
+  "cross-preprocessor-content": "Sass packages work with Less, Less packages work with Sass, and so on. You can mix and match packages of any preprocessor.",
+  "multipurpose-title": "Multipurpose",
+  "multipurpose-content": "diamond can distribute Sass functions, Sass mixins, Sass importers, Less plugins, postprocessors, and just plain old libraries like Bootstrap.",
+  "secure-title": "Secure",
+  "secure-content": "diamond uses checksums to verify every package on install.",
+  "fast-title": "Fast",
+  "fast-content": "diamond caches every npm package you install so you dont have to redownload it ever again.",
+  "flatpacked-title": "Flatpacked",
+  "flatpacked-content": "Packages are flatpacked, so you don't need several seperate installs of the same package.",
+  "waiting-for": "What are you waiting for?",
+  "error": "Uh oh! The diamond broke!",
+  "404": "No diamonds here!",
+  "go-home": "Go back home.",
+};

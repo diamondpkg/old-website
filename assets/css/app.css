@@ -4060,10 +4060,14 @@ html.docs .content {
   font-size: 16px;
   padding-right: 25px; }
 
-html.docs .toc-outer .toc {
-  padding-top: 10px;
-  position: absolute;
-  left: 10px; }
+html.docs .toc-outer {
+  padding-top: 0; }
+  html.docs .toc-outer .toc {
+    position: absolute;
+    left: 10px; }
+
+html.docs .is-position-fixed {
+  padding-top: 10px; }
 
 html.docs progress {
   -moz-appearance: none;

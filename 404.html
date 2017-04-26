@@ -7,9 +7,9 @@ permalink: /404.html
 <head>
   <meta charset="UTF-8">
   <title>diamond</title>
-  <link rel="shortcut icon" href="assets/img/Diamond.ico">
+  <link rel="shortcut icon" href="/assets/img/Diamond.ico">
 
-  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
 
   <meta property="og:site_name" content="diamond">
   <meta property="og:title" content="diamond">
@@ -19,17 +19,20 @@ permalink: /404.html
   <meta property="og:description" content="Dependency management built for Sass, Less, and CSS.">
 </head>
 <body>
-  <section class="hero is-info is-fullheight">
-    <div class="hero-body">
-      <div class="container">
-        <div class="center">
-          <img src="/assets/img/Diamond.svg" alt="Diamond">
-          <h1 class="title is-1">No diamonds here!</h1>
-          <a href="/">Go back home.</a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.runtime.min.js" integrity="sha256-RcHv7xP44dpUfeKkp07L/T/mGl0xJm1BlH/RzYKMpVw=" crossorigin="anonymous"></script>
+  <script src="locale/en.js"></script>
+  <script src="templates.js"></script>
+  <script>
+    Handlebars.registerPartial('footer', Handlebars.templates.footer)
+
+    if (!localStorage.locale || !['en'].includes(localStorage.locale)) localStorage.locale = 'en';
+
+    document.body.innerHTML = Handlebars.templates.error({ 
+      error: locale[localStorage.locale]['404'],
+      'go-home': locale[localStorage.locale]['go-home'],
+    });
+  </script>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

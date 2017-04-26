@@ -1,0 +1,27 @@
+if (!window.locale) window.locale = {};
+
+window.locale.ptBr = {
+  "home": "Página Principal",
+  "docs": "Documentação",
+  "main": "Gerenciador de dependências para Sass, Less, e CSS.",
+  "get-started": "Começar",
+  "getting-started": "Começando",
+  "install": "Instalar",
+  "compile": "Compilar",
+  "packages-title": "Milhares de Pacotes",
+  "packages-content": "diamond funciona com qualquer pacote no npm, GitHub, ou GitLab.",
+  "cross-preprocessor-title": "Múltiplos Pré-processadores",
+  "cross-preprocessor-content": "Pacotes de Sass funcionam com Less, pacotes de Less funcionam com Sass, e assim por diante. Você pode misturar pacotes de qualquer pré-processador.",
+  "multipurpose-title": "Múltiplos usos",
+  "multipurpose-content": "diamond consegue distribuir funções e mixins do Sass, plugins do Less, pós-processors, e pacotes antigos como o Bootstrap.",
+  "secure-title": "Seguro",
+  "secure-content": "diamond checa e verifica pacotes em cada instalação.",
+  "fast-title": "Rápido",
+  "fast-content": "diamond armazena cada pacote que você instala em um cache para que você nunca mais precise baixá-lo novamente.",
+  "flatpacked-title": "Compacto",
+  "flatpacked-content": "Pacotes são compactados para que você não precise de instalações separadas do mesmo pacote.",
+  "waiting-for": "O que você está esperando?",
+  "error": "Ah! Parece que o diamante quebrou!",
+  "404": "Nenhum diamante por aqui!",
+  "go-home": "Volte para página inicial.",
+};

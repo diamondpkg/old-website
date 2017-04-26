@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "server": "node server.js",
     "build": "diamond c assets/sass/app.sass -o assets/css/app.css && handlebars templates/ -f templates.js"
   },
   "devDependencies": {

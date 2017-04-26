@@ -1,4 +1,6 @@
-{
+if (!window.locale) window.locale = {};
+
+window.locale.en = {
   "home": "Home",
   "docs": "Docs",
   "main": "Dependency management built for Sass, Less, and CSS.",
@@ -19,4 +21,4 @@
   "flatpacked-title": "Flatpacked",
   "flatpacked-content": "Packages are flatpacked, so you don't need several seperate installs of the same package.",
   "waiting-for": "What are you waiting for?"
-}
+};

@@ -26,8 +26,6 @@ permalink: /404.html
   <script src="locale/index.js"></script>
   <script src="templates.js"></script>
   <script>
-    Handlebars.registerPartial('footer', Handlebars.templates.footer)
-
     document.body.innerHTML = Handlebars.templates.error({ 
       error: locale[localStorage.locale]['404'],
       'go-home': locale[localStorage.locale]['go-home'],

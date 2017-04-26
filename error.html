@@ -22,8 +22,6 @@
   <script src="locale/index.js"></script>
   <script src="templates.js"></script>
   <script>
-    Handlebars.registerPartial('footer', Handlebars.templates.footer)
-
     document.body.innerHTML = Handlebars.templates.error({ 
       error: locale[localStorage.locale].error,
       'go-home': locale[localStorage.locale]['go-home'],

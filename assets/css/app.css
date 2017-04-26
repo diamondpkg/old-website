@@ -4027,6 +4027,9 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
+html.home .lang {
+  margin-right: 5px; }
+
 html.home .main-text {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -4054,6 +4057,9 @@ html.home .bottom {
       background: #184690;
       color: white;
       border-radius: 3px; }
+
+html.docs .lang {
+  margin-right: 5px; }
 
 html.docs .content {
   margin-top: 25px;

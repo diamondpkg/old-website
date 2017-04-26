@@ -1,6 +1,6 @@
 if (!window.locale) window.locale = {};
 
-window.locale.ptBr = {
+window.locale['pt-br'] = {
   "home": "Página Principal",
   "docs": "Documentação",
   "main": "Gerenciador de dependências para Sass, Less, e CSS.",
@@ -13,7 +13,7 @@ window.locale.ptBr = {
   "cross-preprocessor-title": "Múltiplos Pré-processadores",
   "cross-preprocessor-content": "Pacotes de Sass funcionam com Less, pacotes de Less funcionam com Sass, e assim por diante. Você pode misturar pacotes de qualquer pré-processador.",
   "multipurpose-title": "Múltiplos usos",
-  "multipurpose-content": "diamond consegue distribuir funções e mixins do Sass, plugins do Less, pós-processors, e pacotes antigos como o Bootstrap.",
+  "multipurpose-content": "diamond consegue distribuir funções e mixins do Sass, plugins do Less, pós-processadores, e pacotes antigos como o Bootstrap.",
   "secure-title": "Seguro",
   "secure-content": "diamond checa e verifica pacotes em cada instalação.",
   "fast-title": "Rápido",

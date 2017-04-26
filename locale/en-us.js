@@ -1,6 +1,6 @@
 if (!window.locale) window.locale = {};
 
-window.locale.en = {
+window.locale['en-us'] = {
   "home": "Home",
   "docs": "Docs",
   "main": "Dependency management built for Sass, Less, and CSS.",

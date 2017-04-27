@@ -1,12 +1,13 @@
 if (!window.locale) window.locale = {};
 
-window.locale.en = {
+window.locale['en-us'] = {
   "home": "Home",
   "docs": "Docs",
   "main": "Dependency management built for Sass, Less, and CSS.",
   "get-started": "Get Started",
   "getting-started": "Getting Started",
   "install": "Install",
+  "install-with": "Install",
   "compile": "Compile",
   "packages-title": "Thousands of Packages",
   "packages-content": "diamond works with any package on npm, GitHub, or GitLab.",

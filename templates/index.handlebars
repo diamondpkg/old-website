@@ -15,6 +15,21 @@
     </span>
     <div class="nav-right nav-menu">
       <a class="nav-item is-tab is-hidden-tablet is-active">{{home}}</a>
+      <div class="nav-item">
+        <div class="icon lang">
+          <i class="fa fa-language"></i>
+        </div>
+        <div class="field">
+          <p class="control">
+            <span class="select">
+              <select class="lang-select">
+                <option value="en-us">English</option>
+                <option value="pt-br">Português do Brasil</option>
+              </select>
+            </span>
+          </p>
+        </div>
+      </div>
       <a class="nav-item" href="https://discord.gg/ZeX76Zy" target="_blank">
         <span class="is-tab is-hidden-tablet">Discord</span>
         <span class="icon is-hidden-mobile">
@@ -46,7 +61,7 @@
       <div class="bottom">
         <a class="button is-info is-outlined get-started" href="docs">{{get-started}}</a>
         <h2 class="subtitle sub-text">
-          <b>{{install}}: </b>
+          <b>{{install-with}}: </b>
           <code>npm i -g diamondpkg</code>
         </h2>
       </div>
@@ -143,4 +158,19 @@
   </div>
 </section>
 
-{{> footer }}
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        <strong>diamond</strong> by <a href="https://github.com/Hackzzila">Hackzzila</a>.
+        The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. 
+        Website modeled after <a href="https://yarnpkg.com/" target="_blank">yarnpkg.com</a>.
+      </p>
+      <p>
+        <a class="icon" href="https://github.com/diamondpkg/diamond">
+          <i class="fa fa-github"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>

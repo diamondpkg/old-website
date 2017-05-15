@@ -4366,9 +4366,9 @@ html.unify .bg-purple {
   background: #7B68EE; }
 
 html.unify .main-img {
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
   html.unify .main-img img {
-    width: 50%; }
+    width: 60%; }
 
 html.unify .footer-img {
   width: 10%;
@@ -4377,7 +4377,7 @@ html.unify .footer-img {
 html.unify .main-text {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-size: 3em; }
+  font-size: 2.75em; }
 
 html.unify .hljs {
   padding: 1.25rem 1.5rem; }

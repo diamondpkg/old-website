@@ -57,45 +57,45 @@
 
                 <h2 class="subtitle example">Write JS using Unify:</h2>
                 <pre><code class="javascript">// Require Unify
-    const unify = require('diamond-unify');
+const unify = require('diamond-unify');
 
-    // Create a new PluginManager
-    const plugin = new unify.PluginManager();
+// Create a new PluginManager
+const plugin = new unify.PluginManager();
 
-    // Create a new function called 'foo'
-    class Foo extends unify.FunctionController {
-      // Called when the function 'foo' is called in Sass or Less
-      handler() {
-        // Return the color white
-        return new unify.UColor(255, 255, 255);
-      }
-    }
+// Create a new function called 'foo'
+class Foo extends unify.FunctionController {
+  // Called when the function 'foo' is called in Sass or Less
+  handler() {
+    // Return the color white
+    return new unify.UColor(255, 255, 255);
+  }
+}
 
-    // Add 'foo' to our plugin
-    plugin.add(new Foo());
+// Add 'foo' to our plugin
+plugin.add(new Foo());
 
-    // Export our plugin
-    module.exports = plugin;</code></pre>
+// Export our plugin
+module.exports = plugin;</code></pre>
               </div>
 
               <div class="column">
                 <h2 class="subtitle">Add a Unify field to your <code>diamond.json</code> file:</h2>
                 <pre><code class="json">{
-      "unify": "path/to/your/js/file"
-    }</code></pre>
+  "unify": "path/to/your/js/file"
+}</code></pre>
 
                 <h2 class="subtitle example">Then you can use the function in your Sass or Less like so:</h2>
                 <pre><code class="scss">#foo {
-      color: foo();
-    }</code></pre>
+  color: foo();
+}</code></pre>
 
                 <h2 class="subtitle example">Compile the Sass or Less with diamond:</h2>
                 <pre><code>diamond c path/to/file</code></pre>
 
                 <h2 class="subtitle example">Which will then generate CSS like this:</h2>
                 <pre><code class="css">#foo {
-      color: white;
-    }</code></pre>
+  color: white;
+}</code></pre>
               </div>
             </div>
           </div>

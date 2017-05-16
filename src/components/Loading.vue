@@ -11,7 +11,7 @@
   export default { name: 'loading' };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   @import '../styles/theming';
 
   .sk-folding-cube {

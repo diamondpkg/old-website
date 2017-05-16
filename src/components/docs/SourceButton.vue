@@ -21,7 +21,7 @@
   };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .source-button {
     display: inline-block;
     float: right;

@@ -4,8 +4,8 @@
   </div>
 </template>
 
-<style>
-  #docs-viewer > .container {
+<style scoped>
+  .container {
     margin: 0 auto;
     max-width: 1120px;
   }

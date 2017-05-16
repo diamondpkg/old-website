@@ -10,7 +10,7 @@
   export default { name: 'slide' };
 </script>
 
-<style>
+<style scoped>
   .slide {
     padding: 16px;
   }

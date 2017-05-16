@@ -17,7 +17,7 @@
   };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   @import '../../styles/theming';
 
   .docs-type {

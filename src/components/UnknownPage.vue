@@ -14,7 +14,7 @@
   };
 </script>
 
-<style>
+<style scoped>
   #awesome {
     width: 100%;
     max-width: 476px;

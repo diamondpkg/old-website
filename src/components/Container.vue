@@ -5,7 +5,7 @@
 </template>
 
 <style>
-  .container {
+  #docs-viewer > .container {
     margin: 0 auto;
     max-width: 1120px;
   }

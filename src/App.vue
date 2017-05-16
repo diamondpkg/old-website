@@ -17,3 +17,8 @@
     });
   });
 </script>
+
+<style lang="sass">
+  b, strong
+    font-weight: bold !important
+</style>

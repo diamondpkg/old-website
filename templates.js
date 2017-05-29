@@ -31,7 +31,7 @@ templates['error'] = template({"compiler":[7,">= 4.0.0"],"main":function(contain
 templates['index'] = template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : {}, alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<nav class=\"nav has-shadow\">\n  <div class=\"container\">\n    <div class=\"nav-left\">\n      <a class=\"nav-item\" href=\"/\">\n        <img src=\"/assets/img/Diamond.png\" alt=\"Bulma logo\">\n        <h4 class=\"title is-4\">&nbsp;diamond</h4>\n      </a>\n      <a class=\"nav-item is-tab is-hidden-mobile is-active\" href=\"/\">"
+  return "<div class=\"notification is-warning\">\n  <div class=\"container\">We have moved to <a href=\"https://diamondpkg.org\">diamondpkg.org</a>!</div>\n</div>\n\n<nav class=\"nav has-shadow\">\n  <div class=\"container\">\n    <div class=\"nav-left\">\n      <a class=\"nav-item\" href=\"/\">\n        <img src=\"/assets/img/Diamond.png\" alt=\"Bulma logo\">\n        <h4 class=\"title is-4\">&nbsp;diamond</h4>\n      </a>\n      <a class=\"nav-item is-tab is-hidden-mobile is-active\" href=\"/\">"
     + alias4(((helper = (helper = helpers.home || (depth0 != null ? depth0.home : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"home","hash":{},"data":data}) : helper)))
     + "</a>\n      <a class=\"nav-item is-tab is-hidden-mobile\" href=\"docs\">"
     + alias4(((helper = (helper = helpers.docs || (depth0 != null ? depth0.docs : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"docs","hash":{},"data":data}) : helper)))
